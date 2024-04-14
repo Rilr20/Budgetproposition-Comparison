@@ -125,15 +125,15 @@
 			<td
 				class={color_on_percentage(
 					percentage_increase(
-						string_to_num(item.value) +
-							(string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year),
+						(string_to_num(item.value) +
+							(string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year)),
 						string_to_num(new_year_children[index].value)
 					)
 				)}
 			>
 				{percentage_increase(
-					string_to_num(item.value) +
-						(string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year),
+					(string_to_num(item.value) +
+						(string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year)),
 					string_to_num(new_year_children[index].value)
 				)}%
 			</td>
