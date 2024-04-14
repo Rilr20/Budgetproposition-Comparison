@@ -1,0 +1,3372 @@
+{
+  "id": 1,
+  "name": "Tabell 1.1  Specifikation av budgetens utgifter för  2024",
+  "child": [
+    {
+      "id": 2,
+      "name": "1 Rikets styrelse",
+      "value": "19 070 363",
+      "is_bold": true
+    },
+    {
+      "id": 3,
+      "name": "1 Statschefen",
+      "value": "162 821",
+      "is_bold": true
+    },
+    {
+      "id": 4,
+      "name": "1 Kungliga hov- och slottsstaten",
+      "value": "162 821",
+      "is_bold": false
+    },
+    {
+      "id": 5,
+      "name": "2 Riksdagen och dess myndigheter",
+      "value": "2 954 604",
+      "is_bold": true
+    },
+    {
+      "id": 6,
+      "name": "1 Riksdagens ledamöter och partier m.m.",
+      "value": "1 068 396",
+      "is_bold": false
+    },
+    {
+      "id": 7,
+      "name": "2 Riksdagens förvaltningsanslag",
+      "value": "1 037 024",
+      "is_bold": false
+    },
+    {
+      "id": 8,
+      "name": "3 Riksdagens fastighetsanslag",
+      "value": "350 000",
+      "is_bold": false
+    },
+    {
+      "id": 9,
+      "name": "4 Riksdagens ombudsmän (JO)",
+      "value": "130 367",
+      "is_bold": false
+    },
+    {
+      "id": 10,
+      "name": "5 Riksrevisionen",
+      "value": "368 817",
+      "is_bold": false
+    },
+    {
+      "id": 11,
+      "name": "3 Sametinget och samepolitiken",
+      "value": "63 000",
+      "is_bold": true
+    },
+    {
+      "id": 12,
+      "name": "1 Sametinget",
+      "value": "63 000",
+      "is_bold": false
+    },
+    {
+      "id": 13,
+      "name": "4 Regeringskansliet m.m.",
+      "value": "9 450 059",
+      "is_bold": true
+    },
+    {
+      "id": 14,
+      "name": "1 Regeringskansliet m.m.",
+      "value": "9 450 059",
+      "is_bold": false
+    },
+    {
+      "id": 15,
+      "name": "5 Länsstyrelserna",
+      "value": "3 867 590",
+      "is_bold": true
+    },
+    {
+      "id": 16,
+      "name": "1 Länsstyrelserna m.m.",
+      "value": "3 867 590",
+      "is_bold": false
+    },
+    {
+      "id": 17,
+      "name": "6 Demokratipolitik och mänskliga rättigheter",
+      "value": "1 214 588",
+      "is_bold": true
+    },
+    {
+      "id": 18,
+      "name": "1 Allmänna val och demokrati",
+      "value": "664 640",
+      "is_bold": false
+    },
+    {
+      "id": 19,
+      "name": "2 Justitiekanslern",
+      "value": "86 572",
+      "is_bold": false
+    },
+    {
+      "id": 20,
+      "name": "3 Integritetsskyddsmyndigheten",
+      "value": "180 976",
+      "is_bold": false
+    },
+    {
+      "id": 21,
+      "name": "4 Valmyndigheten",
+      "value": "61 405",
+      "is_bold": false
+    },
+    {
+      "id": 22,
+      "name": "5 Stöd till politiska partier",
+      "value": "169 200",
+      "is_bold": false
+    },
+    {
+      "id": 23,
+      "name": "6 Institutet för mänskliga rättigheter",
+      "value": "51 795",
+      "is_bold": false
+    },
+    {
+      "id": 24,
+      "name": "7 Nationella minoriteter",
+      "value": "227 771",
+      "is_bold": true
+    },
+    {
+      "id": 25,
+      "name": "1 Åtgärder för nationella minoriteter",
+      "value": "207 771",
+      "is_bold": false
+    },
+    {
+      "id": 26,
+      "name": "2 Åtgärder för den nationella minoriteten romer",
+      "value": "20 000",
+      "is_bold": false
+    },
+    {
+      "id": 27,
+      "name": "8 Medier",
+      "value": "1 098 696",
+      "is_bold": true
+    },
+    {
+      "id": 28,
+      "name": "1 Mediestöd",
+      "value": "1 017 119",
+      "is_bold": false
+    },
+    {
+      "id": 29,
+      "name": "2 Mediemyndigheten",
+      "value": "81 577",
+      "is_bold": false
+    },
+    {
+      "id": 30,
+      "name": "9 Sieps samt insatser för att stärka delaktigheten i EU-arbetet",
+      "value": "31 234",
+      "is_bold": true
+    },
+    {
+      "id": 31,
+      "name": "1 Svenska institutet för europapolitiska studier samt EU-information",
+      "value": "31 234",
+      "is_bold": false
+    },
+    {
+      "id": 32,
+      "name": "2 Samhällsekonomi och finansförvaltning",
+      "value": "20 881 058",
+      "is_bold": true
+    },
+    {
+      "id": 33,
+      "name": "1 Statskontoret",
+      "value": "109 732",
+      "is_bold": false
+    },
+    {
+      "id": 34,
+      "name": "2 Kammarkollegiet",
+      "value": "164 511",
+      "is_bold": false
+    },
+    {
+      "id": 35,
+      "name": "3 Finansinspektionens avgifter till EU:s tillsynsmyndigheter",
+      "value": "25 350",
+      "is_bold": false
+    },
+    {
+      "id": 36,
+      "name": "4 Arbetsgivarpolitiska frågor",
+      "value": "2 443",
+      "is_bold": false
+    },
+    {
+      "id": 37,
+      "name": "5 Statliga tjänstepensioner m.m.",
+      "value": "16 712 000",
+      "is_bold": false
+    },
+    {
+      "id": 38,
+      "name": "6 Finanspolitiska rådet",
+      "value": "11 704",
+      "is_bold": false
+    },
+    {
+      "id": 39,
+      "name": "7 Konjunkturinstitutet",
+      "value": "78 007",
+      "is_bold": false
+    },
+    {
+      "id": 40,
+      "name": "8 Ekonomistyrningsverket",
+      "value": "210 120",
+      "is_bold": false
+    },
+    {
+      "id": 41,
+      "name": "9 Statistiska centralbyrån",
+      "value": "624 174",
+      "is_bold": false
+    },
+    {
+      "id": 42,
+      "name": "10 Bidragsfastigheter",
+      "value": "365 000",
+      "is_bold": false
+    },
+    {
+      "id": 43,
+      "name": "11 Finansinspektionen",
+      "value": "808 217",
+      "is_bold": false
+    },
+    {
+      "id": 44,
+      "name": "12 Riksgäldskontoret",
+      "value": "378 441",
+      "is_bold": false
+    },
+    {
+      "id": 45,
+      "name": "13 Bokföringsnämnden",
+      "value": "14 306",
+      "is_bold": false
+    },
+    {
+      "id": 46,
+      "name": "14 Vissa garanti- och medlemsavgifter",
+      "value": "110 452",
+      "is_bold": false
+    },
+    {
+      "id": 47,
+      "name": "15 Statens servicecenter",
+      "value": "945 404",
+      "is_bold": false
+    },
+    {
+      "id": 48,
+      "name": "16 Finansmarknadsforskning",
+      "value": "59 353",
+      "is_bold": false
+    },
+    {
+      "id": 49,
+      "name": "17 Upphandlingsmyndigheten",
+      "value": "99 917",
+      "is_bold": false
+    },
+    {
+      "id": 50,
+      "name": "18 Utbetalningsmyndigheten",
+      "value": "161 927",
+      "is_bold": false
+    },
+    {
+      "id": 51,
+      "name": "3 Skatt, tull och exekution",
+      "value": "16 854 357",
+      "is_bold": true
+    },
+    {
+      "id": 52,
+      "name": "1 Skatteverket",
+      "value": "8 586 863",
+      "is_bold": false
+    },
+    {
+      "id": 53,
+      "name": "2 Tullverket",
+      "value": "2 874 961",
+      "is_bold": false
+    },
+    {
+      "id": 54,
+      "name": "3 Kronofogdemyndigheten",
+      "value": "2 192 533",
+      "is_bold": false
+    },
+    {
+      "id": 55,
+      "name": "4 Kompensation förhöjt grundavdrag födda",
+      "value": "1957 3 200 000",
+      "is_bold": false
+    },
+    {
+      "id": 56,
+      "name": "4 Rättsväsendet",
+      "value": "76 028 013",
+      "is_bold": true
+    },
+    {
+      "id": 57,
+      "name": "1 Polismyndigheten",
+      "value": "40 765 012",
+      "is_bold": false
+    },
+    {
+      "id": 58,
+      "name": "2 Säkerhetspolisen",
+      "value": "2 449 651",
+      "is_bold": false
+    },
+    {
+      "id": 59,
+      "name": "3 Åklagarmyndigheten",
+      "value": "2 633 893",
+      "is_bold": false
+    },
+    {
+      "id": 60,
+      "name": "4 Ekobrottsmyndigheten",
+      "value": "1 078 513",
+      "is_bold": false
+    },
+    {
+      "id": 61,
+      "name": "5 Sveriges Domstolar",
+      "value": "7 559 106",
+      "is_bold": false
+    },
+    {
+      "id": 62,
+      "name": "6 Kriminalvården",
+      "value": "16 145 316",
+      "is_bold": false
+    },
+    {
+      "id": 63,
+      "name": "7 Brottsförebyggande rådet",
+      "value": "256 552",
+      "is_bold": false
+    },
+    {
+      "id": 64,
+      "name": "8 Rättsmedicinalverket",
+      "value": "605 838",
+      "is_bold": false
+    },
+    {
+      "id": 65,
+      "name": "9 Brottsoffermyndigheten",
+      "value": "58 712",
+      "is_bold": false
+    },
+    {
+      "id": 66,
+      "name": "10 Ersättning för skador på grund av brott",
+      "value": "221 953",
+      "is_bold": false
+    },
+    {
+      "id": 67,
+      "name": "11 Rättsliga biträden m.m.",
+      "value": "3 667 357",
+      "is_bold": false
+    },
+    {
+      "id": 68,
+      "name": "12 Kostnader för vissa skaderegleringar m.m.",
+      "value": "90 987",
+      "is_bold": false
+    },
+    {
+      "id": 69,
+      "name": "13 Avgifter till vissa internationella sammanslutningar",
+      "value": "19 174",
+      "is_bold": false
+    },
+    {
+      "id": 70,
+      "name": "14 Bidrag till lokalt brottsförebyggande arbete",
+      "value": "121 157",
+      "is_bold": false
+    },
+    {
+      "id": 71,
+      "name": "15 Säkerhets- och integritetsskyddsnämnden",
+      "value": "33 034",
+      "is_bold": false
+    },
+    {
+      "id": 72,
+      "name": "16 Domarnämnden",
+      "value": "11 758",
+      "is_bold": false
+    },
+    {
+      "id": 73,
+      "name": "5 Internationell samverkan",
+      "value": "2 273 924",
+      "is_bold": true
+    },
+    {
+      "id": 74,
+      "name": "1 Avgifter till internationella organisationer",
+      "value": "1 473 554",
+      "is_bold": false
+    },
+    {
+      "id": 75,
+      "name": "2 Freds- och säkerhetsfrämjande verksamhet",
+      "value": "183 441",
+      "is_bold": false
+    },
+    {
+      "id": 76,
+      "name": "3 Nordiskt samarbete",
+      "value": "16 295",
+      "is_bold": false
+    },
+    {
+      "id": 77,
+      "name": "5 Inspektionen för strategiska produkter",
+      "value": "143 855",
+      "is_bold": false
+    },
+    {
+      "id": 78,
+      "name": "7 Bidrag till Stockholms internationella fredsforskningsinstitut (SIPRI)",
+      "value": "28 402",
+      "is_bold": false
+    },
+    {
+      "id": 79,
+      "name": "8 Bidrag till Utrikespolitiska institutet (UI)",
+      "value": "19 175",
+      "is_bold": false
+    },
+    {
+      "id": 80,
+      "name": "9 Svenska institutet",
+      "value": "135 328",
+      "is_bold": false
+    },
+    {
+      "id": 81,
+      "name": "10 Information om Sverige i utlandet",
+      "value": "15 475",
+      "is_bold": false
+    },
+    {
+      "id": 82,
+      "name": "11 Samarbete inom Östersjöregionen",
+      "value": "170 215",
+      "is_bold": false
+    },
+    {
+      "id": 83,
+      "name": "6 Försvar och samhällets krisberedskap",
+      "value": "126 059 689",
+      "is_bold": true
+    },
+    {
+      "id": 84,
+      "name": "1 Försvar",
+      "value": "119 095 270",
+      "is_bold": true
+    },
+    {
+      "id": 85,
+      "name": "1 Förbandsverksamhet och beredskap",
+      "value": "60 649 599",
+      "is_bold": false
+    },
+    {
+      "id": 86,
+      "name": "2 Försvarsmaktens insatser internationellt",
+      "value": "1 742 019",
+      "is_bold": false
+    },
+    {
+      "id": 87,
+      "name": "3 Anskaffning av materiel och anläggningar",
+      "value": "48 627 000",
+      "is_bold": false
+    },
+    {
+      "id": 88,
+      "name": "4 Forskning och teknikutveckling",
+      "value": "1 074 905",
+      "is_bold": false
+    },
+    {
+      "id": 89,
+      "name": "5 Statens inspektion för försvarsunderrättelseverksamheten",
+      "value": "13 926",
+      "is_bold": false
+    },
+    {
+      "id": 90,
+      "name": "6 Totalförsvarets plikt- och prövningsverk",
+      "value": "374 388",
+      "is_bold": false
+    },
+    {
+      "id": 91,
+      "name": "7 Officersutbildning m.m.",
+      "value": "304 627",
+      "is_bold": false
+    },
+    {
+      "id": 92,
+      "name": "8 Försvarets radioanstalt",
+      "value": "2 258 397",
+      "is_bold": false
+    },
+    {
+      "id": 93,
+      "name": "9 Totalförsvarets forskningsinstitut",
+      "value": "379 158",
+      "is_bold": false
+    },
+    {
+      "id": 94,
+      "name": "10 Nämnder m.m.",
+      "value": "7 786",
+      "is_bold": false
+    },
+    {
+      "id": 95,
+      "name": "11 Försvarets materielverk",
+      "value": "3 584 324",
+      "is_bold": false
+    },
+    {
+      "id": 96,
+      "name": "12 Försvarsunderrättelsedomstolen",
+      "value": "11 307",
+      "is_bold": false
+    },
+    {
+      "id": 97,
+      "name": "13 Myndigheten för Totalförsvarsanalys",
+      "value": "67 834",
+      "is_bold": false
+    },
+    {
+      "id": 98,
+      "name": "2 Samhällets krisberedskap",
+      "value": "6 446 720",
+      "is_bold": true
+    },
+    {
+      "id": 99,
+      "name": "1 Kustbevakningen",
+      "value": "1 800 217",
+      "is_bold": false
+    },
+    {
+      "id": 100,
+      "name": "2 Förebyggande åtgärder mot jordskred och andra naturolyckor",
+      "value": "506 850",
+      "is_bold": false
+    },
+    {
+      "id": 101,
+      "name": "3 Ersättning för räddningstjänst m.m.",
+      "value": "27 580",
+      "is_bold": false
+    },
+    {
+      "id": 102,
+      "name": "4 Krisberedskap",
+      "value": "1 734 608",
+      "is_bold": false
+    },
+    {
+      "id": 103,
+      "name": "5 Ersättning till SOS Alarm Sverige AB för alarmeringstjänst enligt avtal",
+      "value": "426 671",
+      "is_bold": false
+    },
+    {
+      "id": 104,
+      "name": "6 Myndigheten för samhällsskydd och beredskap",
+      "value": "1 714 914",
+      "is_bold": false
+    },
+    {
+      "id": 105,
+      "name": "7 Statens haverikommission",
+      "value": "51 378",
+      "is_bold": false
+    },
+    {
+      "id": 106,
+      "name": "8 Myndigheten för psykologiskt försvar",
+      "value": "148 703",
+      "is_bold": false
+    },
+    {
+      "id": 107,
+      "name": "9 Rakel Generation",
+      "value": "2 35 799",
+      "is_bold": false
+    },
+    {
+      "id": 108,
+      "name": "3 Strålsäkerhet",
+      "value": "517 699",
+      "is_bold": true
+    },
+    {
+      "id": 109,
+      "name": "1 Strålsäkerhetsmyndigheten",
+      "value": "517 699",
+      "is_bold": false
+    },
+    {
+      "id": 110,
+      "name": "7 Internationellt bistånd",
+      "value": "48 630 129",
+      "is_bold": true
+    },
+    {
+      "id": 111,
+      "name": "1 Internationellt utvecklingssamarbete",
+      "value": "48 630 129",
+      "is_bold": true
+    },
+    {
+      "id": 112,
+      "name": "1 Biståndsverksamhet",
+      "value": "46 639 119",
+      "is_bold": false
+    },
+    {
+      "id": 113,
+      "name": "2 Styrelsen för internationellt utvecklingssamarbete (Sida)",
+      "value": "1 690 200",
+      "is_bold": false
+    },
+    {
+      "id": 114,
+      "name": "3 Nordiska Afrikainstitutet",
+      "value": "17 320",
+      "is_bold": false
+    },
+    {
+      "id": 115,
+      "name": "4 Folke Bernadotteakademin",
+      "value": "210 633",
+      "is_bold": false
+    },
+    {
+      "id": 116,
+      "name": "5 Riksrevisionen: Internationellt utvecklingssamarbete",
+      "value": "50 000",
+      "is_bold": false
+    },
+    {
+      "id": 117,
+      "name": "6 Utvärdering av internationellt bistånd",
+      "value": "22 857",
+      "is_bold": false
+    },
+    {
+      "id": 118,
+      "name": "8 Migration",
+      "value": "13 808 274",
+      "is_bold": true
+    },
+    {
+      "id": 119,
+      "name": "1 Migrationsverket",
+      "value": "4 734 916",
+      "is_bold": false
+    },
+    {
+      "id": 120,
+      "name": "2 Ersättningar och bostadskostnader",
+      "value": "6 892 000",
+      "is_bold": false
+    },
+    {
+      "id": 121,
+      "name": "3 Migrationspolitiska åtgärder",
+      "value": "151 013",
+      "is_bold": false
+    },
+    {
+      "id": 122,
+      "name": "4 Domstolsprövning i utlänningsmål",
+      "value": "839 291",
+      "is_bold": false
+    },
+    {
+      "id": 123,
+      "name": "5 Rättsliga biträden m.m. vid domstolsprövning i utlänningsmål",
+      "value": "200 800",
+      "is_bold": false
+    },
+    {
+      "id": 124,
+      "name": "6 Offentligt biträde i utlänningsärenden",
+      "value": "264 602",
+      "is_bold": false
+    },
+    {
+      "id": 125,
+      "name": "7 Utresor för avvisade och utvisade",
+      "value": "325 202",
+      "is_bold": false
+    },
+    {
+      "id": 126,
+      "name": "8 Från EU-budgeten finansierade insatser för asylsökande och flyktingar",
+      "value": "400 450",
+      "is_bold": false
+    },
+    {
+      "id": 127,
+      "name": "9 Hälsovård, sjukvård och social omsorg",
+      "value": "110 258 264",
+      "is_bold": true
+    },
+    {
+      "id": 128,
+      "name": "1 Hälso- och sjukvårdspolitik",
+      "value": "66 935 522",
+      "is_bold": true
+    },
+    {
+      "id": 129,
+      "name": "1 Socialstyrelsen",
+      "value": "825 880",
+      "is_bold": false
+    },
+    {
+      "id": 130,
+      "name": "2 Statens beredning för medicinsk och social utvärdering",
+      "value": "94 223",
+      "is_bold": false
+    },
+    {
+      "id": 131,
+      "name": "3 Tandvårds- och läkemedelsförmånsverket",
+      "value": "164 580",
+      "is_bold": false
+    },
+    {
+      "id": 132,
+      "name": "4 Tandvårdsförmåner",
+      "value": "8 011 778",
+      "is_bold": false
+    },
+    {
+      "id": 133,
+      "name": "5 Bidrag för läkemedelsförmånerna",
+      "value": "35 486 000",
+      "is_bold": false
+    },
+    {
+      "id": 134,
+      "name": "6 Bidrag till folkhälsa och sjukvård",
+      "value": "11 528 266",
+      "is_bold": false
+    },
+    {
+      "id": 135,
+      "name": "7 Sjukvård i internationella förhållanden",
+      "value": "690 287",
+      "is_bold": false
+    },
+    {
+      "id": 136,
+      "name": "8 Bidrag till psykiatri",
+      "value": "2 250 393",
+      "is_bold": false
+    },
+    {
+      "id": 137,
+      "name": "9 Läkemedelsverket",
+      "value": "159 030",
+      "is_bold": false
+    },
+    {
+      "id": 138,
+      "name": "10 E-hälsomyndigheten",
+      "value": "204 421",
+      "is_bold": false
+    },
+    {
+      "id": 139,
+      "name": "11 Prestationsbundna insatser för att korta vårdköerna",
+      "value": "4 985 000",
+      "is_bold": false
+    },
+    {
+      "id": 140,
+      "name": "12 Inspektionen för vård och omsorg",
+      "value": "833 885",
+      "is_bold": false
+    },
+    {
+      "id": 141,
+      "name": "13 Myndigheten för vård- och omsorgsanalys",
+      "value": "39 279",
+      "is_bold": false
+    },
+    {
+      "id": 142,
+      "name": "14 Civilt försvar inom hälso- och sjukvård",
+      "value": "1 662 500",
+      "is_bold": false
+    },
+    {
+      "id": 143,
+      "name": "2 Folkhälsopolitik",
+      "value": "1 789 375",
+      "is_bold": true
+    },
+    {
+      "id": 144,
+      "name": "1 Folkhälsomyndigheten",
+      "value": "537 312",
+      "is_bold": false
+    },
+    {
+      "id": 145,
+      "name": "2 Insatser för vaccinberedskap",
+      "value": "120 500",
+      "is_bold": false
+    },
+    {
+      "id": 146,
+      "name": "3 Bidrag till WHO",
+      "value": "59 665",
+      "is_bold": false
+    },
+    {
+      "id": 147,
+      "name": "4 Insatser mot hiv/aids och andra smittsamma sjukdomar",
+      "value": "150 502",
+      "is_bold": false
+    },
+    {
+      "id": 148,
+      "name": "5 Åtgärder avseende alkohol, narkotika, dopning, tobak samt spel",
+      "value": "90 396",
+      "is_bold": false
+    },
+    {
+      "id": 149,
+      "name": "6 Stöd till främjande av en aktiv och meningsfull fritid för barn och unga",
+      "value": "731 000",
+      "is_bold": false
+    },
+    {
+      "id": 150,
+      "name": "7 Stöd för att förebygga ohälsa och ensamhet bland äldre",
+      "value": "100 000",
+      "is_bold": false
+    },
+    {
+      "id": 151,
+      "name": "3 Funktionshinderspolitik",
+      "value": "257 646",
+      "is_bold": true
+    },
+    {
+      "id": 152,
+      "name": "1 Myndigheten för delaktighet",
+      "value": "68 904",
+      "is_bold": false
+    },
+    {
+      "id": 153,
+      "name": "2 Bidrag till funktionshindersorganisationer",
+      "value": "188 742",
+      "is_bold": false
+    },
+    {
+      "id": 154,
+      "name": "4 Politik för sociala tjänster",
+      "value": "40 310 200",
+      "is_bold": true
+    },
+    {
+      "id": 155,
+      "name": "1 Myndigheten för familjerätt och föräldraskapsstöd",
+      "value": "35 964",
+      "is_bold": false
+    },
+    {
+      "id": 156,
+      "name": "2 Vissa statsbidrag inom funktionshindersområdet",
+      "value": "778 714",
+      "is_bold": false
+    },
+    {
+      "id": 157,
+      "name": "3 Bilstöd till personer med funktionsnedsättning",
+      "value": "263 237",
+      "is_bold": false
+    },
+    {
+      "id": 158,
+      "name": "4 Kostnader för statlig assistansersättning",
+      "value": "26 048 418",
+      "is_bold": false
+    },
+    {
+      "id": 159,
+      "name": "5 Stimulansbidrag och åtgärder inom äldreområdet",
+      "value": "9 709 790",
+      "is_bold": false
+    },
+    {
+      "id": 160,
+      "name": "6 Statens institutionsstyrelse",
+      "value": "2 137 276",
+      "is_bold": false
+    },
+    {
+      "id": 161,
+      "name": "7 Bidrag till utveckling av socialt arbete m.m.",
+      "value": "1 336 801",
+      "is_bold": false
+    },
+    {
+      "id": 162,
+      "name": "5 Barnrättspolitik",
+      "value": "89 762",
+      "is_bold": true
+    },
+    {
+      "id": 163,
+      "name": "1 Barnombudsmannen",
+      "value": "27 501",
+      "is_bold": false
+    },
+    {
+      "id": 164,
+      "name": "2 Barnets rättigheter",
+      "value": "62 261",
+      "is_bold": false
+    },
+    {
+      "id": 165,
+      "name": "6 Forskningspolitik",
+      "value": "875 759",
+      "is_bold": true
+    },
+    {
+      "id": 166,
+      "name": "1 Forskningsrådet för hälsa, arbetsliv och välfärd: Förvaltning",
+      "value": "56 256",
+      "is_bold": false
+    },
+    {
+      "id": 167,
+      "name": "2 Forskningsrådet för hälsa, arbetsliv och välfärd: Forskning",
+      "value": "819 503",
+      "is_bold": false
+    },
+    {
+      "id": 168,
+      "name": "10 Ekonomisk trygghet vid sjukdom och funktionsnedsättning",
+      "value": "116 907 208",
+      "is_bold": true
+    },
+    {
+      "id": 169,
+      "name": "1 Ersättning vid sjukdom och funktionsnedsättning",
+      "value": "107 256 656",
+      "is_bold": true
+    },
+    {
+      "id": 170,
+      "name": "1 Sjukpenning och rehabilitering m.m.",
+      "value": "49 575 487",
+      "is_bold": false
+    },
+    {
+      "id": 171,
+      "name": "2 Aktivitets- och sjukersättningar m.m.",
+      "value": "50 131 000",
+      "is_bold": false
+    },
+    {
+      "id": 172,
+      "name": "3 Merkostnadsersättning och handikappersättning",
+      "value": "1 414 000",
+      "is_bold": false
+    },
+    {
+      "id": 173,
+      "name": "4 Arbetsskadeersättningar m.m.",
+      "value": "2 375 000",
+      "is_bold": false
+    },
+    {
+      "id": 174,
+      "name": "5 Ersättning inom det statliga personskadeskyddet",
+      "value": "36 289",
+      "is_bold": false
+    },
+    {
+      "id": 175,
+      "name": "6 Bidrag för sjukskrivningsprocessen",
+      "value": "1 416 700",
+      "is_bold": false
+    },
+    {
+      "id": 176,
+      "name": "7 Ersättning för höga sjuklönekostnader",
+      "value": "2 308 180",
+      "is_bold": false
+    },
+    {
+      "id": 177,
+      "name": "2 Myndigheter",
+      "value": "9 650 552",
+      "is_bold": true
+    },
+    {
+      "id": 178,
+      "name": "1 Försäkringskassan",
+      "value": "9 576 282",
+      "is_bold": false
+    },
+    {
+      "id": 179,
+      "name": "2 Inspektionen för socialförsäkringen",
+      "value": "74 270",
+      "is_bold": false
+    },
+    {
+      "id": 180,
+      "name": "11 Ekonomisk trygghet vid ålderdom",
+      "value": "60 310 483",
+      "is_bold": true
+    },
+    {
+      "id": 181,
+      "name": "1 Ersättning vid ålderdom",
+      "value": "59 590 300",
+      "is_bold": true
+    },
+    {
+      "id": 182,
+      "name": "1 Garantipension till ålderspension",
+      "value": "30 228 900",
+      "is_bold": false
+    },
+    {
+      "id": 183,
+      "name": "2 Efterlevandepensioner till vuxna",
+      "value": "8 175 200",
+      "is_bold": false
+    },
+    {
+      "id": 184,
+      "name": "3 Bostadstillägg till pensionärer",
+      "value": "13 809 000",
+      "is_bold": false
+    },
+    {
+      "id": 185,
+      "name": "4 Äldreförsörjningsstöd",
+      "value": "1 298 200",
+      "is_bold": false
+    },
+    {
+      "id": 186,
+      "name": "5 Inkomstpensionstillägg",
+      "value": "6 079 000",
+      "is_bold": false
+    },
+    {
+      "id": 187,
+      "name": "2 Myndigheter",
+      "value": "720 183",
+      "is_bold": true
+    },
+    {
+      "id": 188,
+      "name": "1 Pensionsmyndigheten",
+      "value": "720 183",
+      "is_bold": false
+    },
+    {
+      "id": 189,
+      "name": "12 Ekonomisk trygghet för familjer och barn",
+      "value": "106 070 732",
+      "is_bold": true
+    },
+    {
+      "id": 190,
+      "name": "1 Barnbidrag",
+      "value": "33 074 824",
+      "is_bold": false
+    },
+    {
+      "id": 191,
+      "name": "2 Föräldraförsäkring",
+      "value": "50 521 438",
+      "is_bold": false
+    },
+    {
+      "id": 192,
+      "name": "3 Underhållsstöd",
+      "value": "2 798 382",
+      "is_bold": false
+    },
+    {
+      "id": 193,
+      "name": "4 Adoptionsbidrag",
+      "value": "14 784",
+      "is_bold": false
+    },
+    {
+      "id": 194,
+      "name": "5 Barnpension och efterlevandestöd",
+      "value": "1 097 900",
+      "is_bold": false
+    },
+    {
+      "id": 195,
+      "name": "6 Omvårdnadsbidrag och vårdbidrag",
+      "value": "5 234 340",
+      "is_bold": false
+    },
+    {
+      "id": 196,
+      "name": "7 Pensionsrätt för barnår",
+      "value": "8 971 900",
+      "is_bold": false
+    },
+    {
+      "id": 197,
+      "name": "8 Bostadsbidrag",
+      "value": "4 357 164",
+      "is_bold": false
+    },
+    {
+      "id": 198,
+      "name": "13 Integration och jämställdhet",
+      "value": "4 018 388",
+      "is_bold": true
+    },
+    {
+      "id": 199,
+      "name": "1 Integration",
+      "value": "2 879 351",
+      "is_bold": true
+    },
+    {
+      "id": 200,
+      "name": "1 Integrationsåtgärder",
+      "value": "103 125",
+      "is_bold": false
+    },
+    {
+      "id": 201,
+      "name": "2 Kommunersättningar vid flyktingmottagande",
+      "value": "2 776 226",
+      "is_bold": false
+    },
+    {
+      "id": 202,
+      "name": "2 Diskriminering",
+      "value": "249 426",
+      "is_bold": true
+    },
+    {
+      "id": 203,
+      "name": "1 Diskrimineringsombudsmannen",
+      "value": "138 507",
+      "is_bold": false
+    },
+    {
+      "id": 204,
+      "name": "2 Åtgärder mot diskriminering och rasism m.m.",
+      "value": "110 919",
+      "is_bold": false
+    },
+    {
+      "id": 205,
+      "name": "3 Jämställdhet",
+      "value": "796 611",
+      "is_bold": true
+    },
+    {
+      "id": 206,
+      "name": "1 Särskilda jämställdhetsåtgärder",
+      "value": "675 039",
+      "is_bold": false
+    },
+    {
+      "id": 207,
+      "name": "2 Jämställdhetsmyndigheten",
+      "value": "73 409",
+      "is_bold": false
+    },
+    {
+      "id": 208,
+      "name": "3 Bidrag för kvinnors organisering",
+      "value": "48 163",
+      "is_bold": false
+    },
+    {
+      "id": 209,
+      "name": "4 Utanförskap",
+      "value": "93 000",
+      "is_bold": true
+    },
+    {
+      "id": 210,
+      "name": "1 Åtgärder mot utanförskap",
+      "value": "93 000",
+      "is_bold": false
+    },
+    {
+      "id": 211,
+      "name": "14 Arbetsmarknad och arbetsliv",
+      "value": "92 059 399",
+      "is_bold": true
+    },
+    {
+      "id": 212,
+      "name": "1 Arbetsmarknad",
+      "value": "90 909 455",
+      "is_bold": true
+    },
+    {
+      "id": 213,
+      "name": "1 Arbetsförmedlingens förvaltningskostnader",
+      "value": "7 392 656",
+      "is_bold": false
+    },
+    {
+      "id": 214,
+      "name": "2 Bidrag till arbetslöshetsersättning och aktivitetsstöd",
+      "value": "42 525 610",
+      "is_bold": false
+    },
+    {
+      "id": 215,
+      "name": "3 Kostnader för arbetsmarknadspolitiska program och insatser",
+      "value": "7 225 952",
+      "is_bold": false
+    },
+    {
+      "id": 216,
+      "name": "4 Lönebidrag och Samhall m.m.",
+      "value": "20 806 041",
+      "is_bold": false
+    },
+    {
+      "id": 217,
+      "name": "5 Rådet för Europeiska socialfonden i Sverige",
+      "value": "133 466",
+      "is_bold": false
+    },
+    {
+      "id": 218,
+      "name": "6 Europeiska socialfonden m.m. för perioden 2014–2020",
+      "value": "100 100",
+      "is_bold": false
+    },
+    {
+      "id": 219,
+      "name": "7 Europeiska socialfonden+ m.m. för perioden 2021–2027",
+      "value": "1 387 000",
+      "is_bold": false
+    },
+    {
+      "id": 220,
+      "name": "8 Institutet för arbetsmarknads- och utbildningspolitisk utvärdering",
+      "value": "46 953",
+      "is_bold": false
+    },
+    {
+      "id": 221,
+      "name": "9 Inspektionen för arbetslöshetsförsäkringen",
+      "value": "82 557",
+      "is_bold": false
+    },
+    {
+      "id": 222,
+      "name": "10 Bidrag till administration av grundbeloppet",
+      "value": "62 184",
+      "is_bold": false
+    },
+    {
+      "id": 223,
+      "name": "11 Bidrag till Stiftelsen Utbildning Nordkalotten",
+      "value": "8 303",
+      "is_bold": false
+    },
+    {
+      "id": 224,
+      "name": "12 Bidrag till lönegarantiersättning",
+      "value": "1 800 000",
+      "is_bold": false
+    },
+    {
+      "id": 225,
+      "name": "13 Nystartsjobb, etableringsjobb och stöd för yrkesintroduktionsanställningar",
+      "value": "5 342 163",
+      "is_bold": false
+    },
+    {
+      "id": 226,
+      "name": "14 Etableringsersättning till vissa nyanlända invandrare",
+      "value": "865 470",
+      "is_bold": false
+    },
+    {
+      "id": 227,
+      "name": "2 Arbetsliv",
+      "value": "1 149 944",
+      "is_bold": true
+    },
+    {
+      "id": 228,
+      "name": "1 Arbetsmiljöverket",
+      "value": "855 697",
+      "is_bold": false
+    },
+    {
+      "id": 229,
+      "name": "2 Arbetsdomstolen",
+      "value": "36 798",
+      "is_bold": false
+    },
+    {
+      "id": 230,
+      "name": "3 Internationella arbetsorganisationen (ILO)",
+      "value": "33 722",
+      "is_bold": false
+    },
+    {
+      "id": 231,
+      "name": "4 Medlingsinstitutet",
+      "value": "60 571",
+      "is_bold": false
+    },
+    {
+      "id": 232,
+      "name": "5 Myndigheten för arbetsmiljökunskap",
+      "value": "51 156",
+      "is_bold": false
+    },
+    {
+      "id": 233,
+      "name": "6 Regional skyddsombudsverksamhet",
+      "value": "112 000",
+      "is_bold": false
+    },
+    {
+      "id": 234,
+      "name": "15 Studiestöd",
+      "value": "30 545 170",
+      "is_bold": true
+    },
+    {
+      "id": 235,
+      "name": "1 Studiehjälp",
+      "value": "4 518 262",
+      "is_bold": false
+    },
+    {
+      "id": 236,
+      "name": "2 Studiemedel",
+      "value": "20 207 017",
+      "is_bold": false
+    },
+    {
+      "id": 237,
+      "name": "3 Omställningsstudiestöd",
+      "value": "2 836 000",
+      "is_bold": false
+    },
+    {
+      "id": 238,
+      "name": "4 Statens utgifter för räntor på studielån",
+      "value": "1 307 129",
+      "is_bold": false
+    },
+    {
+      "id": 239,
+      "name": "6 Bidrag till vissa studiesociala ändamål",
+      "value": "27 000",
+      "is_bold": false
+    },
+    {
+      "id": 240,
+      "name": "7 Studiestartsstöd",
+      "value": "400 000",
+      "is_bold": false
+    },
+    {
+      "id": 241,
+      "name": "8 Centrala studiestödsnämnden",
+      "value": "1 168 916",
+      "is_bold": false
+    },
+    {
+      "id": 242,
+      "name": "9 Överklagandenämnden för studiestöd",
+      "value": "18 696",
+      "is_bold": false
+    },
+    {
+      "id": 243,
+      "name": "16 Utbildning och universitetsforskning",
+      "value": "99 461 047",
+      "is_bold": true
+    },
+    {
+      "id": 244,
+      "name": "1 Barn-, ungdoms- och vuxenutbildning",
+      "value": "35 252 259",
+      "is_bold": true
+    },
+    {
+      "id": 245,
+      "name": "1 Statens skolverk",
+      "value": "1 348 018",
+      "is_bold": false
+    },
+    {
+      "id": 246,
+      "name": "2 Statens skolinspektion",
+      "value": "582 489",
+      "is_bold": false
+    },
+    {
+      "id": 247,
+      "name": "3 Specialpedagogiska skolmyndigheten",
+      "value": "839 768",
+      "is_bold": false
+    },
+    {
+      "id": 248,
+      "name": "4 Sameskolstyrelsen",
+      "value": "61 499",
+      "is_bold": false
+    },
+    {
+      "id": 249,
+      "name": "5 Utveckling av skolväsendet och annan pedagogisk verksamhet",
+      "value": "4 417 385",
+      "is_bold": false
+    },
+    {
+      "id": 250,
+      "name": "6 Statligt stöd till särskild utbildning i gymnasieskolan",
+      "value": "269 837",
+      "is_bold": false
+    },
+    {
+      "id": 251,
+      "name": "8 Bidrag till viss verksamhet inom skolväsendet, m.m.",
+      "value": "205 720",
+      "is_bold": false
+    },
+    {
+      "id": 252,
+      "name": "9 Bidrag till svensk undervisning i utlandet",
+      "value": "112 082",
+      "is_bold": false
+    },
+    {
+      "id": 253,
+      "name": "10 Fortbildning av lärare och förskolepersonal",
+      "value": "1 078 526",
+      "is_bold": false
+    },
+    {
+      "id": 254,
+      "name": "11 Skolforskningsinstitutet",
+      "value": "35 699",
+      "is_bold": false
+    },
+    {
+      "id": 255,
+      "name": "12 Praktiknära skolforskning",
+      "value": "36 043",
+      "is_bold": false
+    },
+    {
+      "id": 256,
+      "name": "13 Bidrag till lärarlöner",
+      "value": "4 875 000",
+      "is_bold": false
+    },
+    {
+      "id": 257,
+      "name": "14 Särskilda insatser inom skolområdet",
+      "value": "203 418",
+      "is_bold": false
+    },
+    {
+      "id": 258,
+      "name": "15 Statligt stöd för stärkt kunskapsutveckling",
+      "value": "7 478 000",
+      "is_bold": false
+    },
+    {
+      "id": 259,
+      "name": "16 Bidrag till vissa studier",
+      "value": "17 525",
+      "is_bold": false
+    },
+    {
+      "id": 260,
+      "name": "17 Statligt stöd till vuxenutbildning",
+      "value": "4 568 622",
+      "is_bold": false
+    },
+    {
+      "id": 261,
+      "name": "18 Myndigheten för yrkeshögskolan",
+      "value": "152 245",
+      "is_bold": false
+    },
+    {
+      "id": 262,
+      "name": "19 Statligt stöd till yrkeshögskoleutbildning",
+      "value": "4 010 383",
+      "is_bold": false
+    },
+    {
+      "id": 263,
+      "name": "2 Universitet och högskolor",
+      "value": "53 396 412",
+      "is_bold": true
+    },
+    {
+      "id": 264,
+      "name": "1 Universitetskanslersämbetet",
+      "value": "176 022",
+      "is_bold": false
+    },
+    {
+      "id": 265,
+      "name": "2 Universitets- och högskolerådet",
+      "value": "220 435",
+      "is_bold": false
+    },
+    {
+      "id": 266,
+      "name": "3 Uppsala universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "2 117 826",
+      "is_bold": false
+    },
+    {
+      "id": 267,
+      "name": "4 Uppsala universitet: Forskning och utbildning på forskarnivå",
+      "value": "2 451 337",
+      "is_bold": false
+    },
+    {
+      "id": 268,
+      "name": "5 Lunds universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "2 457 847",
+      "is_bold": false
+    },
+    {
+      "id": 269,
+      "name": "6 Lunds universitet: Forskning och utbildning på forskarnivå",
+      "value": "2 554 257",
+      "is_bold": false
+    },
+    {
+      "id": 270,
+      "name": "7 Göteborgs universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "2 455 086",
+      "is_bold": false
+    },
+    {
+      "id": 271,
+      "name": "8 Göteborgs universitet: Forskning och utbildning på forskarnivå",
+      "value": "1 819 634",
+      "is_bold": false
+    },
+    {
+      "id": 272,
+      "name": "9 Stockholms universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "2 032 470",
+      "is_bold": false
+    },
+    {
+      "id": 273,
+      "name": "10 Stockholms universitet: Forskning och utbildning på forskarnivå",
+      "value": "1 856 651",
+      "is_bold": false
+    },
+    {
+      "id": 274,
+      "name": "11 Umeå universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "1 647 203",
+      "is_bold": false
+    },
+    {
+      "id": 275,
+      "name": "12 Umeå universitet: Forskning och utbildning på forskarnivå",
+      "value": "1 285 682",
+      "is_bold": false
+    },
+    {
+      "id": 276,
+      "name": "13 Linköpings universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "1 812 289",
+      "is_bold": false
+    },
+    {
+      "id": 277,
+      "name": "14 Linköpings universitet: Forskning och utbildning på forskarnivå",
+      "value": "1 113 565",
+      "is_bold": false
+    },
+    {
+      "id": 278,
+      "name": "15 Karolinska institutet: Utbildning på grundnivå och avancerad nivå",
+      "value": "826 842",
+      "is_bold": false
+    },
+    {
+      "id": 279,
+      "name": "16 Karolinska institutet: Forskning och utbildning på forskarnivå",
+      "value": "1 825 779",
+      "is_bold": false
+    },
+    {
+      "id": 280,
+      "name": "17 Kungl. Tekniska högskolan: Utbildning på grundnivå och avancerad nivå",
+      "value": "1 384 540",
+      "is_bold": false
+    },
+    {
+      "id": 281,
+      "name": "18 Kungl. Tekniska högskolan: Forskning och utbildning på forskarnivå",
+      "value": "1 944 253",
+      "is_bold": false
+    },
+    {
+      "id": 282,
+      "name": "19 Luleå tekniska universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "791 425",
+      "is_bold": false
+    },
+    {
+      "id": 283,
+      "name": "20 Luleå tekniska universitet: Forskning och utbildning på forskarnivå",
+      "value": "452 185",
+      "is_bold": false
+    },
+    {
+      "id": 284,
+      "name": "21 Karlstads universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "800 766",
+      "is_bold": false
+    },
+    {
+      "id": 285,
+      "name": "22 Karlstads universitet: Forskning och utbildning på forskarnivå",
+      "value": "297 629",
+      "is_bold": false
+    },
+    {
+      "id": 286,
+      "name": "23 Linnéuniversitetet: Utbildning på grundnivå och avancerad nivå",
+      "value": "1 246 264",
+      "is_bold": false
+    },
+    {
+      "id": 287,
+      "name": "24 Linnéuniversitetet: Forskning och utbildning på forskarnivå",
+      "value": "406 967",
+      "is_bold": false
+    },
+    {
+      "id": 288,
+      "name": "25 Örebro universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "932 155",
+      "is_bold": false
+    },
+    {
+      "id": 289,
+      "name": "26 Örebro universitet: Forskning och utbildning på forskarnivå",
+      "value": "336 081",
+      "is_bold": false
+    },
+    {
+      "id": 290,
+      "name": "27 Mittuniversitetet: Utbildning på grundnivå och avancerad nivå",
+      "value": "661 282",
+      "is_bold": false
+    },
+    {
+      "id": 291,
+      "name": "28 Mittuniversitetet: Forskning och utbildning på forskarnivå",
+      "value": "299 667",
+      "is_bold": false
+    },
+    {
+      "id": 292,
+      "name": "29 Malmö universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "1 114 403",
+      "is_bold": false
+    },
+    {
+      "id": 293,
+      "name": "30 Malmö universitet: Forskning och utbildning på forskarnivå",
+      "value": "312 903",
+      "is_bold": false
+    },
+    {
+      "id": 294,
+      "name": "31 Mälardalens universitet: Utbildning på grundnivå och avancerad nivå",
+      "value": "722 581",
+      "is_bold": false
+    },
+    {
+      "id": 295,
+      "name": "32 Mälardalens universitet: Forskning och utbildning på forskarnivå",
+      "value": "294 743",
+      "is_bold": false
+    },
+    {
+      "id": 296,
+      "name": "33 Blekinge tekniska högskola: Utbildning på grundnivå och avancerad nivå",
+      "value": "300 720",
+      "is_bold": false
+    },
+    {
+      "id": 297,
+      "name": "34 Blekinge tekniska högskola: Forskning och utbildning på forskarnivå",
+      "value": "114 436",
+      "is_bold": false
+    },
+    {
+      "id": 298,
+      "name": "38 Gymnastik- och idrottshögskolan: Forskning och utbildning på forskarnivå",
+      "value": "36 434",
+      "is_bold": false
+    },
+    {
+      "id": 299,
+      "name": "39 Högskolan i Borås: Utbildning på grundnivå och avancerad nivå",
+      "value": "590 289",
+      "is_bold": false
+    },
+    {
+      "id": 300,
+      "name": "40 Högskolan i Borås: Forskning och utbildning på forskarnivå",
+      "value": "110 758",
+      "is_bold": false
+    },
+    {
+      "id": 301,
+      "name": "41 Högskolan Dalarna: Utbildning på grundnivå och avancerad nivå",
+      "value": "505 826",
+      "is_bold": false
+    },
+    {
+      "id": 302,
+      "name": "42 Högskolan Dalarna: Forskning och utbildning på forskarnivå",
+      "value": "114 256",
+      "is_bold": false
+    },
+    {
+      "id": 303,
+      "name": "43 Högskolan i Gävle: Utbildning på grundnivå och avancerad nivå",
+      "value": "548 352",
+      "is_bold": false
+    },
+    {
+      "id": 304,
+      "name": "44 Högskolan i Gävle: Forskning och utbildning på forskarnivå",
+      "value": "121 318",
+      "is_bold": false
+    },
+    {
+      "id": 305,
+      "name": "45 Högskolan i Halmstad: Utbildning på grundnivå och avancerad nivå",
+      "value": "481 161",
+      "is_bold": false
+    },
+    {
+      "id": 306,
+      "name": "46 Högskolan i Halmstad: Forskning och utbildning på forskarnivå",
+      "value": "107 704",
+      "is_bold": false
+    },
+    {
+      "id": 307,
+      "name": "47 Högskolan Kristianstad: Utbildning på grundnivå och avancerad nivå",
+      "value": "472 278",
+      "is_bold": false
+    },
+    {
+      "id": 308,
+      "name": "48 Högskolan Kristianstad: Forskning och utbildning på forskarnivå",
+      "value": "103 776",
+      "is_bold": false
+    },
+    {
+      "id": 309,
+      "name": "49 Högskolan i Skövde: Utbildning på grundnivå och avancerad nivå",
+      "value": "371 028",
+      "is_bold": false
+    },
+    {
+      "id": 310,
+      "name": "50 Högskolan i Skövde: Forskning och utbildning på forskarnivå",
+      "value": "69 521",
+      "is_bold": false
+    },
+    {
+      "id": 311,
+      "name": "51 Högskolan Väst: Utbildning på grundnivå och avancerad nivå",
+      "value": "444 839",
+      "is_bold": false
+    },
+    {
+      "id": 312,
+      "name": "52 Högskolan Väst: Forskning och utbildning på forskarnivå",
+      "value": "97 827",
+      "is_bold": false
+    },
+    {
+      "id": 313,
+      "name": "53 Konstfack: Utbildning på grundnivå och avancerad nivå",
+      "value": "189 433",
+      "is_bold": false
+    },
+    {
+      "id": 314,
+      "name": "54 Konstfack: Forskning och utbildning på forskarnivå",
+      "value": "23 201",
+      "is_bold": false
+    },
+    {
+      "id": 315,
+      "name": "55 Kungl. Konsthögskolan: Utbildning på grundnivå och avancerad nivå",
+      "value": "73 485",
+      "is_bold": false
+    },
+    {
+      "id": 316,
+      "name": "56 Kungl. Konsthögskolan: Forskning och utbildning på forskarnivå",
+      "value": "13 610",
+      "is_bold": false
+    },
+    {
+      "id": 317,
+      "name": "59 Södertörns högskola: Utbildning på grundnivå och avancerad nivå",
+      "value": "495 123",
+      "is_bold": false
+    },
+    {
+      "id": 318,
+      "name": "60 Södertörns högskola: Forskning och utbildning på forskarnivå",
+      "value": "130 998",
+      "is_bold": false
+    },
+    {
+      "id": 319,
+      "name": "61 Försvarshögskolan: Utbildning på grundnivå och avancerad nivå",
+      "value": "40 921",
+      "is_bold": false
+    },
+    {
+      "id": 320,
+      "name": "62 Försvarshögskolan: Forskning och utbildning på forskarnivå",
+      "value": "44 646",
+      "is_bold": false
+    },
+    {
+      "id": 321,
+      "name": "63 Enskilda utbildningsanordnare på högskoleområdet",
+      "value": "4 041 143",
+      "is_bold": false
+    },
+    {
+      "id": 322,
+      "name": "64 Särskilda utgifter inom universitet och högskolor",
+      "value": "928 935",
+      "is_bold": false
+    },
+    {
+      "id": 323,
+      "name": "65 Särskilda medel till universitet och högskolor",
+      "value": "636 143",
+      "is_bold": false
+    },
+    {
+      "id": 324,
+      "name": "66 Ersättningar för klinisk utbildning och forskning",
+      "value": "2 884 576",
+      "is_bold": false
+    },
+    {
+      "id": 325,
+      "name": "67 Särskilda bidrag inom högskoleområdet",
+      "value": "67 780",
+      "is_bold": false
+    },
+    {
+      "id": 326,
+      "name": "3 Forskning",
+      "value": "10 663 889",
+      "is_bold": true
+    },
+    {
+      "id": 327,
+      "name": "1 Vetenskapsrådet: Forskning och forskningsinformation",
+      "value": "7 893 846",
+      "is_bold": false
+    },
+    {
+      "id": 328,
+      "name": "2 Vetenskapsrådet: Avgifter till internationella organisationer",
+      "value": "420 061",
+      "is_bold": false
+    },
+    {
+      "id": 329,
+      "name": "3 Vetenskapsrådet: Förvaltning",
+      "value": "203 252",
+      "is_bold": false
+    },
+    {
+      "id": 330,
+      "name": "4 Rymdforskning och rymdverksamhet",
+      "value": "1 297 356",
+      "is_bold": false
+    },
+    {
+      "id": 331,
+      "name": "5 Rymdstyrelsen: Förvaltning",
+      "value": "52 555",
+      "is_bold": false
+    },
+    {
+      "id": 332,
+      "name": "6 Institutet för rymdfysik",
+      "value": "63 553",
+      "is_bold": false
+    },
+    {
+      "id": 333,
+      "name": "7 Kungl. biblioteket",
+      "value": "447 963",
+      "is_bold": false
+    },
+    {
+      "id": 334,
+      "name": "8 Polarforskningssekretariatet",
+      "value": "69 056",
+      "is_bold": false
+    },
+    {
+      "id": 335,
+      "name": "9 Sunet",
+      "value": "49 183",
+      "is_bold": false
+    },
+    {
+      "id": 336,
+      "name": "10 Överklagandenämnden för etikprövning",
+      "value": "5 554",
+      "is_bold": false
+    },
+    {
+      "id": 337,
+      "name": "11 Etikprövningsmyndigheten",
+      "value": "52 686",
+      "is_bold": false
+    },
+    {
+      "id": 338,
+      "name": "12 Nämnden för prövning av oredlighet i forskning",
+      "value": "9 918",
+      "is_bold": false
+    },
+    {
+      "id": 339,
+      "name": "13 Särskilda utgifter för forskningsändamål",
+      "value": "93 995",
+      "is_bold": false
+    },
+    {
+      "id": 340,
+      "name": "14 Gentekniknämnden",
+      "value": "4 911",
+      "is_bold": false
+    },
+    {
+      "id": 341,
+      "name": "4 Vissa gemensamma ändamål",
+      "value": "148 487",
+      "is_bold": true
+    },
+    {
+      "id": 342,
+      "name": "1 Internationella program",
+      "value": "81 589",
+      "is_bold": false
+    },
+    {
+      "id": 343,
+      "name": "2 Avgift till Unesco och ICCROM",
+      "value": "32 186",
+      "is_bold": false
+    },
+    {
+      "id": 344,
+      "name": "3 Kostnader för Svenska Unescorådet",
+      "value": "11 339",
+      "is_bold": false
+    },
+    {
+      "id": 345,
+      "name": "4 Utvecklingsarbete inom områdena utbildning och forskning",
+      "value": "23 373",
+      "is_bold": false
+    },
+    {
+      "id": 346,
+      "name": "17 Kultur, medier, trossamfund och fritid",
+      "value": "16 646 285",
+      "is_bold": true
+    },
+    {
+      "id": 347,
+      "name": "1 Kulturområdesövergripande verksamhet",
+      "value": "2 497 559",
+      "is_bold": true
+    },
+    {
+      "id": 348,
+      "name": "1 Statens kulturråd",
+      "value": "73 240",
+      "is_bold": false
+    },
+    {
+      "id": 349,
+      "name": "3 Skapande skola",
+      "value": "176 464",
+      "is_bold": false
+    },
+    {
+      "id": 350,
+      "name": "4 Forsknings- och utvecklingsinsatser inom kulturområdet",
+      "value": "45 153",
+      "is_bold": false
+    },
+    {
+      "id": 351,
+      "name": "5 Stöd till icke-statliga kulturlokaler",
+      "value": "9 753",
+      "is_bold": false
+    },
+    {
+      "id": 352,
+      "name": "6 Bidrag till regional kulturverksamhet",
+      "value": "1 704 455",
+      "is_bold": false
+    },
+    {
+      "id": 353,
+      "name": "7 Myndigheten för kulturanalys",
+      "value": "19 412",
+      "is_bold": false
+    },
+    {
+      "id": 354,
+      "name": "2 Teater, dans och musik",
+      "value": "1 470 358",
+      "is_bold": true
+    },
+    {
+      "id": 355,
+      "name": "1 Bidrag till vissa scenkonstinstitutioner",
+      "value": "1 119 544",
+      "is_bold": false
+    },
+    {
+      "id": 356,
+      "name": "2 Bidrag till vissa teater-, dans- och musikändamål",
+      "value": "249 098",
+      "is_bold": false
+    },
+    {
+      "id": 357,
+      "name": "3 Statens musikverk",
+      "value": "101 716",
+      "is_bold": false
+    },
+    {
+      "id": 358,
+      "name": "3 Litteraturen, läsandet och språket",
+      "value": "418 619",
+      "is_bold": true
+    },
+    {
+      "id": 359,
+      "name": "1 Bidrag till litteratur och kulturtidskrifter",
+      "value": "203 678",
+      "is_bold": false
+    },
+    {
+      "id": 360,
+      "name": "2 Myndigheten för tillgängliga medier",
+      "value": "138 586",
+      "is_bold": false
+    },
+    {
+      "id": 361,
+      "name": "3 Institutet för språk och folkminnen",
+      "value": "76 355",
+      "is_bold": false
+    },
+    {
+      "id": 362,
+      "name": "4 Bildkonst, arkitektur, form och design",
+      "value": "111 554",
+      "is_bold": true
+    },
+    {
+      "id": 363,
+      "name": "1 Statens konstråd",
+      "value": "11 577",
+      "is_bold": false
+    },
+    {
+      "id": 364,
+      "name": "2 Konstnärlig gestaltning av den gemensamma miljön",
+      "value": "42 518",
+      "is_bold": false
+    },
+    {
+      "id": 365,
+      "name": "3 Nämnden för hemslöjdsfrågor",
+      "value": "11 851",
+      "is_bold": false
+    },
+    {
+      "id": 366,
+      "name": "4 Bidrag till bild- och formområdet",
+      "value": "45 608",
+      "is_bold": false
+    },
+    {
+      "id": 367,
+      "name": "5 Konstnärernas villkor",
+      "value": "582 521",
+      "is_bold": true
+    },
+    {
+      "id": 368,
+      "name": "1 Konstnärsnämnden",
+      "value": "23 991",
+      "is_bold": false
+    },
+    {
+      "id": 369,
+      "name": "2 Ersättningar och bidrag till konstnärer",
+      "value": "558 530",
+      "is_bold": false
+    },
+    {
+      "id": 370,
+      "name": "6 Arkiv",
+      "value": "491 019",
+      "is_bold": true
+    },
+    {
+      "id": 371,
+      "name": "1 Riksarkivet",
+      "value": "491 019",
+      "is_bold": false
+    },
+    {
+      "id": 372,
+      "name": "7 Kulturmiljö",
+      "value": "1 069 314",
+      "is_bold": true
+    },
+    {
+      "id": 373,
+      "name": "1 Riksantikvarieämbetet",
+      "value": "298 032",
+      "is_bold": false
+    },
+    {
+      "id": 374,
+      "name": "2 Bidrag till kulturmiljövård",
+      "value": "303 282",
+      "is_bold": false
+    },
+    {
+      "id": 375,
+      "name": "3 Kyrkoantikvarisk ersättning",
+      "value": "460 000",
+      "is_bold": false
+    },
+    {
+      "id": 376,
+      "name": "4 Bidrag till arbetslivsmuseer",
+      "value": "8 000",
+      "is_bold": false
+    },
+    {
+      "id": 377,
+      "name": "8 Museer och utställningar",
+      "value": "1 873 247",
+      "is_bold": true
+    },
+    {
+      "id": 378,
+      "name": "1 Centrala museer: Myndigheter",
+      "value": "1 464 578",
+      "is_bold": false
+    },
+    {
+      "id": 379,
+      "name": "2 Centrala museer: Stiftelser",
+      "value": "275 714",
+      "is_bold": false
+    },
+    {
+      "id": 380,
+      "name": "3 Bidrag till vissa museer",
+      "value": "79 718",
+      "is_bold": false
+    },
+    {
+      "id": 381,
+      "name": "4 Forum för levande historia",
+      "value": "53 157",
+      "is_bold": false
+    },
+    {
+      "id": 382,
+      "name": "5 Statliga utställningsgarantier och inköp av vissa kulturföremål",
+      "value": "80",
+      "is_bold": false
+    },
+    {
+      "id": 383,
+      "name": "9 Trossamfund",
+      "value": "97 882",
+      "is_bold": true
+    },
+    {
+      "id": 384,
+      "name": "1 Myndigheten för stöd till trossamfund",
+      "value": "16 782",
+      "is_bold": false
+    },
+    {
+      "id": 385,
+      "name": "2 Stöd till trossamfund",
+      "value": "81 100",
+      "is_bold": false
+    },
+    {
+      "id": 386,
+      "name": "10 Film",
+      "value": "554 444",
+      "is_bold": true
+    },
+    {
+      "id": 387,
+      "name": "1 Filmstöd",
+      "value": "554 444",
+      "is_bold": false
+    },
+    {
+      "id": 388,
+      "name": "11 Medier",
+      "value": "65 154",
+      "is_bold": true
+    },
+    {
+      "id": 389,
+      "name": "1 Sändningar av TV Finland",
+      "value": "9 574",
+      "is_bold": false
+    },
+    {
+      "id": 390,
+      "name": "2 Forskning och dokumentation om medieutvecklingen",
+      "value": "3 491",
+      "is_bold": false
+    },
+    {
+      "id": 391,
+      "name": "3 Avgift till europeiska audiovisuella observatoriet",
+      "value": "633",
+      "is_bold": false
+    },
+    {
+      "id": 392,
+      "name": "4 Stöd till taltidningar",
+      "value": "51 456",
+      "is_bold": false
+    },
+    {
+      "id": 393,
+      "name": "12 Ungdomspolitik",
+      "value": "373 414",
+      "is_bold": true
+    },
+    {
+      "id": 394,
+      "name": "1 Myndigheten för ungdoms- och civilsamhällesfrågor",
+      "value": "60 734",
+      "is_bold": false
+    },
+    {
+      "id": 395,
+      "name": "2 Bidrag till nationell och internationell ungdomsverksamhet",
+      "value": "290 680",
+      "is_bold": false
+    },
+    {
+      "id": 396,
+      "name": "3 Särskilda insatser inom ungdomspolitiken",
+      "value": "22 000",
+      "is_bold": false
+    },
+    {
+      "id": 397,
+      "name": "13 Politik för det civila samhället",
+      "value": "2 505 518",
+      "is_bold": true
+    },
+    {
+      "id": 398,
+      "name": "1 Stöd till idrotten",
+      "value": "2 116 811",
+      "is_bold": false
+    },
+    {
+      "id": 399,
+      "name": "2 Bidrag till allmänna samlingslokaler",
+      "value": "52 164",
+      "is_bold": false
+    },
+    {
+      "id": 400,
+      "name": "3 Stöd till friluftsorganisationer",
+      "value": "97 785",
+      "is_bold": false
+    },
+    {
+      "id": 401,
+      "name": "4 Bidrag till riksdagspartiers kvinnoorganisationer",
+      "value": "15 000",
+      "is_bold": false
+    },
+    {
+      "id": 402,
+      "name": "5 Insatser för den ideella sektorn",
+      "value": "223 758",
+      "is_bold": false
+    },
+    {
+      "id": 403,
+      "name": "14 Folkbildning",
+      "value": "4 445 272",
+      "is_bold": true
+    },
+    {
+      "id": 404,
+      "name": "1 Statsbidrag till studieförbund",
+      "value": "1 741 023",
+      "is_bold": false
+    },
+    {
+      "id": 405,
+      "name": "2 Statsbidrag till folkhögskolor",
+      "value": "2 446 760",
+      "is_bold": false
+    },
+    {
+      "id": 406,
+      "name": "3 Bidrag till tolkutbildning",
+      "value": "55 331",
+      "is_bold": false
+    },
+    {
+      "id": 407,
+      "name": "4 Särskilt utbildningsstöd",
+      "value": "202 158",
+      "is_bold": false
+    },
+    {
+      "id": 408,
+      "name": "15 Tillsyn över spelmarknaden",
+      "value": "90 410",
+      "is_bold": true
+    },
+    {
+      "id": 409,
+      "name": "1 Spelinspektionen",
+      "value": "90 410",
+      "is_bold": false
+    },
+    {
+      "id": 410,
+      "name": "1 Bostadspolitisk utveckling",
+      "value": "85 600",
+      "is_bold": false
+    },
+    {
+      "id": 411,
+      "name": "2 Omstrukturering av kommunala bostadsföretag",
+      "value": "12 500",
+      "is_bold": false
+    },
+    {
+      "id": 412,
+      "name": "3 Stöd för att underlätta för enskilda att ordna bostad",
+      "value": "43 000",
+      "is_bold": false
+    },
+    {
+      "id": 413,
+      "name": "4 Boverket",
+      "value": "294 056",
+      "is_bold": false
+    },
+    {
+      "id": 414,
+      "name": "5 Statens geotekniska institut",
+      "value": "55 879",
+      "is_bold": false
+    },
+    {
+      "id": 415,
+      "name": "6 Lantmäteriet",
+      "value": "758 854",
+      "is_bold": false
+    },
+    {
+      "id": 416,
+      "name": "7 Energieffektivisering av flerbostadshus",
+      "value": "840 000",
+      "is_bold": false
+    },
+    {
+      "id": 417,
+      "name": "2 Konsumentpolitik",
+      "value": "282 017",
+      "is_bold": true
+    },
+    {
+      "id": 418,
+      "name": "1 Konsumentverket",
+      "value": "178 972",
+      "is_bold": false
+    },
+    {
+      "id": 419,
+      "name": "2 Allmänna reklamationsnämnden",
+      "value": "60 511",
+      "is_bold": false
+    },
+    {
+      "id": 420,
+      "name": "3 Fastighetsmäklarinspektionen",
+      "value": "32 351",
+      "is_bold": false
+    },
+    {
+      "id": 421,
+      "name": "4 Åtgärder på konsumentområdet",
+      "value": "7 059",
+      "is_bold": false
+    },
+    {
+      "id": 422,
+      "name": "5 Bidrag till miljömärkning av produkter",
+      "value": "3 124",
+      "is_bold": false
+    },
+    {
+      "id": 423,
+      "name": "19 Regional utveckling",
+      "value": "3 922 201",
+      "is_bold": true
+    },
+    {
+      "id": 424,
+      "name": "1 Regionala utvecklingsåtgärder",
+      "value": "2 028 337",
+      "is_bold": false
+    },
+    {
+      "id": 425,
+      "name": "2 Transportbidrag",
+      "value": "479 864",
+      "is_bold": false
+    },
+    {
+      "id": 426,
+      "name": "20 Klimat, miljö och natur",
+      "value": "19 307 359",
+      "is_bold": true
+    },
+    {
+      "id": 427,
+      "name": "1 Miljöpolitik",
+      "value": "18 066 438",
+      "is_bold": true
+    },
+    {
+      "id": 428,
+      "name": "1 Naturvårdsverket",
+      "value": "635 535",
+      "is_bold": false
+    },
+    {
+      "id": 429,
+      "name": "2 Miljöövervakning m.m.",
+      "value": "417 714",
+      "is_bold": false
+    },
+    {
+      "id": 430,
+      "name": "3 Åtgärder för värdefull natur",
+      "value": "1 212 035",
+      "is_bold": false
+    },
+    {
+      "id": 431,
+      "name": "4 Sanering och återställning av förorenade områden",
+      "value": "1 064 318",
+      "is_bold": false
+    },
+    {
+      "id": 432,
+      "name": "5 Miljöforskning",
+      "value": "96 825",
+      "is_bold": false
+    },
+    {
+      "id": 433,
+      "name": "6 Kemikalieinspektionen",
+      "value": "324 678",
+      "is_bold": false
+    },
+    {
+      "id": 434,
+      "name": "7 Avgifter till Internationella organisationer",
+      "value": "314 431",
+      "is_bold": false
+    },
+    {
+      "id": 435,
+      "name": "8 Klimatbonus",
+      "value": "1 300 000",
+      "is_bold": false
+    },
+    {
+      "id": 436,
+      "name": "9 Sveriges meteorologiska och hydrologiska institut",
+      "value": "292 107",
+      "is_bold": false
+    },
+    {
+      "id": 437,
+      "name": "10 Klimatanpassning",
+      "value": "89 500",
+      "is_bold": false
+    },
+    {
+      "id": 438,
+      "name": "11 Åtgärder för havs- och vattenmiljö",
+      "value": "1 367 565",
+      "is_bold": false
+    },
+    {
+      "id": 439,
+      "name": "12 Insatser för internationella klimatinvesteringar",
+      "value": "262 900",
+      "is_bold": false
+    },
+    {
+      "id": 440,
+      "name": "13 Internationellt miljösamarbete",
+      "value": "37 400",
+      "is_bold": false
+    },
+    {
+      "id": 441,
+      "name": "14 Skydd av värdefull natur",
+      "value": "1 670 500",
+      "is_bold": false
+    },
+    {
+      "id": 442,
+      "name": "15 Havs- och vattenmyndigheten",
+      "value": "321 930",
+      "is_bold": false
+    },
+    {
+      "id": 443,
+      "name": "16 Klimatinvesteringar",
+      "value": "4 950 000",
+      "is_bold": false
+    },
+    {
+      "id": 444,
+      "name": "17 Klimatpremier",
+      "value": "2 122 000",
+      "is_bold": false
+    },
+    {
+      "id": 445,
+      "name": "18 Industriklivet",
+      "value": "1 457 000",
+      "is_bold": false
+    },
+    {
+      "id": 446,
+      "name": "19 Åtgärder för ras- och skredsäkring längs Göta älv",
+      "value": "115 000",
+      "is_bold": false
+    },
+    {
+      "id": 447,
+      "name": "20 Driftstöd för bio-CCS",
+      "value": "15 000",
+      "is_bold": false
+    },
+    {
+      "id": 448,
+      "name": "2 Miljöforskning",
+      "value": "1 240 921",
+      "is_bold": true
+    },
+    {
+      "id": 449,
+      "name": "1 Forskningsrådet för miljö, areella näringar och samhällsbyggande",
+      "value": "133 513",
+      "is_bold": false
+    },
+    {
+      "id": 450,
+      "name": "21 Energi",
+      "value": "5 604 320",
+      "is_bold": true
+    },
+    {
+      "id": 451,
+      "name": "1 Statens energimyndighet",
+      "value": "500 405",
+      "is_bold": false
+    },
+    {
+      "id": 452,
+      "name": "2 Insatser för energieffektivisering",
+      "value": "418 000",
+      "is_bold": false
+    },
+    {
+      "id": 453,
+      "name": "3 Energiforskning",
+      "value": "1 447 723",
+      "is_bold": false
+    },
+    {
+      "id": 454,
+      "name": "4 Energimarknadsinspektionen",
+      "value": "213 848",
+      "is_bold": false
+    },
+    {
+      "id": 455,
+      "name": "5 Energiplanering",
+      "value": "265 000",
+      "is_bold": false
+    },
+    {
+      "id": 456,
+      "name": "6 Avgifter till internationella organisationer",
+      "value": "25 328",
+      "is_bold": false
+    },
+    {
+      "id": 457,
+      "name": "7 Elsäkerhetsverket",
+      "value": "77 016",
+      "is_bold": false
+    },
+    {
+      "id": 458,
+      "name": "8 Laddinfrastruktur",
+      "value": "995 000",
+      "is_bold": false
+    },
+    {
+      "id": 459,
+      "name": "9 Biogasstöd",
+      "value": "933 000",
+      "is_bold": false
+    },
+    {
+      "id": 460,
+      "name": "10 Energiberedskap",
+      "value": "54 000",
+      "is_bold": false
+    },
+    {
+      "id": 461,
+      "name": "11 Elberedskap",
+      "value": "675 000",
+      "is_bold": false
+    },
+    {
+      "id": 462,
+      "name": "22 Kommunikationer",
+      "value": "82 874 980",
+      "is_bold": true
+    },
+    {
+      "id": 463,
+      "name": "1 Transportpolitik",
+      "value": "81 747 040",
+      "is_bold": true
+    },
+    {
+      "id": 464,
+      "name": "1 Utveckling av statens transportinfrastruktur",
+      "value": "36 867 072",
+      "is_bold": false
+    },
+    {
+      "id": 465,
+      "name": "2 Vidmakthållande av statens transportinfrastruktur",
+      "value": "33 974 215",
+      "is_bold": false
+    },
+    {
+      "id": 466,
+      "name": "3 Trafikverket",
+      "value": "1 487 566",
+      "is_bold": false
+    },
+    {
+      "id": 467,
+      "name": "4 Ersättning för sjöräddning och fritidsbåtsändamål",
+      "value": "533 308",
+      "is_bold": false
+    },
+    {
+      "id": 468,
+      "name": "5 Ersättning för viss kanal- och slussinfrastruktur",
+      "value": "62 284",
+      "is_bold": false
+    },
+    {
+      "id": 469,
+      "name": "6 Ersättning avseende icke statliga flygplatser",
+      "value": "298 313",
+      "is_bold": false
+    },
+    {
+      "id": 470,
+      "name": "7 Trafikavtal",
+      "value": "958 000",
+      "is_bold": false
+    },
+    {
+      "id": 471,
+      "name": "8 Viss internationell verksamhet",
+      "value": "30 557",
+      "is_bold": false
+    },
+    {
+      "id": 472,
+      "name": "9 Statens väg- och transportforskningsinstitut",
+      "value": "86 797",
+      "is_bold": false
+    },
+    {
+      "id": 473,
+      "name": "10 Från EU-budgeten finansierade stöd till Transeuropeiska nätverk",
+      "value": "550 000",
+      "is_bold": false
+    },
+    {
+      "id": 474,
+      "name": "11 Trängselskatt i Stockholm",
+      "value": "1 521 285",
+      "is_bold": false
+    },
+    {
+      "id": 475,
+      "name": "12 Transportstyrelsen",
+      "value": "2 535 914",
+      "is_bold": false
+    },
+    {
+      "id": 476,
+      "name": "13 Trafikanalys",
+      "value": "72 828",
+      "is_bold": false
+    },
+    {
+      "id": 477,
+      "name": "14 Trängselskatt i Göteborg",
+      "value": "760 435",
+      "is_bold": false
+    },
+    {
+      "id": 478,
+      "name": "15 Sjöfartsstöd",
+      "value": "1 500 000",
+      "is_bold": false
+    },
+    {
+      "id": 479,
+      "name": "16 Internationell tågtrafik",
+      "value": "95 000",
+      "is_bold": false
+    },
+    {
+      "id": 480,
+      "name": "17 Infrastruktur för flygtrafiktjänst",
+      "value": "332 000",
+      "is_bold": false
+    },
+    {
+      "id": 481,
+      "name": "18 Lån till körkort",
+      "value": "51 466",
+      "is_bold": false
+    },
+    {
+      "id": 482,
+      "name": "19 Obemannad luftfart",
+      "value": "30 000",
+      "is_bold": false
+    },
+    {
+      "id": 483,
+      "name": "2 Politiken för informationssamhället",
+      "value": "1 127 940",
+      "is_bold": true
+    },
+    {
+      "id": 484,
+      "name": "1 Post- och telestyrelsen",
+      "value": "152 689",
+      "is_bold": false
+    },
+    {
+      "id": 485,
+      "name": "2 Ersättning för särskilda tjänster för personer med funktionsnedsättning",
+      "value": "131 278",
+      "is_bold": false
+    },
+    {
+      "id": 486,
+      "name": "3 Grundläggande betaltjänster",
+      "value": "25 037",
+      "is_bold": false
+    },
+    {
+      "id": 487,
+      "name": "4 Informationsteknik och telekommunikation",
+      "value": "67 844",
+      "is_bold": false
+    },
+    {
+      "id": 488,
+      "name": "5 Driftsäker och tillgänglig elektronisk kommunikation",
+      "value": "365 414",
+      "is_bold": false
+    },
+    {
+      "id": 489,
+      "name": "6 Myndigheten för digital förvaltning",
+      "value": "171 784",
+      "is_bold": false
+    },
+    {
+      "id": 490,
+      "name": "7 Digital förvaltning",
+      "value": "213 894",
+      "is_bold": false
+    },
+    {
+      "id": 491,
+      "name": "23 Areella näringar, landsbygd och livsmedel",
+      "value": "23 973 181",
+      "is_bold": true
+    },
+    {
+      "id": 492,
+      "name": "1 Skogsstyrelsen",
+      "value": "545 123",
+      "is_bold": false
+    },
+    {
+      "id": 493,
+      "name": "2 Insatser för skogsbruket",
+      "value": "594 373",
+      "is_bold": false
+    },
+    {
+      "id": 494,
+      "name": "3 Statens veterinärmedicinska anstalt",
+      "value": "191 847",
+      "is_bold": false
+    },
+    {
+      "id": 495,
+      "name": "4 Bidrag till veterinär fältverksamhet",
+      "value": "124 496",
+      "is_bold": false
+    },
+    {
+      "id": 496,
+      "name": "5 Djurhälsovård och djurskyddsfrämjande åtgärder",
+      "value": "9 933",
+      "is_bold": false
+    },
+    {
+      "id": 497,
+      "name": "6 Bekämpning av smittsamma djursjukdomar",
+      "value": "133 349",
+      "is_bold": false
+    },
+    {
+      "id": 498,
+      "name": "7 Ersättningar för viltskador m.m.",
+      "value": "67 778",
+      "is_bold": false
+    },
+    {
+      "id": 499,
+      "name": "8 Statens jordbruksverk",
+      "value": "744 465",
+      "is_bold": false
+    },
+    {
+      "id": 500,
+      "name": "9 Bekämpning av växtskadegörare",
+      "value": "15 000",
+      "is_bold": false
+    },
+    {
+      "id": 501,
+      "name": "10 Gårdsstöd m.m.",
+      "value": "9 640 894",
+      "is_bold": false
+    },
+    {
+      "id": 502,
+      "name": "11 Intervention för jordbruksprodukter m.m.",
+      "value": "159 000",
+      "is_bold": false
+    },
+    {
+      "id": 503,
+      "name": "14 Livsmedelsverket",
+      "value": "388 770",
+      "is_bold": false
+    },
+    {
+      "id": 504,
+      "name": "15 Konkurrenskraftig livsmedelssektor",
+      "value": "166 160",
+      "is_bold": false
+    },
+    {
+      "id": 505,
+      "name": "16 Bidrag till vissa internationella organisationer m.m.",
+      "value": "46 913",
+      "is_bold": false
+    },
+    {
+      "id": 506,
+      "name": "17 Åtgärder för landsbygdens miljö och struktur",
+      "value": "1 553 187",
+      "is_bold": false
+    },
+    {
+      "id": 507,
+      "name": "19 Miljöförbättrande åtgärder i jordbruket",
+      "value": "29 830",
+      "is_bold": false
+    },
+    {
+      "id": 508,
+      "name": "20 Stöd till jordbrukets rationalisering m.m.",
+      "value": "24 116",
+      "is_bold": false
+    },
+    {
+      "id": 509,
+      "name": "21 Åtgärder på fjällägenheter",
+      "value": "1 529",
+      "is_bold": false
+    },
+    {
+      "id": 510,
+      "name": "22 Främjande av rennäringen m.m.",
+      "value": "135 915",
+      "is_bold": false
+    },
+    {
+      "id": 511,
+      "name": "23 Sveriges lantbruksuniversitet",
+      "value": "2 240 063",
+      "is_bold": false
+    },
+    {
+      "id": 512,
+      "name": "25 Bidrag till Skogs- och lantbruksakademien",
+      "value": "1 177",
+      "is_bold": false
+    },
+    {
+      "id": 513,
+      "name": "26 Slakterikontroll",
+      "value": "179 837",
+      "is_bold": false
+    },
+    {
+      "id": 514,
+      "name": "27 Åtgärder för beredskap inom livsmedels- och dricksvattenområdet",
+      "value": "58 000",
+      "is_bold": false
+    },
+    {
+      "id": 515,
+      "name": "28 Stödåtgärder för fiske och vattenbruk 2021–2027",
+      "value": "164 000",
+      "is_bold": false
+    },
+    {
+      "id": 516,
+      "name": "24 Näringsliv",
+      "value": "9 552 305",
+      "is_bold": true
+    },
+    {
+      "id": 517,
+      "name": "1 Näringspolitik",
+      "value": "8 783 998",
+      "is_bold": true
+    },
+    {
+      "id": 518,
+      "name": "1 Verket för innovationssystem",
+      "value": "286 753",
+      "is_bold": false
+    },
+    {
+      "id": 519,
+      "name": "2 Verket för innovationssystem: Forskning och utveckling",
+      "value": "3 462 255",
+      "is_bold": false
+    },
+    {
+      "id": 520,
+      "name": "3 Institutens strategiska kompetensmedel",
+      "value": "834 268",
+      "is_bold": false
+    },
+    {
+      "id": 521,
+      "name": "4 Tillväxtverket",
+      "value": "458 702",
+      "is_bold": false
+    },
+    {
+      "id": 522,
+      "name": "5 Näringslivsutveckling",
+      "value": "402 942",
+      "is_bold": false
+    },
+    {
+      "id": 523,
+      "name": "6 Myndigheten för tillväxtpolitiska utvärderingar och analyser",
+      "value": "72 826",
+      "is_bold": false
+    },
+    {
+      "id": 524,
+      "name": "7 Turismfrämjande",
+      "value": "104 613",
+      "is_bold": false
+    },
+    {
+      "id": 525,
+      "name": "8 Sveriges geologiska undersökning",
+      "value": "377 081",
+      "is_bold": false
+    },
+    {
+      "id": 526,
+      "name": "9 Geovetenskaplig forskning",
+      "value": "5 923",
+      "is_bold": false
+    },
+    {
+      "id": 527,
+      "name": "10 Miljösäkring av oljelagringsanläggningar",
+      "value": "14 000",
+      "is_bold": false
+    },
+    {
+      "id": 528,
+      "name": "11 Bolagsverket",
+      "value": "124 581",
+      "is_bold": false
+    },
+    {
+      "id": 529,
+      "name": "12 Bidrag till Kungl. Ingenjörsvetenskapsakademien",
+      "value": "8 327",
+      "is_bold": false
+    },
+    {
+      "id": 530,
+      "name": "13 Konkurrensverket",
+      "value": "208 313",
+      "is_bold": false
+    },
+    {
+      "id": 531,
+      "name": "14 Konkurrensforskning",
+      "value": "10 804",
+      "is_bold": false
+    },
+    {
+      "id": 532,
+      "name": "15 Upprustning och drift av Göta kanal",
+      "value": "39 910",
+      "is_bold": false
+    },
+    {
+      "id": 533,
+      "name": "16 Omstrukturering och genomlysning av statligt ägda företag",
+      "value": "40 850",
+      "is_bold": false
+    },
+    {
+      "id": 534,
+      "name": "17 Kapitalinsatser i statligt ägda företag",
+      "value": "173 000",
+      "is_bold": false
+    },
+    {
+      "id": 535,
+      "name": "18 Avgifter till vissa internationella organisationer",
+      "value": "16 860",
+      "is_bold": false
+    },
+    {
+      "id": 536,
+      "name": "19 Finansiering av rättegångskostnader",
+      "value": "18 000",
+      "is_bold": false
+    },
+    {
+      "id": 537,
+      "name": "20 Bidrag till företagsutveckling och innovation",
+      "value": "679 472",
+      "is_bold": false
+    },
+    {
+      "id": 538,
+      "name": "21 Patent- och registreringsverket",
+      "value": "345 518",
+      "is_bold": false
+    },
+    {
+      "id": 539,
+      "name": "22 Stöd vid korttidsarbete",
+      "value": "365 000",
+      "is_bold": false
+    },
+    {
+      "id": 540,
+      "name": "23 Brexitjusteringsreserven",
+      "value": "234 000",
+      "is_bold": false
+    },
+    {
+      "id": 541,
+      "name": "24 Elstöd",
+      "value": "500 000",
+      "is_bold": false
+    },
+    {
+      "id": 542,
+      "name": "2 Utrikeshandel, export- och investeringsfrämjande",
+      "value": "768 307",
+      "is_bold": true
+    },
+    {
+      "id": 543,
+      "name": "1 Styrelsen för ackreditering och teknisk kontroll: Myndighetsverksamhet",
+      "value": "26 760",
+      "is_bold": false
+    },
+    {
+      "id": 544,
+      "name": "2 Kommerskollegium",
+      "value": "105 055",
+      "is_bold": false
+    },
+    {
+      "id": 545,
+      "name": "3 Exportfrämjande verksamhet",
+      "value": "402 367",
+      "is_bold": false
+    },
+    {
+      "id": 546,
+      "name": "4 Investeringsfrämjande",
+      "value": "77 772",
+      "is_bold": false
+    },
+    {
+      "id": 547,
+      "name": "5 Avgifter till internationella handelsorganisationer",
+      "value": "25 017",
+      "is_bold": false
+    },
+    {
+      "id": 548,
+      "name": "6 Bidrag till standardiseringen",
+      "value": "31 336",
+      "is_bold": false
+    },
+    {
+      "id": 549,
+      "name": "7 AB Svensk Exportkredits statsstödda exportkreditgivning",
+      "value": "100 000",
+      "is_bold": false
+    },
+    {
+      "id": 550,
+      "name": "25 Allmänna bidrag till kommuner",
+      "value": "174 280 270",
+      "is_bold": true
+    },
+    {
+      "id": 551,
+      "name": "1 Kommunalekonomisk utjämning",
+      "value": "167 870 852",
+      "is_bold": false
+    },
+    {
+      "id": 552,
+      "name": "2 Utjämningsbidrag för LSS-kostnader",
+      "value": "5 727 268",
+      "is_bold": false
+    },
+    {
+      "id": 553,
+      "name": "3 Bidrag till kommunalekonomiska organisationer",
+      "value": "7 150",
+      "is_bold": false
+    },
+    {
+      "id": 554,
+      "name": "4 Tillfälligt stöd till enskilda kommuner och regioner",
+      "value": "375 000",
+      "is_bold": false
+    },
+    {
+      "id": 555,
+      "name": "5 Medel till befolkningsmässigt mindre kommuner",
+      "value": "300 000",
+      "is_bold": false
+    },
+    {
+      "id": 556,
+      "name": "26 Statsskuldsräntor m.m.",
+      "value": "20 455 200",
+      "is_bold": true
+    },
+    {
+      "id": 557,
+      "name": "1 Räntor på statsskulden",
+      "value": "20 300 000",
+      "is_bold": false
+    },
+    {
+      "id": 558,
+      "name": "2 Oförutsedda utgifter",
+      "value": "10 000",
+      "is_bold": false
+    },
+    {
+      "id": 559,
+      "name": "3 Riksgäldskontorets provisionsutgifter",
+      "value": "145 200",
+      "is_bold": false
+    },
+    {
+      "id": 560,
+      "name": "27 Avgiften till Europeiska unionen",
+      "value": "40 759 809",
+      "is_bold": true
+    },
+    {
+      "id": 561,
+      "name": "1 Avgiften till Europeiska unionen",
+      "value": "40 759 809",
+      "is_bold": false
+    },
+    {
+      "id": 562,
+      "name": "Summa anslag",
+      "value": "1 346 694 314",
+      "is_bold": true
+    }
+  ]
+}
