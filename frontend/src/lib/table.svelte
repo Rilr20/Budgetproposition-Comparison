@@ -85,14 +85,15 @@
         return result.toFixed(4)
         // }
     }
+    function string_to_num(inputString:string) {
+        return parseFloat(inputString.replaceAll(' ', ''))
+    }
 </script>
 
 <table>
 	<tr>
-		<!-- <th>Id</th> -->
-		<th>Old Name</th>
+		<th>expenditure area</th>
 		<th>Old Value</th>
-		<!-- <th>New Name</th> -->
 		<th>New Value</th>
 		<th>%</th>
 		<th>% inflation</th>
@@ -108,13 +109,11 @@
 			<td>{item.value.replaceAll(" ", ".")}</td>
 			<td>{new_year_children[index].value.replaceAll(" ", ".")}</td>
 
-			<td class="{color_on_percentage(percentage_increase(parseFloat(item.value.replaceAll(' ', '')), parseFloat(new_year_children[index].value.replaceAll(' ', ''))))}">
-                {percentage_increase(parseFloat(item.value.replaceAll(" ", "")), parseFloat(new_year_children[index].value.replaceAll(" ", "")))}%
+			<td class="{color_on_percentage(percentage_increase(string_to_num(item.value), string_to_num(new_year_children[index].value)))}">
+                {percentage_increase(string_to_num(item.value), string_to_num(new_year_children[index].value))}%
             </td>
-			<!-- <td>{ calculate_inflation(old_year, new_year) }%</td> -->
-            <!-- {parseFloat(item.value.replaceAll(' ', '')) + ((parseFloat(item.value.replaceAll(' ', '')) / 100) * calculate_inflation(old_year, new_year))} -->
-            <td class="{color_on_percentage(percentage_increase((parseFloat(item.value.replaceAll(' ', '')) + ((parseFloat(item.value.replaceAll(' ', '')) / 100) * calculate_inflation(old_year, new_year))), new_year_children[index].value.replaceAll(' ', '')))}">
-                {percentage_increase((parseFloat(item.value.replaceAll(' ', '')) + ((parseFloat(item.value.replaceAll(' ', '')) / 100) * calculate_inflation(old_year, new_year))), new_year_children[index].value.replaceAll(' ', ''))}%
+            <td class="{color_on_percentage(percentage_increase((string_to_num(item.value) + ((string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year))), string_to_num(new_year_children[index].value)))}">
+                {percentage_increase((string_to_num(item.value) + ((string_to_num(item.value) / 100) * calculate_inflation(old_year, new_year))), string_to_num(new_year_children[index].value))}%
 
             </td>
 		</tr>
