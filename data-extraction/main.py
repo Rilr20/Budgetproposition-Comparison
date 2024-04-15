@@ -1,11 +1,8 @@
 import re
 from datetime import datetime
-import pdfplumber
 import json
 import os
 from PyPDF2 import PdfWriter, PdfReader
-import gc
-
 
 def current_Time(string):
     """
@@ -57,25 +54,20 @@ current_Time("Start")
 filename = "budgetpropositionen-for-2023.pdf"
 pattern = r"(Prop\. \d{4}\/\d{2}:1 Bilaga 1|Prop\.\d{4}\/\d{2}:1Bilaga1)"
 match_data = []
+pdf_writer = PdfWriter()
 
-with pdfplumber.open("budget/" + filename) as pdf:
-    for page in pdf.pages: 
+pdf_reader = PdfReader("budget/" + filename)
+for index, page in enumerate(pdf_reader.pages): 
+    print(index)
 
-        print(page.page_number+1)
-        text = page.extract_text(x_tolerance=1)
+    text = page.extract_text()
 
-        if re.search(pattern, text):
-            print("------------BEEP BOOP--------------")
-            match_data.append(page.page_number)
-        del page._objects
-        del page._layout
-        gc.collect()
-    print(match_data)
+    if re.search(pattern, text):
+        match_data.append(index)
+print(match_data)
 
 print("time to create pdf")
 
-# TODO: replace with same filewriter as below
-pdf_writer = PdfWriter()
 with open("budget/" + filename, "rb") as pdf_file:
     pdf_reader = PdfReader(pdf_file)
 
@@ -94,7 +86,7 @@ current_Time("End")
 
 
 #revision file
-filename = f"budgetpropositionen-for-2021.pdf"
+# filename = f"budgetpropositionen-for-2021.pdf"
 path = f"revision/revision_{filename}"
 
 
@@ -144,27 +136,6 @@ for i, (text, is_bold) in enumerate(match_data):
   else: 
     child = {'id': i+1, 'name': text[0][0], 'value': text[0][2], 'is_bold': is_bold}
     current_parent['child'].append(child)
-  # elif is_bold:
-  #     if  text[0][0] == '':
-  #       print(text)
-  #       current_parent = {'id': i+1, 'name': text[0][3], 'value': text[0][6], 'child': []}
-  #       json_structure['child'].append(current_parent)
-  #     # if text[0][0] != '' and current_parent_id < int(text[0][0].split(" ")[0]):
-  #     else:
-  #       current_parent = {'id': i+1, 'name': text[0][0], 'value': text[0][2], 'child': []}
-        
-  #       json_structure['child'].append(current_parent)
-        # if text[0][0] != '':
-          # current_parent_id = int(text[0][0].split(" ")[0])
-      # else:
-      #   child = {'id': i+1, 'name': text[0][0], 'value': text[0][2], 'child': []}
-      #   current_parent['child'].append(child)
-
-  # else:
-  #     child = {'id': i+1, 'name': text[0][0], 'value': text[0][2], 'child': []}
-
-  #     current_parent['child'].append(child)
-
 
 start_index = path.find('/') + 1
 end_index = path.rfind('.')
