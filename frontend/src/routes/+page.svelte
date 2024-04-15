@@ -1,5 +1,5 @@
 <script>
-	import Tablepage from '$lib/tablepage.svelte';
+    import Tablepage from '$lib/tablepage.svelte';
 </script>
 
 <!-- 
