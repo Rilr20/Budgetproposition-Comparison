@@ -1,67 +1,57 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import Table from './table.svelte';
+    import year_2024 from '../json/revision_budgetpropositionen-for-2024.json';
+    import year_2023 from '../json/revision_budgetpropositionen-for-2023.json';
+    import year_2022 from '../json/revision_budgetpropositionen-for-2022.json';
+    import year_2021 from '../json/revision_budgetpropositionen-for-2021.json';
 
-    $: first_year = { child: [], name: '', id: 0 };
-    $: second_year = { child: [], name: '', id: 0 };
-    let years = [2021, 2022, 2023, 2024];
-    let selected: number[] = [2023, 2024];
-    let checked: any = {};
+    // $: first_year = { child: [], name: '', id: 0 };
+    // $: second_year = { child: [], name: '', id: 0 };
+    // let years = [];
+    const options = [2021, 2022, 2023, 2024];
     const max = 2;
-    //read files
-    // fetch("../../../data-extraction/json/budget.json")
-    //     .then(data => data.json())
-    onMount(() => {
-        async function load() {
-            const response = await fetch(
-                'src/json/revision_budgetpropositionen-for-' + selected[0] + '.json'
-            );
-            const response2 = await fetch(
-                'src/json/revision_budgetpropositionen-for-' + selected[1] + '.json'
-            );
-            const data = await response.json();
-            const data2 = await response2.json();
-            first_year = data;
-            second_year = data2;
-            // console.log(first_year);
-            // console.log(second_year);
-            // return data
-        }
-        load();
-    });
 
-    function handleInput(event: any) {
-        const value = event.target.value;
-        if (event.target.checked) {
-            if (selected.length === max) {
-                const last: any = selected.pop();
-                delete checked[last];
-            }
-            selected.push(value);
-        } else {
-            selected = selected.filter((options) => options !== value);
+    let selectedOptions = [2023, 2024];
+    $: {
+
+    }
+    function findYear(year: number) {
+        switch (year) {
+            case 2024:
+                return year_2024.child;
+            case 2023:
+                return year_2023.child;
+            case 2022:
+                return year_2022.child;
+            case 2021:
+                return year_2021.child;
+            default:
+                return []
         }
     }
 </script>
 
 <fieldset>
     <legend>Select Year</legend>
-    {#each years as year}
+    {#each options as option, index}
+    <!-- <div class="option"> -->
         <input
-            type="checkbox"
-            on:input={handleInput}
-            value={year}
-            id={year.toString()}
-            name={year.toString()}
-            bind:checked={checked[year]}
+        type="checkbox"
+        bind:group={selectedOptions}
+        name="options"
+        value={option}
+        id="option{index}"
+        disabled={selectedOptions.length === max && !selectedOptions.includes(option)}
         />
-        <label for={year.toString()}>{year}</label>
+        <label for="option{index}">{option}</label>
+    <!-- </div> -->
     {/each}
 </fieldset>
-<!-- <progress class="pico-background-pink-500" /> -->
+
 <Table
-    old_year_children={first_year.child}
-    new_year_children={second_year.child}
-    old_year={selected[0]}
-    new_year={selected[1]}
+    old_year_children={findYear(selectedOptions.sort((a, b) => a-b)[0])}
+    new_year_children={findYear(selectedOptions.sort((a, b) => a-b)[1])}
+    old_year={selectedOptions.sort((a, b) => a-b)[0] == undefined ? 0 : selectedOptions.sort((a,b) => a-b)[0]}
+    new_year={selectedOptions.sort((a, b) => a-b)[1] == undefined ? 0 : selectedOptions.sort((a,b) => a-b)[1]}
 />
