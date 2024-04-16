@@ -1,10 +1,10 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import Table from './table.svelte';
-    import year_2024 from '../json/revision_budgetpropositionen-for-2024.json';
-    import year_2023 from '../json/revision_budgetpropositionen-for-2023.json';
-    import year_2022 from '../json/revision_budgetpropositionen-for-2022.json';
-    import year_2021 from '../json/revision_budgetpropositionen-for-2021.json';
+    import year_2024 from '../json/budget-2024.json';
+    import year_2023 from '../json/budget-2023.json';
+    import year_2022 from '../json/budget-2022.json';
+    import year_2021 from '../json/budget-2021.json';
 
     // $: first_year = { child: [], name: '', id: 0 };
     // $: second_year = { child: [], name: '', id: 0 };
