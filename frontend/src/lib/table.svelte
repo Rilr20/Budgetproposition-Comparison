@@ -23,21 +23,21 @@
         } else if (percentage < 0 && percentage > -10) {
             return 'pico-color-pink-50';
         } else if (percentage <= -85) {
-            return 'pico-color-pink-600';
+            return 'pico-color-pink-450';
         } else if (percentage <= -50) {
-            return 'pico-color-pink-400';
+            return 'pico-color-pink-350';
         } else if (percentage <= -30) {
-            return 'pico-color-pink-300';
+            return 'pico-color-pink-250';
         } else if (percentage <= -20) {
             return 'pico-color-pink-200';
         } else if (percentage <= -10) {
             return 'pico-color-pink-150';
         } else if (percentage >= 10000) {
-            return 'pico-color-jade-600';
+            return 'pico-color-jade-450';
         } else if (percentage >= 1000) {
-            return 'pico-color-jade-400';
+            return 'pico-color-jade-350';
         } else if (percentage >= 200) {
-            return 'pico-color-jade-300';
+            return 'pico-color-jade2500';
         } else if (percentage >= 50) {
             return 'pico-color-jade-200';
         } else if (percentage >= 10) {
@@ -67,7 +67,7 @@
             2008: 300.61,
             2007: 290.51
         };
-        
+
         // minus one because the budget proposition is created during november the previous year
         let years = [old_year - 1, new_year - 1].sort((a, b) => {
             return b - a;
@@ -84,122 +84,106 @@
         return parseFloat(inputString.replaceAll(' ', ''));
     }
     function search_for_substring(substr: string, jsonData: any) {
-        let found = '';
-        let index = 0;
-
-        while (found === '' && index < jsonData.length) {
-
-            if (
-                jsonData[index].name.substring(jsonData[index].name.indexOf(' ') + 1).length ==
-                    substr.length &&
-                jsonData[index].name.toLowerCase().includes(substr.toLowerCase())
-            ) {
-                found = jsonData[index].name;
-            }
-            index++;
-        }
-
-        if (found !== '') {
-            return true;
-        }
-        return false;
+        return jsonData.some((item) => {
+            return (
+                item.name.substring(item.name.indexOf(' ') + 1).length == substr.length &&
+                item.name.toLowerCase().includes(substr.toLowerCase())
+            );
+        });
     }
-    function find_same_expenditure(inputString: string, jsonData, value_index: number) {
-        let found = '';
-        let index = 0;
-
-        while (found === '' && index < jsonData.length) {
-            // check if lenght difference is two
+    function find_same_expenditure(inputString: string, jsonData, value_index: number): string {
+        let item = jsonData.find((item) => {
             if (
-                jsonData[index].name.substring(jsonData[index].name.indexOf(' ') + 1).length ==
-                    inputString.length &&
-                jsonData[index].name.toLowerCase().includes(inputString.toLowerCase())
+                item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length &&
+                item.name.toLowerCase().includes(inputString.toLowerCase())
             ) {
-                found = jsonData[index].value;
-                value_array[value_index] = found;
-                return found;
+                value_array[value_index] = item.value;
+
+                return item;
             }
-            index++;
-        }
-        return '';
+        });
+        return item.value;
     }
 </script>
 
-<table>
-    <tr>
-        <th>Expenditure area</th>
-        <th>{old_year}</th>
-        <th>{new_year}</th>
-        <th>%</th>
-        <th>% inflation</th>
-    </tr>
-    
-    {#each old_year_children as item, index}
-        {#if new_year_children[index] !== undefined}
-            {#if !search_for_substring(new_year_children[index].name.substring(new_year_children[index].name.indexOf(' ') + 1), old_year_children)}
-                <tr>
-                    <td>{new_year_children[index].name}</td>
-                    <td>N/A</td>
-                    <td>{new_year_children[index].value.replaceAll(' ', '.')}</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-            {/if}
-            {#if !search_for_substring(item.name.substring(item.name.indexOf(' ') + 1), new_year_children)}
-                <tr>
-                    <td>{item.name}</td>
-                    <td>{item.value.replaceAll(' ', '.')}</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-            {:else}
-                <tr>
-                    {#if item.is_bold}
-                        <td style="font-weight: bold">{item.name}</td>
-                    {:else}
+<article style="margin-top: 1em">
+    <p style="text-align: right; margin-right:0.5em;">* Thousands of sek</p>
+    <table data-theme="dark">
+        <tr>
+            <th>Expenditure area</th>
+            <th>{old_year}</th>
+            <th>{new_year}</th>
+            <th>%</th>
+            <th>% inflation</th>
+        </tr>
+
+        {#each old_year_children as item, index}
+            {#if new_year_children[index] !== undefined}
+                {#if !search_for_substring(new_year_children[index].name.substring(new_year_children[index].name.indexOf(' ') + 1), old_year_children)}
+                    <tr>
+                        <td>{new_year_children[index].name}</td>
+                        <td>N/A</td>
+                        <td>{new_year_children[index].value.replaceAll(' ', '.')}</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                {/if}
+                {#if !search_for_substring(item.name.substring(item.name.indexOf(' ') + 1), new_year_children)}
+                    <tr>
                         <td>{item.name}</td>
-                    {/if}
-                    <td>{item.value.replaceAll(' ', '.')}</td>
-                    <td
-                        >{find_same_expenditure(
-                            item.name.substring(item.name.indexOf(' ') + 1),
-                            new_year_children,
-                            index
-                        ).replaceAll(' ', '.')}</td
-                    >
-                    <td
-                        class={color_on_percentage(
-                            percentage_increase(
+                        <td>{item.value.replaceAll(' ', '.')}</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                {:else}
+                    <tr>
+                        {#if item.is_bold}
+                            <td style="font-weight: bold">{item.name}</td>
+                        {:else}
+                            <td>{item.name}</td>
+                        {/if}
+                        <td>{item.value.replaceAll(' ', '.')}</td>
+                        <td
+                            >{find_same_expenditure(
+                                item.name.substring(item.name.indexOf(' ') + 1),
+                                new_year_children,
+                                index
+                            ).replaceAll(' ', '.')}</td
+                        >
+                        <td
+                            class={color_on_percentage(
+                                percentage_increase(
+                                    string_to_num(item.value),
+                                    string_to_num(value_array[index])
+                                )
+                            )}
+                        >
+                            {percentage_increase(
                                 string_to_num(item.value),
                                 string_to_num(value_array[index])
-                            )
-                        )}
-                    >
-                        {percentage_increase(
-                            string_to_num(item.value),
-                            string_to_num(value_array[index])
-                        )}%
-                    </td>
-                    <td
-                        class={color_on_percentage(
-                            percentage_increase(
+                            )}%
+                        </td>
+                        <td
+                            class={color_on_percentage(
+                                percentage_increase(
+                                    string_to_num(item.value) +
+                                        (string_to_num(item.value) / 100) *
+                                            calculate_inflation(old_year, new_year),
+                                    string_to_num(value_array[index])
+                                )
+                            )}
+                        >
+                            {percentage_increase(
                                 string_to_num(item.value) +
                                     (string_to_num(item.value) / 100) *
                                         calculate_inflation(old_year, new_year),
                                 string_to_num(value_array[index])
-                            )
-                        )}
-                    >
-                        {percentage_increase(
-                            string_to_num(item.value) +
-                                (string_to_num(item.value) / 100) *
-                                    calculate_inflation(old_year, new_year),
-                            string_to_num(value_array[index])
-                        )}%
-                    </td>
-                </tr>
+                            )}%
+                        </td>
+                    </tr>
+                {/if}
             {/if}
-        {/if}
-    {/each}
-</table>
+        {/each}
+    </table>
+</article>

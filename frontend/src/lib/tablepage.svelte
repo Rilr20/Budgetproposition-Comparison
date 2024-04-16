@@ -31,12 +31,13 @@
         }
     }
 </script>
+<article>
 
-<fieldset>
-    <legend>Select Year</legend>
-    {#each options as option, index}
-    <!-- <div class="option"> -->
-        <input
+    <fieldset>
+        <legend>Select Year</legend>
+        {#each options as option, index}
+        <!-- <div class="option"> -->
+            <input
         type="checkbox"
         bind:group={selectedOptions}
         name="options"
@@ -54,4 +55,6 @@
     new_year_children={findYear(selectedOptions.sort((a, b) => a-b)[1])}
     old_year={selectedOptions.sort((a, b) => a-b)[0] == undefined ? 0 : selectedOptions.sort((a,b) => a-b)[0]}
     new_year={selectedOptions.sort((a, b) => a-b)[1] == undefined ? 0 : selectedOptions.sort((a,b) => a-b)[1]}
-/>
+    />
+    
+</article>
