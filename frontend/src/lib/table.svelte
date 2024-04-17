@@ -92,13 +92,13 @@
         });
     }
     function find_same_expenditure(inputString: string, jsonData, value_index: number): string {
+        
         let item = jsonData.find((item) => {
-            if (
-                item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length &&
-                item.name.toLowerCase().includes(inputString.toLowerCase())
+            if (   
+                item.name.toLowerCase().includes(inputString.toLowerCase()) &&  
+                item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length
             ) {
                 value_array[value_index] = item.value;
-
                 return item;
             }
         });
@@ -106,9 +106,9 @@
     }
 </script>
 
-<article style="margin-top: 1em">
-    <p style="text-align: right; margin-right:0.5em;">* Thousands of sek</p>
-    <table data-theme="dark">
+<article style="overflow-x:auto;">
+    <p>* Thousands of sek</p>
+    <table class="striped" data-theme="dark">
         <tr>
             <th>Expenditure area</th>
             <th>{old_year}</th>
@@ -148,7 +148,7 @@
                             >{find_same_expenditure(
                                 item.name.substring(item.name.indexOf(' ') + 1),
                                 new_year_children,
-                                index
+                                index,
                             ).replaceAll(' ', '.')}</td
                         >
                         <td
