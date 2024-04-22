@@ -6,13 +6,12 @@ This project aims to compare the budget propositions of each year to identify th
 
 ## Current Status
 
-This project was just made for fun where I applied technologies I'm familiar with and learn more about. 
+This project was just made for fun where I applied technologies I'm familiar with and want to learn more about. 
 
 ## Technologies Used
 
-- Python
-- TypeScript
-- Svelte
+- Python for data extraction
+- Svelte with TypeScript for display of data
 
 ## Data Sources
 
