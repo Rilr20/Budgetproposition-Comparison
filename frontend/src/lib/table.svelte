@@ -7,13 +7,13 @@
 
     export let id = '';
     let value_array: Record<string, string> = [];
-    function percentage_increase(a: number, b: number): number {
+    function percentageIncrease(a: number, b: number): number {
         // let abs = Math.abs(a - b)
         // let avg = (a+b) / 2
         // return (100 * (Math.abs(a - b)) / ((a+b) / 2)).toFixed(2)
         return parseFloat((((b - a) / a) * 100).toFixed(2));
     }
-    function color_on_percentage(percentage: number): string {
+    function percentageColor(percentage: number): string {
         // console.log(percentage);
 
         if (Math.floor(percentage) === 0) {
@@ -46,7 +46,7 @@
         return 'pico-color-orange-900';
     }
 
-    function calculate_inflation(old_year: number, new_year: number): number {
+    function calculateInflation(old_year: number, new_year: number): number {
         let KPI_per_year: Record<number, number> = {
             // 2024: 414.26, //month of march
             2023: 403.7,
@@ -80,10 +80,10 @@
 
         return parseFloat(result.toFixed(4));
     }
-    function string_to_num(inputString: string) {
+    function stringToNum(inputString: string) {
         return parseFloat(inputString.replaceAll(' ', ''));
     }
-    function search_for_substring(substr: string, jsonData: any) {
+    function findSubstring(substr: string, jsonData: any) {
         return jsonData.some((item) => {
             return (
                 item.name.substring(item.name.indexOf(' ') + 1).length == substr.length &&
@@ -91,7 +91,7 @@
             );
         });
     }
-    function find_same_expenditure(inputString: string, jsonData, value_index: number): string {
+    function findSameExpenditure(inputString: string, jsonData, value_index: number): string {
         
         let item = jsonData.find((item) => {
             if (   
@@ -119,7 +119,7 @@
 
         {#each old_year_children as item, index}
             {#if new_year_children[index] !== undefined}
-                {#if !search_for_substring(new_year_children[index].name.substring(new_year_children[index].name.indexOf(' ') + 1), old_year_children)}
+                {#if !findSubstring(new_year_children[index].name.substring(new_year_children[index].name.indexOf(' ') + 1), old_year_children)}
                     <tr>
                         <td>{new_year_children[index].name}</td>
                         <td>N/A</td>
@@ -128,7 +128,7 @@
                         <td>N/A</td>
                     </tr>
                 {/if}
-                {#if !search_for_substring(item.name.substring(item.name.indexOf(' ') + 1), new_year_children)}
+                {#if !findSubstring(item.name.substring(item.name.indexOf(' ') + 1), new_year_children)}
                     <tr>
                         <td>{item.name}</td>
                         <td>{item.value.replaceAll(' ', '.')}</td>
@@ -145,40 +145,40 @@
                         {/if}
                         <td>{item.value.replaceAll(' ', '.')}</td>
                         <td
-                            >{find_same_expenditure(
+                            >{findSameExpenditure(
                                 item.name.substring(item.name.indexOf(' ') + 1),
                                 new_year_children,
                                 index,
                             ).replaceAll(' ', '.')}</td
                         >
                         <td
-                            class={color_on_percentage(
-                                percentage_increase(
-                                    string_to_num(item.value),
-                                    string_to_num(value_array[index])
+                            class={percentageColor(
+                                percentageIncrease(
+                                    stringToNum(item.value),
+                                    stringToNum(value_array[index])
                                 )
                             )}
                         >
-                            {percentage_increase(
-                                string_to_num(item.value),
-                                string_to_num(value_array[index])
+                            {percentageIncrease(
+                                stringToNum(item.value),
+                                stringToNum(value_array[index])
                             )}%
                         </td>
                         <td
-                            class={color_on_percentage(
-                                percentage_increase(
-                                    string_to_num(item.value) +
-                                        (string_to_num(item.value) / 100) *
-                                            calculate_inflation(old_year, new_year),
-                                    string_to_num(value_array[index])
+                            class={percentageColor(
+                                percentageIncrease(
+                                    stringToNum(item.value) +
+                                        (stringToNum(item.value) / 100) *
+                                            calculateInflation(old_year, new_year),
+                                    stringToNum(value_array[index])
                                 )
                             )}
                         >
-                            {percentage_increase(
-                                string_to_num(item.value) +
-                                    (string_to_num(item.value) / 100) *
-                                        calculate_inflation(old_year, new_year),
-                                string_to_num(value_array[index])
+                            {percentageIncrease(
+                                stringToNum(item.value) +
+                                    (stringToNum(item.value) / 100) *
+                                        calculateInflation(old_year, new_year),
+                                stringToNum(value_array[index])
                             )}%
                         </td>
                     </tr>
