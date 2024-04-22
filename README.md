@@ -43,3 +43,5 @@ Inflation data from [SCB](https://www.scb.se)
 ## Future Enhancements
 
 - The possibility to include income areas and display them, as the data is available but not currently used or extracted.
+
+- Pagination on table so it doesn't load all the data
