@@ -8,11 +8,6 @@ This project aims to compare the budget propositions of each year to identify th
 
 This project was just made for fun where I applied technologies I'm familiar with and learn more about. 
 
-## Requirements
-
-- Python for data extraction
-- TypeScript and Svelte for data display
-
 ## Technologies Used
 
 - Python
