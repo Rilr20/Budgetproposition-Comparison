@@ -91,18 +91,49 @@
             );
         });
     }
-    function findSameExpenditure(inputString: string, jsonData, value_index: number): string {
+    function findSameExpenditure(inputString: string, jsonData, value_index: number, inputExpenditure: string): string {
+        let next_return = {value:""}
         
         let item = jsonData.find((item) => {
             if (   
                 item.name.toLowerCase().includes(inputString.toLowerCase()) &&  
                 item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length
             ) {
-                value_array[value_index] = item.value;
-                return item;
+
+                if (percentageIncrease(stringToNum(inputExpenditure),stringToNum(item.value)) > 400) {
+
+                    let foundData = []
+                    for (let i = 0; i < jsonData.length; i++) {
+                        if (
+                            jsonData[i].name.toLowerCase().includes(inputString.toLowerCase()) &&
+                            jsonData[i].name.substring(jsonData[i].name.indexOf(' ') + 1).length == inputString.length
+                        ) {
+                            foundData.push(jsonData[i])  
+                            next_return = jsonData[i]
+                        }
+                    }
+                    if (foundData.length === 1) {
+                        next_return = foundData[0]
+                    } if (foundData.length === 3) {
+                        foundData.sort((a, b) =>  Math.abs(stringToNum(a.value) - stringToNum(inputExpenditure)) - Math.abs(stringToNum(b.value) - stringToNum(inputExpenditure)))
+                        next_return = foundData[0]
+                    } else {
+                        foundData.forEach(item => {
+                            if (percentageIncrease(stringToNum(inputExpenditure),stringToNum(item.value)) < 500 
+                            ) {
+                                next_return = item
+                            }
+                        })
+                    }
+                    value_array[value_index] = next_return.value
+                    return next_return 
+                } else {
+                    value_array[value_index] = item.value;
+                    return item;
+                }
             }
         });
-        return item.value;
+        return next_return.value == "" ? item.value : next_return.value
     }
 </script>
 
@@ -149,6 +180,7 @@
                                 item.name.substring(item.name.indexOf(' ') + 1),
                                 new_year_children,
                                 index,
+                                item.value
                             ).replaceAll(' ', '.')}</td
                         >
                         <td
