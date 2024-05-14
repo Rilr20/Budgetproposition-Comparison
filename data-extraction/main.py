@@ -37,19 +37,7 @@ def create_json(matches, end):
         i+=1
     return nodes
 
-current_Time("Start")
-    
-
 #full budget file
-
-def current_Time(string):
-    """
-    prints current time
-    """
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    print("{} Time = {}".format(string, current_time))
-
 current_Time("Start")
 filename = "budgetpropositionen-for-2023.pdf"
 pattern = r"(Prop\. \d{4}\/\d{2}:1 Bilaga 1|Prop\.\d{4}\/\d{2}:1Bilaga1)"
