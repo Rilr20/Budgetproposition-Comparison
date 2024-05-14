@@ -32,8 +32,6 @@ Inflation data from [SCB](https://www.scb.se)
 
 - Challenges in handling changes in naming conventions for the different budget propositions, one example being when comparing 2021 and 2022 (to 2024) "2 Riksdagen och dess myndigheter" and "2 Riksdagen samt Riksdagens ombudsmän", should logically be considered the same but are treated as separate entities due to the change in naming.
 
-- Expense areas with identical names may match with the wrong one.
-
 ## Future Enhancements
 
 - The possibility to include income areas and display them, as the data is available but not currently used or extracted.
