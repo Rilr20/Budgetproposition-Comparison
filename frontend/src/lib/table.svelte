@@ -1,21 +1,21 @@
 <script lang="ts">
+    import Pagination from './pagination.svelte';
+
     export let old_year: number;
     export let new_year: number;
     export let old_year_children: any;
     export let new_year_children: any;
-    // console.log(new_year_children);
+
+    let old_year_slice: any;
+    let new_year_slice: any;
+    console.log(new_year_slice + ' asd');
 
     export let id = '';
     let value_array: Record<string, string> = [];
     function percentageIncrease(a: number, b: number): number {
-        // let abs = Math.abs(a - b)
-        // let avg = (a+b) / 2
-        // return (100 * (Math.abs(a - b)) / ((a+b) / 2)).toFixed(2)
         return parseFloat((((b - a) / a) * 100).toFixed(2));
     }
     function percentageColor(percentage: number): string {
-        // console.log(percentage);
-
         if (Math.floor(percentage) === 0) {
             return 'pico-color-slate-200';
         } else if (percentage > 0 && percentage < 10) {
@@ -91,49 +91,64 @@
             );
         });
     }
-    function findSameExpenditure(inputString: string, jsonData, value_index: number, inputExpenditure: string): string {
-        let next_return = {value:""}
-        
+    function findSameExpenditure(
+        inputString: string,
+        jsonData,
+        value_index: number,
+        inputExpenditure: string
+    ): string {
+        let next_return = { value: '' };
+
         let item = jsonData.find((item) => {
-            if (   
-                item.name.toLowerCase().includes(inputString.toLowerCase()) &&  
+            if (
+                item.name.toLowerCase().includes(inputString.toLowerCase()) &&
                 item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length
             ) {
-
-                if (percentageIncrease(stringToNum(inputExpenditure),stringToNum(item.value)) > 400) {
-
-                    let foundData = []
+                if (
+                    percentageIncrease(stringToNum(inputExpenditure), stringToNum(item.value)) > 400
+                ) {
+                    let foundData = [];
                     for (let i = 0; i < jsonData.length; i++) {
                         if (
                             jsonData[i].name.toLowerCase().includes(inputString.toLowerCase()) &&
-                            jsonData[i].name.substring(jsonData[i].name.indexOf(' ') + 1).length == inputString.length
+                            jsonData[i].name.substring(jsonData[i].name.indexOf(' ') + 1).length ==
+                                inputString.length
                         ) {
-                            foundData.push(jsonData[i])  
-                            next_return = jsonData[i]
+                            foundData.push(jsonData[i]);
+                            next_return = jsonData[i];
                         }
                     }
                     if (foundData.length === 1) {
-                        next_return = foundData[0]
-                    } if (foundData.length === 3) {
-                        foundData.sort((a, b) =>  Math.abs(stringToNum(a.value) - stringToNum(inputExpenditure)) - Math.abs(stringToNum(b.value) - stringToNum(inputExpenditure)))
-                        next_return = foundData[0]
-                    } else {
-                        foundData.forEach(item => {
-                            if (percentageIncrease(stringToNum(inputExpenditure),stringToNum(item.value)) < 500 
-                            ) {
-                                next_return = item
-                            }
-                        })
+                        next_return = foundData[0];
                     }
-                    value_array[value_index] = next_return.value
-                    return next_return 
+                    if (foundData.length === 3) {
+                        foundData.sort(
+                            (a, b) =>
+                                Math.abs(stringToNum(a.value) - stringToNum(inputExpenditure)) -
+                                Math.abs(stringToNum(b.value) - stringToNum(inputExpenditure))
+                        );
+                        next_return = foundData[0];
+                    } else {
+                        foundData.forEach((item) => {
+                            if (
+                                percentageIncrease(
+                                    stringToNum(inputExpenditure),
+                                    stringToNum(item.value)
+                                ) < 500
+                            ) {
+                                next_return = item;
+                            }
+                        });
+                    }
+                    value_array[value_index] = next_return.value;
+                    return next_return;
                 } else {
                     value_array[value_index] = item.value;
                     return item;
                 }
             }
         });
-        return next_return.value == "" ? item.value : next_return.value
+        return next_return.value == '' ? item.value : next_return.value;
     }
 </script>
 
@@ -147,75 +162,76 @@
             <th>%</th>
             <th>% inflation</th>
         </tr>
-
-        {#each old_year_children as item, index}
-            {#if new_year_children[index] !== undefined}
-                {#if !findSubstring(new_year_children[index].name.substring(new_year_children[index].name.indexOf(' ') + 1), old_year_children)}
-                    <tr>
-                        <td>{new_year_children[index].name}</td>
-                        <td>N/A</td>
-                        <td>{new_year_children[index].value.replaceAll(' ', '.')}</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                    </tr>
-                {/if}
-                {#if !findSubstring(item.name.substring(item.name.indexOf(' ') + 1), new_year_children)}
-                    <tr>
-                        <td>{item.name}</td>
-                        <td>{item.value.replaceAll(' ', '.')}</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                    </tr>
-                {:else}
-                    <tr>
-                        {#if item.is_bold}
-                            <td style="font-weight: bold">{item.name}</td>
-                        {:else}
+        {#if old_year_slice}
+            {#each old_year_slice as item, index}
+                {#if new_year_slice[index] !== undefined}
+                    {#if !findSubstring(new_year_slice[index].name.substring(new_year_slice[index].name.indexOf(' ') + 1), old_year_slice)}
+                        <tr>
+                            <td>{new_year_slice[index].name}</td>
+                            <td>N/A</td>
+                            <td>{new_year_slice[index].value.replaceAll(' ', '.')}</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                        </tr>
+                    {/if}
+                    {#if !findSubstring(item.name.substring(item.name.indexOf(' ') + 1), new_year_slice)}
+                        <tr>
                             <td>{item.name}</td>
-                        {/if}
-                        <td>{item.value.replaceAll(' ', '.')}</td>
-                        <td
-                            >{findSameExpenditure(
-                                item.name.substring(item.name.indexOf(' ') + 1),
-                                new_year_children,
-                                index,
-                                item.value
-                            ).replaceAll(' ', '.')}</td
-                        >
-                        <td
-                            class={percentageColor(
-                                percentageIncrease(
+                            <td>{item.value.replaceAll(' ', '.')}</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                        </tr>
+                    {:else}
+                        <tr>
+                            {#if item.is_bold}
+                                <td style="font-weight: bold">{item.name}</td>
+                            {:else}
+                                <td>{item.name}</td>
+                            {/if}
+                            <td>{item.value.replaceAll(' ', '.')}</td>
+                            <td
+                                >{findSameExpenditure(
+                                    item.name.substring(item.name.indexOf(' ') + 1),
+                                    new_year_children,
+                                    index,
+                                    item.value
+                                ).replaceAll(' ', '.')}</td
+                            >
+                            <td
+                                class={percentageColor(
+                                    percentageIncrease(
+                                        stringToNum(item.value),
+                                        stringToNum(value_array[index])
+                                    )
+                                )}
+                            >
+                                {percentageIncrease(
                                     stringToNum(item.value),
                                     stringToNum(value_array[index])
-                                )
-                            )}
-                        >
-                            {percentageIncrease(
-                                stringToNum(item.value),
-                                stringToNum(value_array[index])
-                            )}%
-                        </td>
-                        <td
-                            class={percentageColor(
-                                percentageIncrease(
+                                )}%
+                            </td>
+                            <td
+                                class={percentageColor(
+                                    percentageIncrease(
+                                        stringToNum(item.value) +
+                                            (stringToNum(item.value) / 100) *
+                                                calculateInflation(old_year, new_year),
+                                        stringToNum(value_array[index])
+                                    )
+                                )}
+                            >
+                                {percentageIncrease(
                                     stringToNum(item.value) +
                                         (stringToNum(item.value) / 100) *
                                             calculateInflation(old_year, new_year),
                                     stringToNum(value_array[index])
-                                )
-                            )}
-                        >
-                            {percentageIncrease(
-                                stringToNum(item.value) +
-                                    (stringToNum(item.value) / 100) *
-                                        calculateInflation(old_year, new_year),
-                                stringToNum(value_array[index])
-                            )}%
-                        </td>
-                    </tr>
+                                )}%
+                            </td>
+                        </tr>
+                    {/if}
                 {/if}
-            {/if}
-        {/each}
+            {/each}
+        {/if}
     </table>
 </article>
