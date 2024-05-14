@@ -234,4 +234,5 @@
             {/each}
         {/if}
     </table>
+    <Pagination {new_year_children} {old_year_children} bind:new_year_slice bind:old_year_slice></Pagination>
 </article>
