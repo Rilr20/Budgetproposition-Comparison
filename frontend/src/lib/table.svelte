@@ -91,12 +91,11 @@
             );
         });
     }
-    function findSameExpenditure(
-        inputString: string,
-        jsonData,
-        value_index: number,
-        inputExpenditure: string
-    ): string {
+    function findSameExpenditure(inputString: string, jsonData, value_index: number, inputExpenditure: string): string {
+        if (jsonData.length === 0) {
+            return ''
+        }
+
         let next_return = { value: '' };
 
         let item = jsonData.find((item) => {
@@ -148,11 +147,12 @@
                 }
             }
         });
+
         return next_return.value == '' ? item.value : next_return.value;
     }
 </script>
 
-<article style="overflow-x:auto;">
+<article  style="overflow-x:auto;">
     <p>* Thousands of sek</p>
     <table class="striped" data-theme="dark">
         <tr>
