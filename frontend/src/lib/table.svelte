@@ -5,10 +5,16 @@
     export let new_year: number;
     export let old_year_children: any;
     export let new_year_children: any;
-
+    $: tableIcons = {
+        expenditure: "↕️",
+        old_year: "↕️",
+        new_year: "↕️",
+        percentage: "↕️",
+        inflation: "↕️"
+    }
     let old_year_slice: any;
     let new_year_slice: any;
-    console.log(new_year_slice + ' asd');
+    // console.log(new_year_slice + ' asd');
 
     export let id = '';
     let value_array: Record<string, string> = [];
@@ -37,7 +43,7 @@
         } else if (percentage >= 1000) {
             return 'pico-color-jade-350';
         } else if (percentage >= 200) {
-            return 'pico-color-jade2500';
+            return 'pico-color-jade-250';
         } else if (percentage >= 50) {
             return 'pico-color-jade-200';
         } else if (percentage >= 10) {
@@ -84,21 +90,21 @@
         return parseFloat(inputString.replaceAll(' ', ''));
     }
     function findSubstring(substr: string, jsonData: any) {
-        return jsonData.some((item) => {
+        return jsonData.some((item: { name: { substring: (arg0: any) => { (): any; new(): any; length: number; }; indexOf: (arg0: string) => number; toLowerCase: () => string | string[]; }; }) => {
             return (
                 item.name.substring(item.name.indexOf(' ') + 1).length == substr.length &&
                 item.name.toLowerCase().includes(substr.toLowerCase())
             );
         });
     }
-    function findSameExpenditure(inputString: string, jsonData, value_index: number, inputExpenditure: string): string {
+    function findSameExpenditure(inputString: string, jsonData: any[], value_index: number, inputExpenditure: string): string {
         if (jsonData.length === 0) {
             return ''
         }
 
         let next_return = { value: '' };
 
-        let item = jsonData.find((item) => {
+        let item = jsonData.find((item: { name: { toLowerCase: () => string | string[]; substring: (arg0: any) => { (): any; new(): any; length: number; }; indexOf: (arg0: string) => number; }; value: string; }) => {
             if (
                 item.name.toLowerCase().includes(inputString.toLowerCase()) &&
                 item.name.substring(item.name.indexOf(' ') + 1).length == inputString.length
@@ -150,6 +156,110 @@
 
         return next_return.value == '' ? item.value : next_return.value;
     }
+    function sortTable(column: string, emoji: string) {
+        interface Icons {
+            [key:string]: string;
+        }
+        console.log(emoji);
+        
+        const icons: Icons = { 
+            "↕️": "⬆️",
+            "⬆️": "⬇️",
+            "⬇️" :"↕️",
+        }
+        switch (column) {
+            case "old_year":
+            case "new_year":
+                console.log(tableIcons)
+                if (emoji === "↕️") {
+                    new_year_children = new_year_children.sort((a: { value: string; },b: { value: string; }) => parseInt(a.value.replaceAll(' ', '')) > parseInt(b.value.replaceAll(' ',''))) 
+                    old_year_children = old_year_children.sort((a: { value: string; },b: { value: string; }) => parseInt(a.value.replaceAll(' ', '')) > parseInt(b.value.replaceAll(' ','')))
+                } else if (emoji === "⬆️") {
+                    new_year_children = new_year_children.sort((a: { value: string; },b: { value: string; }) => parseInt(a.value.replaceAll(' ', '')) < parseInt(b.value.replaceAll(' ',''))) 
+                    old_year_children = old_year_children.sort((a: { value: string; },b: { value: string; }) => parseInt(a.value.replaceAll(' ', '')) < parseInt(b.value.replaceAll(' ','')))
+                } else if (emoji === "⬇️") {
+                    reset()
+                }
+                tableIcons.old_year = icons[emoji]
+                tableIcons.new_year = icons[emoji]
+                console.log(tableIcons);
+                
+                break;
+            case "percentage":
+                
+                if (emoji === "⬇️") {
+                    reset()
+                } else {
+                    sortPercentage(emoji)
+                }
+                tableIcons.percentage = icons[emoji]
+                break;
+            case "inflation":
+                if (emoji === "⬇️") {
+                    reset()
+                } else {
+                    sortPercentage(emoji, true)
+                }
+                tableIcons.inflation = icons[emoji]
+                break;
+            default:
+                break;
+        }
+        function sortPercentage(emoji: string, inflation=false) {
+            let percentageList: any[] = []
+            old_year_children.forEach((element:any , index:number)=> {
+                let percentage = 0
+                if (findSubstring(element.name.substring(element.name.indexOf(' ') + 1), new_year_slice)) {
+                    let expenditure = findSameExpenditure(
+                                    element.name.substring(element.name.indexOf(' ') + 1),
+                                    new_year_children,
+                                    index,
+                                    element.value
+                                )
+                    if (inflation) {
+                        let inflatedValue = stringToNum(element.value) + (stringToNum(element.value) / 100) * calculateInflation(old_year, new_year)
+                        percentage = percentageIncrease(inflatedValue, stringToNum(value_array[index]))
+                    } else {
+                        percentage = percentageIncrease(stringToNum(element.value),stringToNum(expenditure))
+
+                    }
+                    percentageList.push({name: element.name, percentage: percentage})
+                }
+                //sort object list by percentage
+                // console.log(element);
+                
+            });
+            if (emoji === "↕️") {
+                percentageList.sort((a, b) => a.percentage > b.percentage)
+            } else if (emoji === "⬆️") {
+                percentageList.sort((a, b) => a.percentage < b.percentage)
+            } 
+            //for each object in list 
+            let newlist:any = []
+            percentageList.forEach((element:any) => {
+                // console.log(old_year_children.find((object:any) => object.name == element.name))
+                
+                //Find object place append to new list
+                newlist.push(old_year_children.find((object:any) => object.name == element.name)) 
+            });
+            // console.log();
+            old_year_children = newlist
+        }
+        function sortInflation() {
+
+        }
+        function reset() {
+            new_year_children = new_year_children.sort((a: { id: number}, b: {id: number}) => a.id > b.id)
+            old_year_children = old_year_children.sort((a: {id: number}, b: {id:number}) => a.id >   b.id);  
+            tableIcons = {
+                expenditure: "↕️",
+                old_year: "↕️",
+                new_year: "↕️",
+                percentage: "↕️",
+                inflation: "↕️"
+            }
+        }
+    }
 </script>
 
 <article  style="overflow-x:auto;">
@@ -157,10 +267,10 @@
     <table class="striped" data-theme="dark">
         <tr>
             <th>Expenditure area</th>
-            <th>{old_year}</th>
-            <th>{new_year}</th>
-            <th>%</th>
-            <th>% inflation</th>
+            <th on:click={() => sortTable("old_year", tableIcons.old_year)}>{old_year} {tableIcons.old_year}</th>
+            <th on:click={() => sortTable("new_year", tableIcons.new_year)}>{new_year} {tableIcons.new_year}</th>
+            <th on:click={() => sortTable("percentage",tableIcons.percentage)} >% {tableIcons.percentage}</th>
+            <th on:click={() => sortTable("inflation",tableIcons.inflation)}>% inflation {tableIcons.inflation}</th>
         </tr>
         {#if old_year_slice}
             {#each old_year_slice as item, index}
