@@ -1,6 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import Table from './table.svelte';
+    import year_2025 from '../json/budget-2025.json';
     import year_2024 from '../json/budget-2024.json';
     import year_2023 from '../json/budget-2023.json';
     import year_2022 from '../json/budget-2022.json';
@@ -9,15 +10,17 @@
     // $: first_year = { child: [], name: '', id: 0 };
     // $: second_year = { child: [], name: '', id: 0 };
     // let years = [];
-    const options = [2021, 2022, 2023, 2024];
+    const options = [2021, 2022, 2023, 2024, 2025];
     const max = 2;
 
-    let selectedOptions = [2023, 2024];
+    let selectedOptions = [2024, 2025];
     $: {
 
     }
     function findYear(year: number) {
         switch (year) {
+            case 2025:
+                return year_2025.child;
             case 2024:
                 return year_2024.child;
             case 2023:

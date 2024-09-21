@@ -16,7 +16,7 @@
     let new_year_slice: any;
     // console.log(new_year_slice + ' asd');
 
-    export let id = '';
+    export const id = '';
     let value_array: Record<string, string> = [];
     function percentageIncrease(a: number, b: number): number {
         return parseFloat((((b - a) / a) * 100).toFixed(2));
@@ -54,7 +54,7 @@
 
     function calculateInflation(old_year: number, new_year: number): number {
         let KPI_per_year: Record<number, number> = {
-            // 2024: 414.26, //month of march
+            2024: 413.78, //month of august
             2023: 403.7,
             2022: 371.91,
             2021: 343.19,
@@ -225,8 +225,7 @@
                     }
                     percentageList.push({name: element.name, percentage: percentage})
                 }
-                //sort object list by percentage
-                // console.log(element);
+
                 
             });
             if (emoji === "↕️") {
@@ -234,20 +233,16 @@
             } else if (emoji === "⬆️") {
                 percentageList.sort((a, b) => a.percentage < b.percentage)
             } 
-            //for each object in list 
+
             let newlist:any = []
             percentageList.forEach((element:any) => {
-                // console.log(old_year_children.find((object:any) => object.name == element.name))
-                
-                //Find object place append to new list
+
                 newlist.push(old_year_children.find((object:any) => object.name == element.name)) 
             });
-            // console.log();
+
             old_year_children = newlist
         }
-        function sortInflation() {
 
-        }
         function reset() {
             new_year_children = new_year_children.sort((a: { id: number}, b: {id: number}) => a.id > b.id)
             old_year_children = old_year_children.sort((a: {id: number}, b: {id:number}) => a.id >   b.id);  
