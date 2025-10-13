@@ -1,0 +1,585 @@
+1 BOLD Rikets styrelse 18 270 004
+1 BOLD Statschefen 167 903
+1 Kungliga hov- och slottsstaten 167 903
+2 BOLD Riksdagen och dess myndigheter 2 696 711
+1 Riksdagens ledamöter och partier m.m. 1 004 077
+2 Riksdagens förvaltningsanslag 996 390
+3 Riksdagens fastighetsanslag 210 000
+4 Riksdagens ombudsmän (JO) 127 126
+5 Riksrevisionen 359 118
+3 BOLD Sametinget och samepolitiken 59 676
+1 Sametinget 59 676
+4 BOLD Regeringskansliet m.m. 9 584 123
+1 Regeringskansliet m.m. 9 584 123
+5 BOLD Länsstyrelserna 3 760 438
+1 Länsstyrelserna m.m. 3 760 438
+6 BOLD Demokratipolitik och mänskliga rättigheter 683 379
+1 Allmänna val och demokrati 149 840
+2 Justitiekanslern 80 863
+3 Integritetsskyddsmyndigheten 172 794
+4 Valmyndigheten 60 164
+5 Stöd till politiska partier 169 200
+6 Institutet för mänskliga rättigheter 50 518
+7 BOLD Nationella minoriteter 227 771
+1 Åtgärder för nationella minoriteter 207 771
+2 Åtgärder för den nationella minoriteten romer 20 000
+8 BOLD Medier 1 058 693
+1 Mediestöd 1 010 519
+2 Myndigheten för press, radio och tv 48 174
+9 BOLD Sieps samt insatser för att stärka delaktigheten i EU-arbetet 31 310
+1 Svenska institutet för europapolitiska studier samt EU-information 31 310
+2 BOLD Samhällsekonomi och finansförvaltning 19 021 399
+1 Statskontoret 108 272
+2 Kammarkollegiet 118 318
+3 Finansinspektionens avgifter till EU:s tillsynsmyndigheter 23 050
+4 Arbetsgivarpolitiska frågor 1 693
+5 Statliga tjänstepensioner m.m. 15 206 904
+6 Finanspolitiska rådet 11 035
+7 Konjunkturinstitutet 78 255
+8 Ekonomistyrningsverket 211 395
+9 Statistiska centralbyrån 608 582
+10 Bidragsfastigheter 290 000
+11 Finansinspektionen 788 347
+12 Riksgäldskontoret 364 014
+13 Bokföringsnämnden 14 138
+14 Vissa garanti- och medlemsavgifter 110 116
+15 Statens servicecenter 915 068
+16 Finansmarknadsforskning 59 953
+17 Upphandlingsmyndigheten 112 259
+3 BOLD Skatt, tull och exekution 12 923 291
+1 Skatteverket 8 199 362
+2 Tullverket 2 588 670
+3 Kronofogdemyndigheten 2 135 259
+4 BOLD Rättsväsendet 68 305 854
+1 Polismyndigheten 37 043 384
+2 Säkerhetspolisen 2 060 983
+3 Åklagarmyndigheten 2 302 661
+4 Ekobrottsmyndigheten 952 757
+5 Sveriges Domstolar 7 051 168
+6 Kriminalvården 13 383 310
+7 Brottsförebyggande rådet 231 644
+8 Rättsmedicinalverket 587 265
+9 Brottsoffermyndigheten 53 390
+10 Ersättning för skador på grund av brott 221 953
+11 Rättsliga biträden m.m. 3 961 357
+12 Kostnader för vissa skaderegleringar m.m. 94 987
+13 Avgifter till vissa internationella sammanslutningar 19 174
+14 Bidrag till lokalt brottsförebyggande arbete 100 157
+15 Säkerhets- och integritetsskyddsnämnden 28 231
+16 Domarnämnden 11 433
+17 Från EU-budgeten finansierade insatser avseende EU:s inre säkerhet, gränsförvaltning och visering 202 000
+5 BOLD Internationell samverkan 2 094 669
+1 Avgifter till internationella organisationer 1 333 554
+2 Freds- och säkerhetsfrämjande verksamhet 183 294
+3 Nordiskt samarbete 13 595
+4 Ekonomiskt bistånd till enskilda utomlands samt diverse kostnader för rättsväsendet 4 826
+5 Inspektionen för strategiska produkter 114 404
+6 Forskning, utredningar och andra insatser rörande säkerhetspolitik, nedrustning och icke-spridning 79 358
+7 Bidrag till Stockholms internationella fredsforskningsinstitut (SIPRI) 28 402
+8 Bidrag till Utrikespolitiska institutet (UI) 19 175
+9 Svenska institutet 132 371
+10 Information om Sverige i utlandet 15 475
+11 Samarbete inom Östersjöregionen 170 215
+6 BOLD Försvar och samhällets krisberedskap 93 952 930
+1 BOLD Försvar 87 949 269
+1 Förbandsverksamhet och beredskap 51 453 048
+2 Försvarsmaktens insatser internationellt 1 501 512
+3 Anskaffning av materiel och anläggningar 27 949 405
+4 Forskning och teknikutveckling 951 905
+5 Statens inspektion för försvarsunderrättelseverksamheten 11 638
+6 Totalförsvarets plikt- och prövningsverk 351 386
+7 Officersutbildning m.m. 268 034
+8 Försvarets radioanstalt 1 927 077
+9 Totalförsvarets forskningsinstitut 262 457
+10 Nämnder m.m. 7 286
+11 Försvarets materielverk 3 204 537
+12 Försvarsunderrättelsedomstolen 10 984
+13 Myndigheten för totalförsvarsanalys 50 000
+2 BOLD Samhällets krisberedskap 5 547 423
+1 Kustbevakningen 1 488 971
+2 Förebyggande åtgärder mot jordskred och andra naturolyckor 506 850
+3 Ersättning för räddningstjänst m.m. 27 580
+4 Krisberedskap 1 380 608
+5 Ersättning till SOS Alarm Sverige AB för alarmeringstjänst enligt avtal 426 671
+6 Myndigheten för samhällsskydd och beredskap 1 480 372
+7 Statens haverikommission 49 611
+8 Myndigheten för psykologiskt försvar 124 066
+9 Rakel Generation 2 62 694
+3 BOLD Strålsäkerhet 456 238
+1 Strålsäkerhetsmyndigheten 456 238
+7 BOLD Internationellt bistånd 47 206 227
+1 BOLD Internationellt utvecklingssamarbete 47 206 227
+1 Biståndsverksamhet 45 297 746
+2 Styrelsen för internationellt utvecklingssamarbete (Sida) 1 612 297
+3 Nordiska Afrikainstitutet 16 889
+4 Folke Bernadotteakademin 208 199
+5 Riksrevisionen: Internationellt utvecklingssamarbete 50 000
+6 Utvärdering av internationellt bistånd 21 096
+8 BOLD Migration 16 019 745
+1 Migrationsverket 4 718 546
+2 Ersättningar och bostadskostnader 9 060 000
+3 Migrationspolitiska åtgärder 143 013
+4 Domstolsprövning i utlänningsmål 779 576
+5 Rättsliga biträden m.m. vid domstolsprövning i utlänningsmål 200 800
+6 Offentligt biträde i utlänningsärenden 291 158
+7 Utresor för avvisade och utvisade 326 202
+8 Från EU-budgeten finansierade insatser för asylsökande och flyktingar 500 450
+9 BOLD Hälsovård, sjukvård och social omsorg 110 429 732
+1 BOLD Hälso- och sjukvårdspolitik 67 608 794
+1 Socialstyrelsen 815 421
+2 Statens beredning för medicinsk och social utvärdering 92 070
+3 Tandvårds- och läkemedelsförmånsverket 161 782
+4 Tandvårdsförmåner 7 367 141
+5 Bidrag för läkemedelsförmånerna 34 355 000
+6 Bidrag till folkhälsa och sjukvård 18 128 486
+7 Sjukvård i internationella förhållanden 511 409
+8 Bidrag till psykiatri 2 092 643
+9 Läkemedelsverket 162 922
+10 E-hälsomyndigheten 122 129
+11 Prestationsbundna insatser för att korta vårdköerna 3 000 000
+12 Inspektionen för vård och omsorg 799 791
+2 BOLD Folkhälsopolitik 1 182 025
+1 Folkhälsomyndigheten 551 054
+2 Insatser för vaccinberedskap 120 500
+3 Bidrag till WHO 46 665
+4 Insatser mot hiv/aids och andra smittsamma sjukdomar 125 502
+5 Åtgärder avseende alkohol, narkotika, dopning, tobak samt spel 143 304
+6 Stöd till främjande av en aktiv och meningsfull fritid för barn och unga 50 000
+7 Stöd för att förebygga ohälsa och ensamhet bland äldre 145 000
+3 BOLD Funktionshinderspolitik 254 550
+1 Myndigheten för delaktighet 65 808
+2 Bidrag till funktionshindersorganisationer 188 742
+4 BOLD Politik för sociala tjänster 40 420 430
+1 Myndigheten för familjerätt och föräldraskapsstöd 35 614
+2 Vissa statsbidrag inom funktionshindersområdet 778 714
+3 Bilstöd till personer med funktionsnedsättning 264 395
+4 Kostnader för statlig assistansersättning 24 590 527
+5 Stimulansbidrag och åtgärder inom äldreområdet 11 520 490
+6 Statens institutionsstyrelse 1 934 179
+7 Bidrag till utveckling av socialt arbete m.m. 1 257 451
+8 Myndigheten för vård- och omsorgsanalys 39 060
+5 BOLD Barnrättspolitik 89 442
+1 Barnombudsmannen 27 181
+2 Barnets rättigheter 62 261
+6 BOLD Forskningspolitik 874 491
+1 Forskningsrådet för hälsa, arbetsliv och välfärd: Förvaltning 54 988
+2 Forskningsrådet för hälsa, arbetsliv och välfärd: Forskning 819 503
+10 BOLD Ekonomisk trygghet vid sjukdom och funktionsnedsättning 106 427 304
+1 BOLD Ersättning vid sjukdom och funktionsnedsättning 97 077 356
+1 Sjukpenning och rehabilitering m.m. 45 645 099
+2 Aktivitets- och sjukersättningar m.m. 45 422 161
+3 Merkostnadsersättning och handikappersättning 1 357 000
+4 Arbetsskadeersättningar m.m. 2 316 000
+5 Ersättning inom det statliga personskadeskyddet 35 792
+6 Bidrag för sjukskrivningsprocessen 1 491 700
+7 Ersättning för höga sjuklönekostnader 809 604
+2 BOLD Myndigheter 9 349 948
+1 Försäkringskassan 9 276 970
+2 Inspektionen för socialförsäkringen 72 978
+11 BOLD Ekonomisk trygghet vid ålderdom 55 394 136
+1 BOLD Ersättning vid ålderdom 54 689 000
+1 Garantipension till ålderspension 25 629 100
+2 Efterlevandepensioner till vuxna 8 580 400
+3 Bostadstillägg till pensionärer 13 448 100
+4 Äldreförsörjningsstöd 1 105 400
+5 Inkomstpensionstillägg 5 926 000
+2 BOLD Myndigheter 705 136
+1 Pensionsmyndigheten 705 136
+12 BOLD Ekonomisk trygghet för familjer och barn 105 159 584
+1 Barnbidrag 33 389 255
+2 Föräldraförsäkring 49 662 693
+3 Underhållsstöd 2 897 838
+4 Adoptionsbidrag 14 784
+5 Barnpension och efterlevandestöd 1 081 900
+6 Omvårdnadsbidrag och vårdbidrag 4 485 381
+7 Pensionsrätt för barnår 9 063 100
+8 Bostadsbidrag 4 564 633
+13 BOLD Jämställdhet och nyanlända invandrares etablering 5 565 206
+1 BOLD Nyanlända invandrares etablering 4 244 113
+1 Etableringsåtgärder 112 030
+2 Kommunersättningar vid flyktingmottagande 4 132 083
+2 BOLD Diskriminering 235 526
+1 Diskrimineringsombudsmannen 134 607
+2 Åtgärder mot diskriminering och rasism m.m. 100 919
+3 BOLD Jämställdhet 825 567
+1 Särskilda jämställdhetsåtgärder 705 039
+2 Jämställdhetsmyndigheten 72 365
+3 Bidrag för kvinnors organisering 48 163
+4 BOLD Segregation 260 000
+1 Åtgärder mot segregation 260 000
+14 BOLD Arbetsmarknad och arbetsliv 90 103 686
+1 BOLD Arbetsmarknad 88 995 495
+1 Arbetsförmedlingens förvaltningskostnader 7 591 264
+2 Bidrag till arbetslöshetsersättning och aktivitetsstöd 38 432 392
+3 Kostnader för arbetsmarknadspolitiska program och insatser 6 926 037
+4 Lönebidrag och Samhall m.m. 20 830 367
+5 Rådet för Europeiska socialfonden i Sverige 131 059
+6 Europeiska socialfonden m.m. för perioden 2014–2020 2 414 000
+7 Europeiska socialfonden plus m.m. för perioden 2021–2027 550 000
+8 Institutet för arbetsmarknads- och utbildningspolitisk utvärdering 43 666
+9 Inspektionen för arbetslöshetsförsäkringen 81 327
+10 Bidrag till administration av grundbeloppet 59 956
+11 Bidrag till Stiftelsen Utbildning Nordkalotten 8 303
+12 Bidrag till lönegarantiersättning 1 678 000
+13 Nystartsjobb, etableringsjobb och stöd för yrkesintroduktionsanställningar 8 129 311
+14 Etableringsersättning till vissa nyanlända invandrare 1 119 813
+15 Omställnings- och kompetensstöd genom den offentliga omställningsorganisationen 1 000 000
+2 BOLD Arbetsliv 1 108 191
+1 Arbetsmiljöverket 819 020
+2 Arbetsdomstolen 35 798
+3 Internationella arbetsorganisationen (ILO) 33 722
+4 Medlingsinstitutet 57 683
+5 Myndigheten för arbetsmiljökunskap 49 968
+6 Regional skyddsombudsverksamhet 112 000
+15 BOLD Studiestöd 27 912 395
+1 Studiehjälp 4 499 895
+2 Studiemedel 19 738 606
+3 Omställningsstudiestöd 1 360 000
+4 Statens utgifter för studiemedelsräntor 734 890
+5 Bidrag till kostnader vid viss gymnasieutbildning och vid viss föräldrautbildning i teckenspråk 62 150
+6 Bidrag till vissa studiesociala ändamål 27 000
+7 Studiestartsstöd 400 000
+8 Centrala studiestödsnämnden 1 071 379
+9 Överklagandenämnden för studiestöd 18 475
+16 BOLD  Utbildning och universitetsforskning 94 991 971
+1 BOLD Barn-, ungdoms- och vuxenutbildning 33 064 097
+1 Statens skolverk 1 319 762
+2 Statens skolinspektion 546 884
+3 Specialpedagogiska skolmyndigheten 803 307
+4 Sameskolstyrelsen 59 667
+5 Utveckling av skolväsendet och annan pedagogisk verksamhet 3 906 193
+6 Statligt stöd till särskild utbildning i gymnasieskolan 259 837
+7 Maxtaxa i förskola, fritidshem och annan pedagogisk verksamhet samt kvalitetshöjande åtgärder inom förskola 4 999 000
+8 Bidrag till viss verksamhet inom skolväsendet, m.m. 200 720
+9 Bidrag till svensk undervisning i utlandet 112 082
+10 Fortbildning av lärare och förskolepersonal 1 151 526
+11 Skolforskningsinstitutet 25 714
+12 Praktiknära skolforskning 36 043
+13 Bidrag till lärarlöner 4 875 000
+14 Särskilda insatser inom skolområdet 203 418
+15 Statligt stöd för stärkt likvärdighet och kunskapsutveckling 6 658 000
+16 Bidrag till vissa studier 17 525
+17 Statligt stöd till vuxenutbildning 3 994 422
+18 Myndigheten för yrkeshögskolan 140 761
+19 Statligt stöd till yrkeshögskoleutbildning 3 754 236
+2 BOLD Universitet och högskolor 51 652 865
+1 Universitetskanslersämbetet 173 509
+2 Universitets- och högskolerådet 243 502
+3 Uppsala universitet: Utbildning på grundnivå och avancerad nivå 2 028 199
+4 Uppsala universitet: Forskning och utbildning på forskarnivå 2 366 674
+5 Lunds universitet: Utbildning på grundnivå och avancerad nivå 2 350 343
+6 Lunds universitet: Forskning och utbildning på forskarnivå 2 466 462
+7 Göteborgs universitet: Utbildning på grundnivå och avancerad nivå 2 379 997
+8 Göteborgs universitet: Forskning och utbildning på forskarnivå 1 767 794
+9 Stockholms universitet: Utbildning på grundnivå och avancerad nivå 1 964 583
+10 Stockholms universitet: Forskning och utbildning på forskarnivå 1 803 777
+11 Umeå universitet: Utbildning på grundnivå och avancerad nivå 1 592 610
+12 Umeå universitet: Forskning och utbildning på forskarnivå 1 249 048
+13 Linköpings universitet: Utbildning på grundnivå och avancerad nivå 1 745 359
+14 Linköpings universitet: Forskning och utbildning på forskarnivå 1 081 958
+15 Karolinska institutet: Utbildning på grundnivå och avancerad nivå 802 164
+16 Karolinska institutet: Forskning och utbildning på forskarnivå 1 773 802
+17 Kungl. Tekniska högskolan: Utbildning på grundnivå och avancerad nivå 1 327 305
+18 Kungl. Tekniska högskolan: Forskning och utbildning på forskarnivå 1 869 222
+19 Luleå tekniska universitet: Utbildning på grundnivå och avancerad nivå 761 365
+20 Luleå tekniska universitet: Forskning och utbildning på forskarnivå 439 523
+21 Karlstads universitet: Utbildning på grundnivå och avancerad nivå 774 514
+22 Karlstads universitet: Forskning och utbildning på forskarnivå 289 358
+23 Linnéuniversitetet: Utbildning på grundnivå och avancerad nivå 1 204 546
+24 Linnéuniversitetet: Forskning och utbildning på forskarnivå 395 801
+25 Örebro universitet: Utbildning på grundnivå och avancerad nivå 899 925
+26 Örebro universitet: Forskning och utbildning på forskarnivå 326 772
+27 Mittuniversitetet: Utbildning på grundnivå och avancerad nivå 637 737
+28 Mittuniversitetet: Forskning och utbildning på forskarnivå 291 374
+29 Malmö universitet: Utbildning på grundnivå och avancerad nivå 1 078 634
+30 Malmö universitet: Forskning och utbildning på forskarnivå 304 322
+31 Mälardalens universitet: Utbildning på grundnivå och avancerad nivå 695 645
+32 Mälardalens universitet: Forskning och utbildning på forskarnivå 286 544
+33 Blekinge tekniska högskola: Utbildning på grundnivå och avancerad nivå 286 053
+34 Blekinge tekniska högskola: Forskning och utbildning på forskarnivå 111 348
+35 Stockholms konstnärliga högskola: Utbildning på grundnivå och avancerad nivå 218 801
+36 Stockholms konstnärliga högskola: Konstnärlig forskning och utbildning på forskarnivå 56 410
+37 Gymnastik- och idrottshögskolan: Utbildning på grundnivå och avancerad nivå 124 960
+38 Gymnastik- och idrottshögskolan: Forskning och utbildning på forskarnivå 35 379
+39 Högskolan i Borås: Utbildning på grundnivå och avancerad nivå 569 707
+40 Högskolan i Borås: Forskning och utbildning på forskarnivå 107 553
+41 Högskolan Dalarna: Utbildning på grundnivå och avancerad nivå 488 276
+42 Högskolan Dalarna: Forskning och utbildning på forskarnivå 110 949
+43 Högskolan i Gävle: Utbildning på grundnivå och avancerad nivå 528 472
+44 Högskolan i Gävle: Forskning och utbildning på forskarnivå 117 807
+45 Högskolan i Halmstad: Utbildning på grundnivå och avancerad nivå 461 501
+46 Högskolan i Halmstad: Forskning och utbildning på forskarnivå 104 587
+47 Högskolan Kristianstad: Utbildning på grundnivå och avancerad nivå 456 061
+48 Högskolan Kristianstad: Forskning och utbildning på forskarnivå 100 773
+49 Högskolan i Skövde: Utbildning på grundnivå och avancerad nivå 353 644
+50 Högskolan i Skövde: Forskning och utbildning på forskarnivå 67 509
+51 Högskolan Väst: Utbildning på grundnivå och avancerad nivå 425 654
+52 Högskolan Väst: Forskning och utbildning på forskarnivå 94 996
+53 Konstfack: Utbildning på grundnivå och avancerad nivå 182 851
+54 Konstfack: Konstnärlig forskning och utbildning på forskarnivå 22 530
+55 Kungl. Konsthögskolan: Utbildning på grundnivå och avancerad nivå 70 663
+56 Kungl. Konsthögskolan: Konstnärlig forskning och utbildning på forskarnivå 13 217
+57 Kungl. Musikhögskolan i Stockholm: Utbildning på grundnivå och avancerad nivå 147 358
+58 Kungl. Musikhögskolan i Stockholm: Konstnärlig forskning och utbildning på forskarnivå 22 667
+59 Södertörns högskola: Utbildning på grundnivå och avancerad nivå 480 644
+60 Södertörns högskola: Forskning och utbildning på forskarnivå 127 207
+61 Försvarshögskolan: Utbildning på grundnivå och avancerad nivå 39 680
+62 Försvarshögskolan: Forskning och utbildning på forskarnivå 39 611
+63 Enskilda utbildningsanordnare på högskoleområdet 3 848 585
+64 Särskilda utgifter inom universitet och högskolor 1 003 999
+65 Särskilda medel till universitet och högskolor 578 029
+66 Ersättningar för klinisk utbildning och forskning 2 815 236
+67 Särskilda bidrag inom högskoleområdet 67 780
+3 BOLD Forskning 10 117 495
+1 Vetenskapsrådet: Forskning och forskningsinformation 7 380 846
+2 Vetenskapsrådet: Avgifter till internationella organisationer 420 061
+3 Vetenskapsrådet: Förvaltning 197 631
+4 Rymdforskning och rymdverksamhet 1 297 356
+5 Rymdstyrelsen: Förvaltning 46 759
+6 Institutet för rymdfysik 63 310
+7 Kungl. biblioteket 435 537
+8 Polarforskningssekretariatet 67 414
+9 Sunet 49 183
+10 Överklagandenämnden för etikprövning 5 465
+11 Etikprövningsmyndigheten 51 758
+12 Nämnden för prövning av oredlighet i forskning 9 330
+13 Särskilda utgifter för forskningsändamål 87 995
+14 Gentekniknämnden 4 850
+4 BOLD Vissa gemensamma ändamål 157 514
+1 Internationella program 81 589
+2 Avgift till Unesco och ICCROM 32 186
+3 Kostnader för Svenska Unescorådet 11 096
+4 Utvecklingsarbete inom områdena utbildning och forskning 32 643
+17 BOLD  Kultur, medier, trossamfund och fritid 16 667 948
+1 BOLD Kulturområdesövergripande verksamhet 2 579 332
+1 Statens kulturråd 71 187
+2 Bidrag till allmän kulturverksamhet, utveckling samt internationellt kulturutbyte och samarbete 532 082
+3 Skapande skola 201 464
+4 Forsknings- och utvecklingsinsatser inom kulturområdet 45 153
+5 Stöd till icke-statliga kulturlokaler 9 852
+6 Bidrag till regional kulturverksamhet 1 700 935
+7 Myndigheten för kulturanalys 18 659
+2 BOLD Teater, dans och musik 1 481 422
+1 Bidrag till vissa scenkonstinstitutioner 1 131 287
+2 Bidrag till vissa teater-, dans- och musikändamål 251 614
+3 Statens musikverk 98 521
+3 BOLD Litteraturen, läsandet och språket 413 099
+1 Bidrag till litteratur och kulturtidskrifter 205 735
+2 Myndigheten för tillgängliga medier 133 363
+3 Institutet för språk och folkminnen 74 001
+4 BOLD Bildkonst, arkitektur, form och design 112 207
+1 Statens konstråd 11 347
+2 Konstnärlig gestaltning av den gemensamma miljön 42 947
+3 Nämnden för hemslöjdsfrågor 11 844
+4 Bidrag till bild- och formområdet 46 069
+5 BOLD närernas villkor 592 232
+1 Konstnärsnämnden 23 702
+2 Ersättningar och bidrag till konstnärer 568 530
+6 BOLD Arkiv 455 002
+1 Riksarkivet 455 002
+7 BOLD Kulturmiljö 1 035 877
+1 Riksantikvarieämbetet 291 835
+2 Bidrag till kulturmiljövård 276 042
+3 Kyrkoantikvarisk ersättning 460 000
+4 Bidrag till arbetslivsmuseer 8 000
+8 BOLD Museer och utställningar 1 810 273
+1 Centrala museer: Myndigheter 1 406 004
+2 Centrala museer: Stiftelser 273 714
+3 Bidrag till vissa museer 79 718
+4 Forum för levande historia 50 757
+5 Statliga utställningsgarantier och inköp av vissa kulturföremål 80
+9 BOLD Trossamfund 98 519
+1 Myndigheten för stöd till trossamfund 16 600
+2 Stöd till trossamfund 81 919
+10 BOLD Film 553 444
+1 Filmstöd 553 444
+11 BOLD Medier 86 549
+1 Sändningar av TV Finland 9 671
+2 Forskning och dokumentation om medieutvecklingen 3 488
+3 Avgift till europeiska audiovisuella observatoriet 533
+4 Statens medieråd 24 401
+5 Stöd till taltidningar 48 456
+12 BOLD Ungdomspolitik 372 370
+1 Myndigheten för ungdoms- och civilsamhällesfrågor 59 690
+2 Bidrag till nationell och internationell ungdomsverksamhet 290 680
+3 Särskilda insatser inom ungdomspolitiken 22 000
+13 BOLD Politik för det civila samhället 2 380 518
+1 Stöd till idrotten 2 091 811
+2 Bidrag till allmänna samlingslokaler 52 164
+3 Stöd till friluftsorganisationer 97 785
+4 Bidrag till riksdagspartiers kvinnoorganisationer 15 000
+5 Insatser för den ideella sektorn 123 758
+14 BOLD Folkbildning 4 618 772
+1 Bidrag till folkbildningen 4 337 783
+2 Bidrag till tolkutbildning 48 831
+3 Särskilda insatser inom folkbildningen 30 000
+4 Särskilt utbildningsstöd 202 158
+15 BOLD Tillsyn över spelmarknaden 78 332
+1 Spelinspektionen 78 332
+18 BOLD Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik 6 099 158
+1 BOLD Samhällsplanering, bostadsmarknad, byggande och lantmäteriverksamhet 5 824 739
+1 Bostadspolitisk utveckling 35 600
+2 Omstrukturering av kommunala bostadsföretag 12 500
+3 Stöd för att underlätta för enskilda att ordna bostad 43 000
+4 Boverket 288 029
+5 Statens geotekniska institut 54 369
+6 Lantmäteriet 721 241
+7 Energieffektivisering av flerbostadshus 350 000
+8 Investeringsstöd för anordnande av hyresbostäder och bostäder för studerande 4 320 000
+2 BOLD Konsumentpolitik 274 419
+1 Konsumentverket 171 338
+2 Allmänna reklamationsnämnden 54 447
+3 Fastighetsmäklarinspektionen 31 951
+4 Åtgärder på konsumentområdet 13 559
+5 Bidrag till miljömärkning av produkter 3 124
+19 BOLD Regional utveckling 4 534 201
+1 Regionala utvecklingsåtgärder 1 993 337
+2 Transportbidrag 450 864
+3 Europeiska regionala utvecklingsfonden perioden 2014–2020 1 440 000
+4 Europeiska regionala utvecklingsfonden och Fonden för en rättvis omställning perioden 2021–2027 650 000
+20 BOLD Allmän miljö- och naturvård 19 542 691
+1 BOLD Miljöpolitik 18 302 894
+1 Naturvårdsverket 620 648
+2 Miljöövervakning m.m. 391 714
+3 Åtgärder för värdefull natur 1 130 035
+4 Sanering och återställning av förorenade områden 1 087 568
+5 Miljöforskning 96 825
+6 Kemikalieinspektionen 311 404
+7 Avgifter till Internationella organisationer 285 631
+8 Klimatbonus 5 955 000
+9 Sveriges meteorologiska och hydrologiska institut 283 581
+10 Klimatanpassning 140 000
+11 Åtgärder för havs- och vattenmiljö 1 244 565
+12 Insatser för internationella klimatinvesteringar 169 100
+13 Internationellt miljösamarbete 37 400
+14 Skydd av värdefull natur 1 170 500
+15 Havs- och vattenmyndigheten 317 723
+16 Klimatinvesteringar 3 055 000
+17 Klimatpremier 462 000
+18 Industriklivet 1 354 000
+19 Åtgärder för ras- och skredsäkring längs Göta älv 115 000
+20 Driftstöd för bio-CCS 25 000
+21 Kompetenslyft för klimatomställningen 50 200
+2 BOLD Miljöforskning 1 239 797
+1 Forskningsrådet för miljö, areella näringar och samhällsbyggande 132 389
+2 Forskningsrådet för miljö, areella näringar och samhällsbyggande: Forskning 1 107 408
+21 BOLD Energi 4 944 849
+1 Statens energimyndighet 452 970
+2 Insatser för energieffektivisering 397 000
+3 Insatser för fossilfri elproduktion 21 000
+4 Energiforskning 1 417 723
+5 Energimarknadsinspektionen 209 401
+6 Elberedskap 453 000
+7 Avgifter till internationella organisationer 25 328
+8 Energi- och klimatomställning på lokal och regional nivå m.m 155 000
+9 Elsäkerhetsverket 73 427
+10 Laddinfrastruktur 1 090 000
+11 Biogasstöd 650 000
+22 BOLD Kommunikationer 78 952 417
+1 BOLD Transportpolitik 76 658 228
+1 Utveckling av statens transportinfrastruktur 34 468 391
+2 Vidmakthållande av statens transportinfrastruktur 30 950 890
+3 Trafikverket 1 455 481
+4 Ersättning för sjöräddning och fritidsbåtsändamål 533 308
+5 Ersättning för viss kanal- och slussinfrastruktur 62 284
+6 Ersättning avseende icke statliga flygplatser 151 013
+7 Trafikavtal 1 098 000
+8 Viss internationell verksamhet 30 557
+9 Statens väg- och transportforskningsinstitut 83 179
+10 Från EU-budgeten finansierade stöd till Transeuropeiska nätverk 550 000
+11 Trängselskatt i Stockholm 1 648 987
+12 Transportstyrelsen 2 407 440
+13 Trafikanalys 70 527
+14 Trängselskatt i Göteborg 920 705
+15 Sjöfartsstöd 1 600 000
+16 Internationell tågtrafik 95 000
+17 Infrastruktur för flygtrafiktjänst 351 000
+18 Lån till körkort 151 466
+19 Obemannad luftfart 30 000
+2 BOLD Politiken för informationssamhället 2 294 189
+1 Post- och telestyrelsen 119 862
+2 Ersättning för särskilda tjänster för personer med funktionsnedsättning 131 278
+3 Grundläggande betaltjänster 25 037
+4 Informationsteknik och telekommunikation 90 844
+5 Driftsäker och tillgänglig elektronisk kommunikation 1 549 014
+6 Myndigheten för digital förvaltning 162 410
+7 Digital förvaltning 215 744
+23 BOLD Areella näringar, landsbygd och livsmedel 19 373 352
+1 Skogsstyrelsen 533 764
+2 Insatser för skogsbruket 594 373
+3 Statens veterinärmedicinska anstalt 171 348
+4 Bidrag till veterinär fältverksamhet 116 041
+5 Djurhälsovård och djurskyddsfrämjande åtgärder 9 933
+6 Bekämpning av smittsamma djursjukdomar 133 349
+7 Ersättningar för viltskador m.m. 67 778
+8 Statens jordbruksverk 740 665
+9 Bekämpning av växtskadegörare 15 000
+10 Gårdsstöd m.m. 5 637 032
+11 Intervention för jordbruksprodukter m.m. 149 000
+12 Stödåtgärder för fiske och vattenbruk 27 200
+13 Från EU-budgeten finansierade stödåtgärder för fiske och vattenbruk 109 000
+14 Livsmedelsverket 327 670
+15 Konkurrenskraftig livsmedelssektor 204 160
+16 Bidrag till vissa internationella organisationer m.m. 46 913
+17 Åtgärder för landsbygdens miljö och struktur 2 068 306
+18 Från EU-budgeten finansierade åtgärder för landsbygdens miljö och struktur 1 468 013
+19 Miljöförbättrande åtgärder i jordbruket 92 330
+20 Stöd till jordbrukets rationalisering m.m. 24 116
+21 Åtgärder på fjällägenheter 1 529
+22 Främjande av rennäringen m.m. 125 915
+23 Sveriges lantbruksuniversitet 2 160 339
+24 Forskningsrådet för miljö, areella näringar och samhällsbyggande: Forskning och samfinansierad forskning 738 664
+25 Bidrag till Skogs- och lantbruksakademien 1 177
+26 Nedsättning av slakteriavgifter 81 837
+27 Åtgärder för beredskap inom livsmedels- och dricksvattenområdet 21 000
+28 Stödåtgärder för fiske och vattenbruk 2021–2027 53 000
+29 Från EU-budgeten finansierade stödåtgärder för fiske och vattenbruk 2021–2027 115 000
+30 Nationell medfinansiering till den gemensamma jordbrukspolitiken 2023–2027 2 000 000
+31 Finansiering från EU-budgeten till den gemensamma jordbrukspolitikens andra pelare 2023–2027 1 538 900
+24 BOLD Näringsliv 11 407 773
+1 BOLD Näringspolitik 10 754 218
+1 Verket för innovationssystem 281 929
+2 Verket för innovationssystem: Forskning och utveckling 3 439 755
+3 Institutens strategiska kompetensmedel 834 268
+4 Tillväxtverket 490 399
+5 Näringslivsutveckling 357 442
+6 Myndigheten för tillväxtpolitiska utvärderingar och analyser 69 351
+7 Turismfrämjande 104 613
+8 Sveriges geologiska undersökning 304 249
+9 Geovetenskaplig forskning 5 923
+10 Miljösäkring av oljelagringsanläggningar 14 000
+11 Bolagsverket 68 140
+12 Bidrag till Kungl. Ingenjörsvetenskapsakademien 8 327
+13 Konkurrensverket 175 846
+14 Konkurrensforskning 10 804
+15 Upprustning och drift av Göta kanal 39 910
+16 Omstrukturering och genomlysning av statligt ägda företag 27 850
+17 Kapitalinsatser i statligt ägda företag 363 000
+18 Avgifter till vissa internationella organisationer 16 860
+19 Finansiering av rättegångskostnader 18 000
+20 Bidrag till företagsutveckling och innovation 269 472
+21 Patent- och registreringsverket 339 080
+22 Stöd vid korttidsarbete 365 000
+23 Brexitjusteringsreserven 750 000
+24 Elstöd 2 400 000
+2 BOLD Utrikeshandel, export- och investeringsfrämjande 653 555
+1 Styrelsen för ackreditering och teknisk kontroll: Myndighetsverksamhet 26 298
+2 Kommerskollegium 94 265
+3 Exportfrämjande verksamhet 313 367
+4 Investeringsfrämjande 67 772
+5 Avgifter till internationella handelsorganisationer 20 517
+6 Bidrag till standardiseringen 31 336
+7 AB Svensk Exportkredits statsstödda exportkreditgivning 100 000
+25 BOLD Allmänna bidrag till kommuner 157 545 359
+1 Kommunalekonomisk utjämning 151 878 432
+2 Utjämningsbidrag för LSS-kostnader 5 358 777
+3 Bidrag till kommunalekonomiska organisationer 7 150
+4 Tillfälligt stöd till enskilda kommuner och regioner 1 000
+5 Medel till befolkningsmässigt mindre kommuner 300 000
+26 BOLD Statsskuldsräntor m.m. 13 155 200
+1 Räntor på statsskulden 13 000 000
+2 Oförutsedda utgifter 10 000
+3 Riksgäldskontorets provisionsutgifter 145 200
+27 BOLD Avgiften till Europeiska unionen 45 869 852
+1 Avgiften till Europeiska unionen 45 869 852
+Summa anslag 1 251 870 933
