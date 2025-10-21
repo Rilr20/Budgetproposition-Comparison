@@ -13,9 +13,10 @@ def find(structure, target_name):
                 return result
     return None
 
-def create_json(data):
+def create_json(data, year):
+    table_name = f'Tabell 1.1 Specifikation av budgetens utgifter för {year}'
     structure = {
-        "name": f'Tabell 1.1 Specifikation av budgetens utgifter för 2024',
+        "name": table_name,
         "child": []
     }
     current_path = structure["name"] + "|"
@@ -89,9 +90,8 @@ if __name__ =="__main__":
         for line in f:
             matches = re.findall(regex, line)
             data.append((matches))
-            
-        
-        parsed_data = create_json(data)
+
+        parsed_data = create_json(data, year)
         # return json
         with open (f'json/new_{year}_budget.json', 'w', encoding="utf-8") as f:
             json.dump(parsed_data, f, indent=2,ensure_ascii=False)
