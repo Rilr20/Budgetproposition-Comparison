@@ -100,7 +100,7 @@
 7 Statens haverikommission 65 802
 8 Myndigheten för psykologiskt försvar 156 248
 9 Rakel Generation 2 668 481
-3 Strålsäkerhet 583 208
+3 BOLD Strålsäkerhet 583 208
 1 Strålsäkerhetsmyndigheten 583 208
 7 BOLD Internationellt bistånd 44 499 844
 1 BOLD Internationellt utvecklingssamarbete 44 499 844

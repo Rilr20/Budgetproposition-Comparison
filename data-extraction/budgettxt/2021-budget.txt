@@ -11,7 +11,7 @@
 1 Sametinget 59 351
 4 BOLD Regeringskansliet m.m. 8 176 461
 1 Regeringskansliet m.m. 8 176 461
-5 Länsstyrelserna 3 450 489
+5 BOLD Länsstyrelserna 3 450 489
 1 Länsstyrelserna m.m. 3 450 489
 6 BOLD Demokratipolitik och mänskliga rättigheter 487 253
 1 Allmänna val och demokrati 107 340
@@ -207,9 +207,9 @@
 4 BOLD Segregation 518 208
 1 Åtgärder mot segregation 500 000
 2 Delegationen mot segregation 18 208
-14 Arbetsmarknad och arbetsliv 105 724 319
+14 BOLD Arbetsmarknad och arbetsliv 105 724 319
 1 BOLD Arbetsmarknad 104 753 265
-1 BOLD Arbetsförmedlingens förvaltningskostnader 7 853 774
+1 Arbetsförmedlingens förvaltningskostnader 7 853 774
 2 Bidrag till arbetslöshetsersättning och aktivitetsstöd 52 882 733
 3 Kostnader för arbetsmarknadspolitiska program och insatser 11 738 323
 4 Lönebidrag och Samhall m.m. 20 481 668
@@ -329,7 +329,7 @@
 65 Särskilda medel till universitet och högskolor 471 718
 66 Ersättningar för klinisk utbildning och forskning 2 733 676
 67 Särskilda bidrag inom högskoleområdet 72 580
-3 Forskning 9 479 567
+3 BOLD Forskning 9 479 567
 1 Vetenskapsrådet: Forskning och forskningsinformation 6 995 846
 2 Vetenskapsrådet: Avgifter till internationella organisationer 420 061
 3 Vetenskapsrådet: Förvaltning 183 119
@@ -373,7 +373,7 @@
 5 BOLD Kulturskaparnas villkor 545 399
 1 Konstnärsnämnden 22 568
 2 Ersättningar och bidrag till konstnärer 522 831
-6 BOLDArkiv 441 117
+6 BOLD Arkiv 441 117
 1 Riksarkivet 441 117
 7 BOLD Kulturmiljö 1 024 538
 1 Riksantikvarieämbetet 288 996

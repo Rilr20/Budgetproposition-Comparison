@@ -1,6 +1,6 @@
 @use '@picocss/pico/scss';
 @use '@picocss/pico/scss/colors/utilities';
-
+// @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400&text=BUDGETbudget&display=swap");
 // html {
 //     background-color: var(--pico-color-azure-100)
 // }
@@ -10,7 +10,74 @@
     display: grid;
     grid-template-columns: 60px 210px 60px;
     margin: auto;
+
     .pagination-btn {
         width: 60px;
     }
+}
+
+.arrow-opposite:hover,
+.arrow:hover {
+    cursor: pointer;
+    border-bottom-width: 6px;
+    border-right-width: 6px;
+}
+
+.arrow {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: #0172ad;
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow-opposite {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: #0172ad;
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(225deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripe-1 th,
+.stripe-1 td {
+    background-color: rgb(252, 244, 243) !important;
+}
+
+.stripe-2 th,
+.stripe-2 td {
+    background-color: rgb(246, 245, 248) !important;
+}
+.title {
+    font-family: "Oswald", sans-serif;
+}
+
+.year-selection,
+header {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+body {
+    background-color: #F9F1F4;
+}
+.table-article {
+    border-radius: 0.5em;
+}
+
+.table-article,
+table th {
+    background-color: #f6f5f8;
 }

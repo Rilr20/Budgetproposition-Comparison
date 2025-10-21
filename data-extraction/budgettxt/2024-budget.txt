@@ -370,7 +370,7 @@
 1 Bidrag till litteratur och kulturtidskrifter 203 678
 2 Myndigheten för tillgängliga medier 138 586
 3 Institutet för språk och folkminnen 76 355
-4 Bostadstillägg Bildkonst, arkitektur, form och design 111 554
+4 BOLD Bildkonst, arkitektur, form och design 111 554
 1 Statens konstråd 11 577
 2 Konstnärlig gestaltning av den gemensamma miljön 42 518
 3 Nämnden för hemslöjdsfrågor 11 851
@@ -464,7 +464,7 @@
 2 BOLD Miljöforskning 1 240 921
 1 Forskningsrådet för miljö, areella näringar och samhällsbyggande 133 513
 2 Forskningsrådet för miljö, areella näringar och samhällsbyggande: Forskning 1 107 408
-21 BOLDEnergi 5 604 320
+21 BOLD Energi 5 604 320
 1 Statens energimyndighet 500 405
 2 Insatser för energieffektivisering 418 000
 3 Energiforskning 1 447 723
@@ -497,7 +497,7 @@
 17 Infrastruktur för flygtrafiktjänst 332 000
 18 Lån till körkort 51 466
 19 Obemannad luftfart 30 000
-2 Politiken för informationssamhället 1 127 940
+2 BOLD Politiken för informationssamhället 1 127 940
 1 Post- och telestyrelsen 152 689
 2 Ersättning för särskilda tjänster för personer med funktionsnedsättning 131 278
 3 Grundläggande betaltjänster 25 037
@@ -569,7 +569,7 @@
 5 Avgifter till internationella handelsorganisationer 25 017
 6 Bidrag till standardiseringen 31 336
 7 AB Svensk Exportkredits statsstödda exportkreditgivning 100 000
-25 Allmänna bidrag till kommuner 174 280 270
+25 BOLD Allmänna bidrag till kommuner 174 280 270
 1 Kommunalekonomisk utjämning 167 870 852
 2 Utjämningsbidrag för LSS-kostnader 5 727 268
 3 Bidrag till kommunalekonomiska organisationer 7 150

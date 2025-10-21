@@ -26,7 +26,7 @@
 8 BOLD Medier 1 101 201
 1 Mediestöd 1 055 519
 2 Myndigheten för press, radio och tv 45 682
-9 Sieps samt insatser för att stärka delaktigheten i EU-arbetet 31 550
+9 BOLD Sieps samt insatser för att stärka delaktigheten i EU-arbetet 31 550
 1 Svenska institutet för europapolitiska studier samt EU-information 31 550
 2 BOLD Samhällsekonomi och finansförvaltning 17 971 183
 1 Statskontoret 104 034
@@ -104,7 +104,7 @@
 7 Statens haverikommission 57 728
 8 Myndigheten för psykologiskt försvar 103 000
 9 Rakel Generation 2 67 000
-3 Strålsäkerhet 407 892
+3 BOLD Strålsäkerhet 407 892
 1 Strålsäkerhetsmyndigheten 407 892
 7 BOLD Internationellt bistånd 51 939 762
 1 BOLD Internationellt utvecklingssamarbete 51 939 762
@@ -402,7 +402,7 @@
 1 Myndigheten för ungdoms- och civilsamhällesfrågor 59 053
 2 Bidrag till nationell och internationell ungdomsverksamhet 290 680
 3 Särskilda insatser inom ungdomspolitiken 2 000
-13 Politik för det civila samhället 2 555 518
+13 BOLD Politik för det civila samhället 2 555 518
 1 Stöd till idrotten 2 366 811
 2 Bidrag till allmänna samlingslokaler 52 164
 3 Stöd till friluftsorganisationer 97 785
@@ -431,7 +431,7 @@
 3 Fastighetsmäklarinspektionen 30 642
 4 Åtgärder på konsumentområdet 13 559
 5 Bidrag till miljömärkning av produkter 4 374
-19 Regional utveckling 5 241 801
+19 BOLD Regional utveckling 5 241 801
 1 Regionala utvecklingsåtgärder 2 560 937
 2 Transportbidrag 430 864
 3 Europeiska regionala utvecklingsfonden perioden 2014–2020 1 600 000

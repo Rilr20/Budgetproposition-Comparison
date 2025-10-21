@@ -241,7 +241,7 @@
 7 Studiestartsstöd 400 000
 8 Centrala studiestödsnämnden 1 071 379
 9 Överklagandenämnden för studiestöd 18 475
-16 BOLD  Utbildning och universitetsforskning 94 991 971
+16 BOLD Utbildning och universitetsforskning 94 991 971
 1 BOLD Barn-, ungdoms- och vuxenutbildning 33 064 097
 1 Statens skolverk 1 319 762
 2 Statens skolinspektion 546 884
