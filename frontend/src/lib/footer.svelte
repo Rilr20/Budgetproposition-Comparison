@@ -1,7 +1,7 @@
 <script lang="ts"></script>
 
 <footer>
-    <p>Text here</p>
+    <p></p>
 </footer>
 
 <style lang="scss"></style>
