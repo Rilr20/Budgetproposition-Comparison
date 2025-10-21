@@ -1,7 +1,9 @@
 <script lang="ts"></script>
 
-<header>
-    <h1 class="">Budget</h1>
+<header class="">
+    <hgroup>
+        <h1 class="title">Budget</h1>
+    </hgroup>
 </header>
 
 <style lang="scss"></style>
