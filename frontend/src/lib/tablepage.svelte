@@ -70,7 +70,7 @@
             <label for="option{index}">{option}</label>
         {/each}
     </fieldset>
-    <article class="overflow-auto table-article">
+    <article style="overflow-x:auto" class="table-article">
         {#if selectedOptions.length == 2}
              <Table new_year={findYear(selectedOptions.sort((a, b) => a-b)[1])} old_year={findYear(selectedOptions.sort((a, b) => a-b)[0])} />
         {:else if selectedOptions.length < 2}
