@@ -1,0 +1,316 @@
+Skatt på arbete 1 510 462 917
+1100 Direkta skatter på arbete 761 664 097
+1110 Inkomstskatter 983 364 096
+1111 Statlig inkomstskatt 62 767 509
+1115 Kommunal inkomstskatt 920 596 587
+1120 Allmän pensionsavgift 159 172 512
+1121 Allmän pensionsavgift 159 172 512
+1130 Artistskatt 0
+1131 Artistskatt 0
+1140–1160 Skattereduktioner -380 872 511
+1141 Allmän pensionsavgift -159 139 896
+1143 Arbetslöshetskassa -1 647 376
+1144 Fastighetsavgift -494 459
+1151 Sjöinkomst -39 044
+1153 Jobbskatteavdrag -180 377 355
+1154 Avdrag för hushållsarbete -19 412 578
+1155 Gåvor till ideell verksamhet -404 452
+1156 Övriga skattereduktioner 0
+1157 Skattereduktion för boende i vissa områden -1 353 415
+1158 Skattereduktion sjuk- och aktivitetsersättning -4 015 022
+1159 Skattereduktion för förnybar el -241 010
+1161 Skattereduktion för installation av grön teknik -4 583 323
+1162 Skattereduktion för förvärvsinkomster -9 164 581
+1200 Indirekta skatter på arbete 748 798 820
+1210 Arbetsgivaravgifter 732 384 550
+1211 Sjukförsäkringsavgift 81 592 356
+1212 Föräldraförsäkringsavgift 59 757 782
+1213 Arbetsskadeavgift 4 596 752
+1214 Ålderspensionsavgift 241 806 561
+1215 Efterlevandepensionsavgift 13 790 257
+1216 Arbetsmarknadsavgift 60 021 854
+1217 Allmän löneavgift 267 071 319
+1218 Ofördelade avgifter 0
+1219 Nedsatta avgifter 3 747 669
+1240 Egenavgifter 11 811 867
+1241 Sjukförsäkringsavgift 55 567
+1242 Föräldraförsäkringsavgift 622 184
+1243 Arbetsskadeavgift 59 181
+1244 Ålderspensionsavgift, netto 4 636 965
+1245 Efterlevandepensionsavgift 184 014
+1246 Arbetsmarknadsavgift 1 205
+1247 Allmän löneavgift 4 286 581
+1248 Ofördelade avgifter 0
+1249 Nedsatta avgifter 1 966 170
+1260 Avgifter till premiepensionssystemet -50 841 954
+1261 Avgifter till premiepensionssystemet -50 841 954
+1270 Särskild löneskatt 60 525 873
+1271 Pensionskostnader, företag 53 884 463
+1272 Pensionskostnader, staten 5 343 617
+1273 Förvärvsinkomster 565 986
+1274 Egenföretagare 731 807
+1275 Övrigt 0
+1280 Nedsättningar -5 713 839
+1282 Arbetsgivaravgifter -3 747 669
+1283 Egenavgifter, generell nedsättning -1 892 518
+1284 Egenavgifter, regional nedsättning -73 652
+1290 Tjänstegruppliv 632 323
+1291 Tjänstegruppliv 632 323
+1300 Skatt på kapital 377 046 958
+1310 Skatt på kapital, hushåll 81 498 239
+1311 Skatt på kapital 121 992 680
+1312 Skattereduktion kapital -40 558 602
+1313 Expansionsmedelsskatt 64 161
+1320 Skatt på företagsvinster 199 646 806
+1321 Skatt på företagsvinster 199 753 139
+1322 Skattereduktioner -106 333
+1330 Kupongskatt 7 633 994
+1331 Kupongskatt 7 633 994
+1340 Avkastningsskatt 28 827 102
+1341 Avkastningsskatt, hushåll 264 613
+1342 Avkastningsskatt, företag 28 425 305
+1343 Avkastningsskatt på individuellt pensionssparande 137 184
+1350 Fastighetsskatt 41 267 767
+1351 Fastighetsskatt, hushåll 950 040
+1352 Fastighetsskatt, företag 18 019 689
+1353 Kommunal fastighetsavgift, hushåll 17 714 584
+1354 Kommunal fastighetsavgift, företag 4 583 454
+1360 Stämpelskatt 13 644 209
+1361 Stämpelskatt 13 644 209
+1390 Riskskatt för kreditinstitut 4 528 841
+1391 Riskskatt för kreditinstitut 4 528 841
+1400 Skatt på konsumtion och insatsvaror 724 304 236
+1410 Mervärdesskatt 584 200 297
+1411 Mervärdesskatt 584 200 297
+1420 Skatt på alkohol och tobak 31 417 679
+1421 Skatt på tobak 12 634 797
+1422 Skatt på etylalkohol 5 807 301
+1423 Skatt på vin 7 225 244
+1424 Skatt på mellanklassprodukter 155 387
+1425 Skatt på öl 5 216 164
+1426 Privatinförsel av alkohol och tobak 832
+1427 Skatt på vissa nikotinhaltiga produkter 377 954
+1430–1460 Skatt på energi och miljö 76 887 639
+1430 Energiskatt 44 043 228
+1431 Skatt på elektrisk kraft 31 628 068
+1432 Energiskatt bensin 5 472 254
+1433 Energiskatt oljeprodukter 6 690 065
+1434 Energiskatt övrigt 252 841
+1440 Koldioxidskatt 24 076 575
+1441 Koldioxidskatt bensin 7 680 532
+1442 Koldioxidskatt oljeprodukter 16 062 940
+1443 Koldioxidskatt övrigt 333 103
+1450–1460 Övriga skatter på energi och miljö 8 767 836
+1451 Svavelskatt 12 668
+1452 Skatt på råtallolja 0
+1453 Särskild skatt mot försurning 59 462
+1454 Skatt på bekämpningsmedel 148 528
+1456 Avfallsskatt 350 775
+1457 Avgifter till Kemikalieinspektionen 46 769
+1458 Övriga skatter 193 684
+1459 Intäkter från EU:s handel med utsläppsrätter 3 584 382
+1461 Kemikalieskatt 1 962 186
+1462 Skatt på flygresor 1 827 906
+1463 Skatt på avfallsförbränning 0
+1464 Skatt på plastbärkassar 427 476
+1465 Intäkter från handel med Elcertifikat 154 000
+1470 Skatt på vägtrafik 24 028 291
+1471 Fordonsskatt 16 523 944
+1472 Vägavgifter 1 515 208
+1473 Trängselskatt 2 812 967
+1474 Skatt på trafikförsäkringspremier 3 176 172
+1480 Övriga skatter 7 770 330
+1481 Systembolaget AB:s överskott 171 314
+1482 Inlevererat överskott från Svenska Spel AB 2 129 194
+1483 Skatt på spel 5 301 522
+1485 Spelavgifter 58 300
+1486 Skatt på annonser och reklam 0
+1491 Avgifter för telekommunikation 110 000
+1500 Skatt på import 9 551 662
+1511 Tullmedel 9 551 662
+1512 Sockeravgifter 0
+1600 Restförda och övriga skatter 12 181 627
+1610 Restförda skatter -10 928 201
+1611 Restförda skatter, hushåll -2 358 080
+1612 Restförda skatter, företag -8 570 121
+1620 Övriga skatter, hushåll 6 208 066
+1621 Omprövningar aktuellt beskattningsår -87 552
+1622 Omprövningar äldre beskattningsår 2 102 535
+1623 Anstånd 500 000
+1624 Övriga skatter 3 336 055
+1625 Skattetillägg 180 208
+1626 Förseningsavgifter 176 820
+1630 Övriga skatter företag -266 658
+1631 Omprövningar aktuellt beskattningsår -1 739 630
+1632 Omprövningar äldre beskattningsår 0
+1633 Anstånd -500 000
+1634 Övriga skatter -10 000
+1635 Skattetillägg 1 519 792
+1636 Förseningsavgifter 463 180
+1640 Intäkter som förs till fonder 6 855 249
+1641 Insättningsgarantiavgifter 2 118 337
+1644 Batteriavgifter 1 709
+1645 Kväveoxidavgifter 645 303
+1647 Resolutionsavgift 4 089 900
+1650 Avgifter till public service 10 313 171
+1651 Avgifter till public service 10 313 171
+Totala skatteintäkter 2 633 547 400
+1700 Avgående poster, skatter till EU -9 551 662
+1710 EU-skatter -9 551 662
+1711 EU-skatter -9 551 662
+Offentliga sektorns skatteintäkter 2 623 995 738
+1800 Avgående poster, skatter till andra sektorer -1 271 375 740
+1810 Skatter till andra sektorer -1 271 375 740
+1811 Kommunala skatter -942 400 976
+1812 Avgifter till AP-fonder -328 974 764
+Statens skatteintäkter 1 352 619 998
+1900 Periodiseringar -7 647 093
+1910 Uppbördsförskjutningar 26 016 813
+1911 Uppbördsförskjutningar 26 016 813
+1920 Betalningsförskjutningar -51 063 906
+1921 Kommuner och regioner -22 905 429
+1922 Ålderspensionssystemet -1 445 754
+1923 Företag och hushåll -25 706 826
+1924 Kyrkosamfund -1 031 920
+1925 EU 26 023
+1930 Anstånd 17 400 000
+1931 Anstånd 17 400 000
+1000 Statens skatteinkomster 1 344 972 905
+2100 Rörelseöverskott 739 263
+2110 Affärsverkens inlevererade överskott 259 000
+2114 Luftfartsverkets inlevererade överskott 0
+2116 Affärsverket svenska kraftnäts inlevererade utdelning och inleverans av motsvarighet till statlig skatt 259 000
+2118 Sjöfartsverkets inlevererade överskott 0
+2120 Övriga myndigheters inlevererade överskott 480 263
+2124 Inlevererat överskott av Riksgäldskontorets garantiverksamhet 105 000
+2126 Inlevererat överskott av statsstödd exportkredit 80 000
+2127 Inlevererat överskott av övriga myndigheter 295 263
+2130 Riksbankens inlevererade överskott 0
+2131 Riksbankens inlevererade överskott 0
+2200 Överskott av statens fastighetsförvaltning 383 000
+2210 Överskott av fastighetsförvaltning 383 000
+2215 Inlevererat överskott av statens fastighetsförvaltning 383 000
+2300 Ränteinkomster 2 264 680
+2320 Räntor på näringslån 0
+2314 Ränteinkomster på lån till fiskerinäringen 0
+2322 Räntor på övriga näringslån 0
+2323 Räntor på övriga näringslån 0
+2324 Ränteinkomster på lokaliseringslån 0
+2340 Räntor på studielån 24 000
+2342 Ränteinkomster på allmänna studielån 24 000
+2390 Övriga ränteinkomster 2 240 680
+2391 Ränteinkomster på markförvärv för jordbrukets rationalisering 0
+2394 Övriga ränteinkomster 40 260
+2397 Räntor på skattekonto m.m., netto 2 200 420
+2400 Inkomster av statens aktier 25 700 000
+2410 Inkomster av statens aktier 25 700 000
+2411 Inkomster av statens aktier 25 700 000
+2500 Offentligrättsliga avgifter 13 155 354
+2511 Expeditions- och ansökningsavgifter 1 175 185
+2525 Finansieringsavgift från arbetslöshetskassor 4 894 300
+2527 Avgifter för statskontroll av krigsmaterieltillverkning 48 000
+2528 Avgifter vid bergsstaten 38 300
+2529 Avgifter vid patent- och registreringsväsendet 456 000
+2531 Avgifter för registrering i förenings- m.fl. register 2 759
+2532 Avgifter vid kronofogdemyndigheterna 1 770 300
+2534 Avgifter vid Transportstyrelsen 1 691 000
+2537 Miljöskyddsavgifter 357 665
+2548 Avgifter för Finansinspektionens verksamhet 848 000
+2551 Avgifter från kärnkraftverken 312 000
+2552 Övriga offentligrättsliga avgifter 556 000
+2553 Registreringsavgift till Fastighetsmäklarinspektionen 33 000
+2558 Avgifter för årlig revision 172 058
+2559 Avgifter för etikprövning av forskning 29 068
+2561 Efterbevaknings- och tillsynsavgifter 21 119
+2562 CSN-avgifter 750 600
+2600 Försäljningsinkomster 50 000
+2624 Inkomster av uppbörd av felparkeringsavgifter 50 000
+2627 Offentlig lagring, försäljningsintäkter 0
+2700 Böter m.m. 1 909 403
+2711 Restavgifter och dröjsmålsavgifter 81 130
+2712 Bötesmedel 1 496 200
+2713 Vattenföroreningsavgift m.m. 0
+2714 Sanktionsavgifter m.m. 306 526
+2717 Kontrollavgifter vid särskild skattekontroll 25 547
+2800 Övriga inkomster av statens verksamhet 3 688 278
+2811 Övriga inkomster av statens verksamhet 3 688 278
+2000 Inkomster av statens verksamhet 47 889 978
+3100 Inkomster av försålda byggnader och maskiner 0
+3120 Statliga myndigheters inkomster av försålda byggnader och maskiner 0
+3125 Fortifikationsverkets försäljning av fastigheter 0
+3200 Övriga inkomster av markförsäljning 0
+3211 Övriga inkomster av markförsäljning 0
+3300 Övriga inkomster av försåld egendom 5 000 000
+3311 Inkomster av statens gruvegendom 0
+3312 Övriga inkomster av försåld egendom 5 000 000
+3000 Inkomster av försåld egendom 5 000 000
+4100 Återbetalning av näringslån 25
+4120 Återbetalning av jordbrukslån 0
+4123 Återbetalning av lån till fiskerinäringen 0
+4130 Återbetalning av övriga näringslån 25
+4131 Återbetalning av vattenkraftslån 0
+4136 Återbetalning av övriga näringslån 25
+4137 Återbetalning av övriga näringslån, Statens jordbruksverk 0
+4138 Återbetalning av tidigare infriade statliga garantier 0
+4139 Återbetalning av lokaliseringslån 0
+4300 Återbetalning av studielån 320 145
+4312 Återbetalning av allmänna studielån 145
+4313 Återbetalning av studiemedel 320 000
+4500 Återbetalning av övriga lån: 294 547
+4525 Återbetalning av lån för svenska FN-styrkor 77 512
+4526 Återbetalning av övriga lån 217 035
+4000 Återbetalning av lån 614 717
+5100 Avskrivningar och amorteringar 0
+5120 Avskrivningar på fastigheter 0
+5121 Amortering på statskapital 0
+5200 Statliga pensionsavgifter 22 164 000
+5211 Statliga pensionsavgifter 22 164 000
+5000 Kalkylmässiga inkomster 22 164 000
+6100 Bidrag från EU:s jordbruksfonder 12 665 000
+6110 Bidrag från Europeiska garantifonden för jordbruket 9 606 000
+6111 Gårdsstöd 9 447 000
+6113 Övriga interventioner 159 000
+6114 Exportbidrag 0
+6115 Djurbidrag 0
+6116 Offentlig lagring 0
+6119 Övriga bidrag från Europeiska garantifonden för jordbruket 0
+6120 Bidrag från EU till landsbygdsutvecklingen 3 059 000
+6124 Bidrag från Europeiska jordbruksfonden för landsbygdsutveckling 2007–2013 0
+6125 Bidrag från Europeiska jordbruksfonden för landsbygdsutveckling 2014–2020 1 138 000
+6126 Bidrag från Europeiska jordbruksfonden för landsbygdsutveckling 2021–2027 1 921 000
+6200 Bidrag från EU till fiskenäringen 196 000
+6214 Bidrag från Europeiska havs- och fiskerifonden 2014–2020 0
+6215 Bidrag från Europeiska havs- och fiskerifonden 2021–2027 196 000
+6300 Bidrag från Europeiska regionala utvecklingsfonden 1 414 000
+6314 Bidrag från Europeiska regionala utvecklingsfonden 2014–2020 334 000
+6315 Bidrag från Europeiska regionala utvecklingsfonden 2021–2027 1 080 000
+6400 Bidrag från Europeiska socialfonden 1 462 000
+6414 Bidrag från Europeiska socialfonden 2014–2020 75 000
+6415 Bidrag från Europeiska socialfonden 2021–2027 1 387 000
+6500 Bidrag till transeuropeiska nätverk 534 000
+6511 Bidrag till transeuropeiska nätverk 534 000
+6600 Bidrag från Europeiska Faciliteten för återhämtning och resiliens 32 163 728
+6611 Bidrag från Europeiska faciliteten för återhämtning och resiliens 32 163 728
+6900 Övriga bidrag från EU 240 000
+6911 Övriga bidrag från EU 240 000
+6000 Bidrag m.m. från EU 48 674 728
+7100 Tillkommande skatter 15 252 907
+7110 EU-skatter 9 525 639
+7112 Tullmedel 9 525 639
+7113 Jordbrukstullar och sockeravgifter 0
+7120 Kommunala utjämningsavgifter 5 727 268
+7121 Utjämningsavgift för LSS-kostnader 5 727 268
+7200 Avräkningar -160 305 730
+7210 Intäkter som förs till fonder -6 855 250
+7211 Intäkter som förs till fonder -6 855 250
+7220 Kompensation för mervärdesskatt -143 531 525
+7221 Avräknad mervärdesskatt, statliga myndigheter -55 067 182
+7222 Kompensation för mervärdesskatt, kommuner -88 464 343
+7230 Övriga avräkningar -9 918 955
+7231 Avgifter till public service -9 764 955
+7232 Intäkter från handel med elcertifikat -154 000
+7000 Avräkningar m.m. i anslutning till skattesystemet -145 052 823
+8127 Stöd vid korttidsarbete 0
+8000 Utgifter som redovisas som krediteringar på skattekonto 0
+9000 Löpande redovisade skatter m.m. 0
+Summa inkomster 1 324 263 505
