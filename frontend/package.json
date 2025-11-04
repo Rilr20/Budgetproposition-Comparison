@@ -15,7 +15,6 @@
         "test:unit": "vitest"
     },
     "devDependencies": {
-        "@picocss/pico": "^1.5.13",
         "@playwright/test": "^1.28.1",
         "@sveltejs/adapter-auto": "^3.0.0",
         "@sveltejs/kit": "^2.0.0",
@@ -38,6 +37,6 @@
     },
     "type": "module",
     "dependencies": {
-        "pico": "^0.1.17"
+        "@picocss/pico": "^2.1.1"
     }
 }
