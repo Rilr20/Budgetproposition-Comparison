@@ -33,65 +33,38 @@
     }
     function percentageColour(percentage: number): string {
         const darkmode = false;
-        if (darkmode) {
-            if (Math.floor(percentage) === 0) {
-                return 'pico-color-slate-200';
-            } else if (percentage > 0 && percentage < 10) {
-                return 'pico-color-jade-50';
-            } else if (percentage < 0 && percentage > -10) {
-                return 'pico-color-pink-50';
-            } else if (percentage <= -85) {
-                return 'pico-color-pink-450';
-            } else if (percentage <= -50) {
-                return 'pico-color-pink-350';
-            } else if (percentage <= -30) {
-                return 'pico-color-pink-250';
-            } else if (percentage <= -20) {
-                return 'pico-color-pink-200';
-            } else if (percentage <= -10) {
-                return 'pico-color-pink-150';
-            } else if (percentage >= 10000) {
-                return 'pico-color-jade-450';
-            } else if (percentage >= 1000) {
-                return 'pico-color-jade-350';
-            } else if (percentage >= 200) {
-                return 'pico-color-jade-250';
-            } else if (percentage >= 50) {
-                return 'pico-color-jade-200';
-            } else if (percentage >= 10) {
-                return 'pico-color-jade-150';
+    
+        const colours = darkmode
+            ? {
+                zero: 'pico-color-slate-200',
+                jade: ['pico-color-jade-50', 'pico-color-jade-150', 'pico-color-jade-200', 'pico-color-jade-250', 'pico-color-jade-350', 'pico-color-jade-450'],
+                pink: ['pico-color-pink-50', 'pico-color-pink-150', 'pico-color-pink-200', 'pico-color-pink-250', 'pico-color-pink-350', 'pico-color-pink-450'],
             }
-        } else {
-            if (Math.floor(percentage) === 0) {
-                return 'pico-color-slate-450';
-            } else if (percentage > 0 && percentage < 10) {
-                return 'pico-color-jade-350';
-            } else if (percentage < 0 && percentage > -10) {
-                return 'pico-color-pink-350';
-            } else if (percentage <= -85) {
-                return 'pico-color-pink-700';
-            } else if (percentage <= -50) {
-                return 'pico-color-pink-600';
-            } else if (percentage <= -30) {
-                return 'pico-color-pink-500';
-            } else if (percentage <= -20) {
-                return 'pico-color-pink-450';
-            } else if (percentage <= -10) {
-                return 'pico-color-pink-400';
-            } else if (percentage >= 10000) {
-                return 'pico-color-jade-700';
-            } else if (percentage >= 1000) {
-                return 'pico-color-jade-600';
-            } else if (percentage >= 200) {
-                return 'pico-color-jade-500';
-            } else if (percentage >= 50) {
-                return 'pico-color-jade-450';
-            } else if (percentage >= 10) {
-                return 'pico-color-jade-400';
-            }
+            : {
+                zero: 'pico-color-slate-450',
+                jade: ['pico-color-jade-350', 'pico-color-jade-400', 'pico-color-jade-450', 'pico-color-jade-500', 'pico-color-jade-600', 'pico-color-jade-700'],
+                pink: ['pico-color-pink-350', 'pico-color-pink-400', 'pico-color-pink-450', 'pico-color-pink-500', 'pico-color-pink-600', 'pico-color-pink-700'],
+            };
+    
+        if (percentage === 0 || (percentage > -1 && percentage < 1)) {
+            return colours.zero;
         }
-
-        return 'pico-color-orange-900';
+    
+        if (percentage < 0) {
+            if (percentage > -10) return colours.pink[0];
+            if (percentage > -20) return colours.pink[1];
+            if (percentage > -30) return colours.pink[2];
+            if (percentage > -50) return colours.pink[3];
+            if (percentage > -85) return colours.pink[4];
+            return colours.pink[5];
+        }
+    
+        if (percentage < 10) return colours.jade[0];
+        if (percentage < 50) return colours.jade[1];
+        if (percentage < 200) return colours.jade[2];
+        if (percentage < 1000) return colours.jade[3];
+        if (percentage < 10000) return colours.jade[4];
+        return colours.jade[5];
     }
 
     function calculateInflation(old_year: number, new_year: number): number {
